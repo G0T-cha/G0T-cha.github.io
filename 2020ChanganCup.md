@@ -1,0 +1,34 @@
+# 2020长安杯题解
+
+## 检材一
+1. *操作系统版本*：火眼中添加镜像即可查看
+2. *内核版本*：
+```
+uname -a
+```
+3. *LVM（逻辑卷）的 LBA（逻辑区块地址）*：
+```
+fdisk -l
+```
+**分析服务器：**
+查看网络连接和端口：
+```
+netstat -napt
+```
+（<u>-n 直接使用ip地址，而不通过域名服务器</u>）
+![f93178efe2e199ed1baa7f93cb5f74b3.png](en-resource://database/510:1)
+获得信息：
+1. SSH(Secue Shell) 端口位于7001（远程连接服务器）
+2. 用到nginx反向代理
+
+查看nginx配置文件：
+```
+cat  /etc/nginx/nginx.config
+```
+![7204cd25c04fdfe12606783092f7d2eb.png](en-resource://database/514:1)
+到所示目录下查看：
+```
+cd  /etc/nginx/conf.d/
+ls
+```
+![27a7d5b6ba33d0855e85b17ed5976919.png](en-resource://database/516:1)
