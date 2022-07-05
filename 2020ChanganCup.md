@@ -107,9 +107,9 @@ Chrome浏览记录：
 
 192.168.99.3即为服务器原始ip地址
 
-或通过查看/Windows/System32
+或通过查看/Windows/System32/drivers/etc/hosts
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk0ODM5NTgsMzA4MTkxMTgyLDE3NT
+eyJoaXN0b3J5IjpbLTEyMzgyNDMyMTksMzA4MTkxMTgyLDE3NT
 gyNzg5MzYsMTIwNzYzOTE4Myw2NTU5NDc5MDMsMTM4NDg1ODE0
 LDE2MzcwMjI2ODksNjc4MTg0OTM3LDE0ODU4NTQyMTNdfQ==
 -->
