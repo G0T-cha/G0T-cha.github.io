@@ -100,12 +100,13 @@ exit
 使用`docker exec -it 08 /bin/bash`进入容器，`cat /etc/nginx/nginx.conf`中得知nginx日志access.log位置：
 ![image.png](https://s2.loli.net/2022/07/05/8lh5atUuRiVLNfz.png)
 
-进入该目录`cd /var/log/nginx`,`cat access.log`无反应，`ls -l`发现 access.log 重定向到其他位置，为链接无法查看：
+进入该目录`cd /var/log/nginx`,`cat access.log`无反应，`ls -l`（ -l 得到一个详细的文件和目录名列表）发现 access.log 重定向到其他位置，为链接无法查看：
 ![image.png](https://s2.loli.net/2022/07/05/kpcW6xNzECOMrXf.png)
 
 尝试其他方法
 
     docker logs 08
+   （查看docker日志）
 
 
 ***
@@ -126,8 +127,8 @@ Chrome浏览记录：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDUzOTk1MTUsLTU5OTA1MDA3LC0zOT
-kwODI0NjEsMzA4MTkxMTgyLDE3NTgyNzg5MzYsMTIwNzYzOTE4
-Myw2NTU5NDc5MDMsMTM4NDg1ODE0LDE2MzcwMjI2ODksNjc4MT
-g0OTM3LDE0ODU4NTQyMTNdfQ==
+eyJoaXN0b3J5IjpbMTgxMjk4MjI5OSwtNTk5MDUwMDcsLTM5OT
+A4MjQ2MSwzMDgxOTExODIsMTc1ODI3ODkzNiwxMjA3NjM5MTgz
+LDY1NTk0NzkwMywxMzg0ODU4MTQsMTYzNzAyMjY4OSw2NzgxOD
+Q5MzcsMTQ4NTg1NDIxM119
 -->
