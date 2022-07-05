@@ -112,6 +112,9 @@ exit
 （99.3为IP访问 下面几行为域名访问）
 192.168.99.3即为**题6**答案：服务器所在原始IP
 
+题9统计数量即可：
+
+    docker logs 08 | grep 192.168.99.222 | wc -l
 
 ***
 
@@ -131,7 +134,7 @@ Chrome浏览记录：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDE0NDI5OSwtNTk5MDUwMDcsLTM5OT
+eyJoaXN0b3J5IjpbLTI0MjE5Njk1NiwtNTk5MDUwMDcsLTM5OT
 A4MjQ2MSwzMDgxOTExODIsMTc1ODI3ODkzNiwxMjA3NjM5MTgz
 LDY1NTk0NzkwMywxMzg0ODU4MTQsMTYzNzAyMjY4OSw2NzgxOD
 Q5MzcsMTQ4NTg1NDIxM119
