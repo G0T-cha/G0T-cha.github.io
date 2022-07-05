@@ -108,8 +108,11 @@ Chrome浏览记录：
 192.168.99.3即为服务器原始ip地址
 
 或通过查看/Windows/System32/drivers/etc/hosts
+![image.png](https://s2.loli.net/2022/07/05/6t9Bjpge3hyK1wN.png)
+
+*（hosts：将一些常用的网址域名与其对应的 IP 地址建立关联）*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzgyNDMyMTksMzA4MTkxMTgyLDE3NT
-gyNzg5MzYsMTIwNzYzOTE4Myw2NTU5NDc5MDMsMTM4NDg1ODE0
-LDE2MzcwMjI2ODksNjc4MTg0OTM3LDE0ODU4NTQyMTNdfQ==
+eyJoaXN0b3J5IjpbMTU1MDQyMzY5LDMwODE5MTE4MiwxNzU4Mj
+c4OTM2LDEyMDc2MzkxODMsNjU1OTQ3OTAzLDEzODQ4NTgxNCwx
+NjM3MDIyNjg5LDY3ODE4NDkzNywxNDg1ODU0MjEzXX0=
 -->
