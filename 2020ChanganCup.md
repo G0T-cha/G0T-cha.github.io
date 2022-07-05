@@ -96,11 +96,11 @@ exit
 
 192.168.99.222即为**题7答案**
 
-**题6题9**在检材2嫌疑人PC机中更容易
+**题6题9**在检材2嫌疑人PC机中
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzYzOTE4Myw2NTU5NDc5MDMsMTM4ND
-g1ODE0LDE2MzcwMjI2ODksNjc4MTg0OTM3LDE0ODU4NTQyMTNd
-fQ==
+eyJoaXN0b3J5IjpbNDcwNzk0MDM3LDEyMDc2MzkxODMsNjU1OT
+Q3OTAzLDEzODQ4NTgxNCwxNjM3MDIyNjg5LDY3ODE4NDkzNywx
+NDg1ODU0MjEzXX0=
 -->
