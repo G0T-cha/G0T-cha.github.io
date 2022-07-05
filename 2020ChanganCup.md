@@ -101,9 +101,9 @@ exit
 
 ## 检材二
 
-> Written with [StackEdit](https://stackedit.cn/).
+**题6**：Chrome浏览记录
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODI3ODkzNiwxMjA3NjM5MTgzLDY1NT
-k0NzkwMywxMzg0ODU4MTQsMTYzNzAyMjY4OSw2NzgxODQ5Mzcs
-MTQ4NTg1NDIxM119
+eyJoaXN0b3J5IjpbLTIwNDE1OTIyOTMsMTc1ODI3ODkzNiwxMj
+A3NjM5MTgzLDY1NTk0NzkwMywxMzg0ODU4MTQsMTYzNzAyMjY4
+OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
 -->
