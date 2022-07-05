@@ -95,7 +95,7 @@ ls
 ```
 exit
 ```
-### 第7题：查看远程登录使用的IP地址
+### *第7题：查看远程登录使用的IP地址*
 
     last
 *（显示用户最近登录信息）*
@@ -104,7 +104,7 @@ exit
 
 192.168.99.222即为**题7答案**
 
-### 题6题9：
+### *题6题9*：
 使用`docker exec -it 08 /bin/bash`进入容器，`cat /etc/nginx/nginx.conf`中得知nginx日志access.log位置：
 
 ![image.png](https://s2.loli.net/2022/07/05/8lh5atUuRiVLNfz.png)
@@ -159,7 +159,7 @@ Chrome浏览记录：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxMDA4NDE0LDE2NjAxODE3MzYsLTU1OD
+eyJoaXN0b3J5IjpbNjAxMjgwMTQ4LDE2NjAxODE3MzYsLTU1OD
 IyMjgwNSw4MzczMzk0MDAsLTE3ODQ2MjUxNTgsLTIwMTYwOTcx
 ODIsLTI0MjE5Njk1NiwtNTk5MDUwMDcsLTM5OTA4MjQ2MSwzMD
 gxOTExODIsMTc1ODI3ODkzNiwxMjA3NjM5MTgzLDY1NTk0Nzkw
