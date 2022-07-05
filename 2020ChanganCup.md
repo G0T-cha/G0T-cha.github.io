@@ -85,8 +85,10 @@ ls
 1. 监听docker内部80端口
 2. proxy_pass到192.168.1.176实现跳板（**题8答案**）
 
+
+
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQyODAwOCwxMzg0ODU4MTQsMTYzNz
+eyJoaXN0b3J5IjpbMTY1MzI3ODI2MCwxMzg0ODU4MTQsMTYzNz
 AyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
 -->
