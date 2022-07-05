@@ -85,10 +85,12 @@ ls
  1. 监听docker内部80端口
  2. proxy_pass到192.168.1.176实现跳板（**题8答案**）
 
-第7题：查看远程登录shiyon
+    ex
+
+第7题：查看远程登录使用的IP地址
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTY4Njg5OSwxMzg0ODU4MTQsMTYzNz
+eyJoaXN0b3J5IjpbLTc0MjUwMDEyOCwxMzg0ODU4MTQsMTYzNz
 AyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
 -->
