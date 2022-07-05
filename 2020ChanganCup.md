@@ -73,12 +73,12 @@ www.kkzhc.com即为题目中嫌疑人犯罪网站
 容器中同样进行上述分析：
 
  - 查看history（分析服务器可以先看一下）
- - 发现用到多次nginx：more
+ - 发现用到多次nginx：
 
 
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQzODg2NTEsMTYzNzAyMjY4OSw2Nz
+eyJoaXN0b3J5IjpbLTIxMjYzNTUyNTQsMTYzNzAyMjY4OSw2Nz
 gxODQ5MzcsMTQ4NTg1NDIxM119
 -->
