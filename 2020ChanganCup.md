@@ -78,11 +78,13 @@ www.kkzhc.com即为题目中嫌疑人犯罪网站
  - 到该路径下：`cd /etc/nginx/conf.d/`  `ls`
  - 目录下有：hl.conf
  - 查看配置文件：`more hl.conf`
+![image.png](https://s2.loli.net/2022/07/05/tbErldXaGFIgxwo.png)
+（监听docker内部80端口）
 
 
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDg1ODE0LDE2MzcwMjI2ODksNjc4MT
-g0OTM3LDE0ODU4NTQyMTNdfQ==
+eyJoaXN0b3J5IjpbMjAyNDcwNzgwMCwxMzg0ODU4MTQsMTYzNz
+AyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
 -->
