@@ -96,7 +96,10 @@ exit
 
 192.168.99.222即为**题7答案**
 
-**题6题9**在检材2嫌疑人PC机中更容易求解。
+**题6题9**：
+使用`exec `
+
+
 ***
 
 ## 检材二
@@ -112,10 +115,10 @@ Chrome浏览记录：
 
 *（hosts：将一些常用的网址域名与其对应的 IP 地址建立关联）*
 
-**题9**：
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTA0ODQyNiwtMzk5MDgyNDYxLDMwOD
+eyJoaXN0b3J5IjpbLTE4OTQzOTU2NSwtMzk5MDgyNDYxLDMwOD
 E5MTE4MiwxNzU4Mjc4OTM2LDEyMDc2MzkxODMsNjU1OTQ3OTAz
 LDEzODQ4NTgxNCwxNjM3MDIyNjg5LDY3ODE4NDkzNywxNDg1OD
 U0MjEzXX0=
