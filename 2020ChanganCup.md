@@ -133,6 +133,7 @@ Chrome浏览记录：
 192.168.99.3即为**题6**服务器原始ip地址
 
 或通过查看/Windows/System32/drivers/etc/hosts
+
 ![image.png](https://s2.loli.net/2022/07/05/6t9Bjpge3hyK1wN.png)
 
 *（hosts：将一些常用的网址域名与其对应的 IP 地址建立关联）*
@@ -140,15 +141,16 @@ Chrome浏览记录：
 10. *检材2的SHA值*：使用火眼直接计算即可
 2D926D5E1CFE27553AE59B6152E038560D64E7837ECCAD30F2FBAD5052FABF37
 11. *OS内部版本号*：系统-设置-关于-Windows规格-操作系统版本：18363.1082
+
 ![image.png](https://s2.loli.net/2022/07/05/liSXB2ApVQ1TEHb.png)
 
 12.  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU0NDY2MjAsLTE3ODQ2MjUxNTgsLT
-IwMTYwOTcxODIsLTI0MjE5Njk1NiwtNTk5MDUwMDcsLTM5OTA4
-MjQ2MSwzMDgxOTExODIsMTc1ODI3ODkzNiwxMjA3NjM5MTgzLD
-Y1NTk0NzkwMywxMzg0ODU4MTQsMTYzNzAyMjY4OSw2NzgxODQ5
-MzcsMTQ4NTg1NDIxM119
+eyJoaXN0b3J5IjpbMzMwMjM4NDcyLC0xNzg0NjI1MTU4LC0yMD
+E2MDk3MTgyLC0yNDIxOTY5NTYsLTU5OTA1MDA3LC0zOTkwODI0
+NjEsMzA4MTkxMTgyLDE3NTgyNzg5MzYsMTIwNzYzOTE4Myw2NT
+U5NDc5MDMsMTM4NDg1ODE0LDE2MzcwMjI2ODksNjc4MTg0OTM3
+LDE0ODU4NTQyMTNdfQ==
 -->
