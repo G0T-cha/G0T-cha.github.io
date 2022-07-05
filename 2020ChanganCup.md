@@ -101,9 +101,13 @@ exit
 
 ## 检材二
 
-**题6**：Chrome浏览记录
+**题6**：
+Chrome浏览记录：
+![image.png](https://s2.loli.net/2022/07/05/bLPQJ6qvnAcxGuK.png)
+
+192.168.99.3即为服务器原始ip地址
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE1OTIyOTMsMTc1ODI3ODkzNiwxMj
-A3NjM5MTgzLDY1NTk0NzkwMywxMzg0ODU4MTQsMTYzNzAyMjY4
-OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
+eyJoaXN0b3J5IjpbMzA4MTkxMTgyLDE3NTgyNzg5MzYsMTIwNz
+YzOTE4Myw2NTU5NDc5MDMsMTM4NDg1ODE0LDE2MzcwMjI2ODks
+Njc4MTg0OTM3LDE0ODU4NTQyMTNdfQ==
 -->
