@@ -107,6 +107,9 @@ exit
 
     docker logs 08
    （查看docker日志）
+![image.png](https://s2.loli.net/2022/07/05/18gDAcOhKCFrvpI.png)
+
+192.168.99.3即为**题6**答案：服务器所在原始IP
 
 
 ***
@@ -127,8 +130,8 @@ Chrome浏览记录：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjk4MjI5OSwtNTk5MDUwMDcsLTM5OT
-A4MjQ2MSwzMDgxOTExODIsMTc1ODI3ODkzNiwxMjA3NjM5MTgz
-LDY1NTk0NzkwMywxMzg0ODU4MTQsMTYzNzAyMjY4OSw2NzgxOD
-Q5MzcsMTQ4NTg1NDIxM119
+eyJoaXN0b3J5IjpbMTI5OTc4ODY1LC01OTkwNTAwNywtMzk5MD
+gyNDYxLDMwODE5MTE4MiwxNzU4Mjc4OTM2LDEyMDc2MzkxODMs
+NjU1OTQ3OTAzLDEzODQ4NTgxNCwxNjM3MDIyNjg5LDY3ODE4ND
+kzNywxNDg1ODU0MjEzXX0=
 -->
