@@ -10,7 +10,7 @@ uname -a
 ```
 fdisk -l
 ```
-**分析服务器：**
+###分析服务器：**
 查看网络连接和端口：
 ```
 netstat -napt
@@ -35,7 +35,7 @@ ls
 ```
 ![2022-07-04_124519.png](https://s2.loli.net/2022/07/04/mOAve2QharbtUV9.png)
 
-www.kkzhc.com即为题目中嫌疑人犯罪网站
+服务器共绑定3个对外开放域名（*题5答案*），www.kkzhc.com即为题目中嫌疑人犯罪网站
 
     vim www.kkzjc.com
 
@@ -83,10 +83,10 @@ www.kkzhc.com即为题目中嫌疑人犯罪网站
 
 可以得到：
 1. 监听docker内部80端口
-2. proxy_pass到192.168.1.176（*题8答案*）
+2. proxy_pass到192.168.1.176（***题8答案***）
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDU5NTAxNiwxMzg0ODU4MTQsMTYzNz
-AyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
+eyJoaXN0b3J5IjpbNzMyNjcyNzExLDEzODQ4NTgxNCwxNjM3MD
+IyNjg5LDY3ODE4NDkzNywxNDg1ODU0MjEzXX0=
 -->
