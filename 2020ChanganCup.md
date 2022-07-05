@@ -10,7 +10,7 @@ uname -a
 ```
 fdisk -l
 ```
-###分析服务器：**
+***分析服务器：***
 查看网络连接和端口：
 ```
 netstat -napt
@@ -35,7 +35,7 @@ ls
 ```
 ![2022-07-04_124519.png](https://s2.loli.net/2022/07/04/mOAve2QharbtUV9.png)
 
-服务器共绑定3个对外开放域名（*题5答案*），www.kkzhc.com即为题目中嫌疑人犯罪网站
+服务器共绑定3个对外开放域名（**题5答案**），www.kkzhc.com即为题目中嫌疑人犯罪网站
 
     vim www.kkzjc.com
 
@@ -43,7 +43,7 @@ ls
 
 可以得知：
 
-1. *“www.kkzjc.com”对应的 Web 服务对外开放的端口*：32000（题4答案）
+1. *“www.kkzjc.com”对应的 Web 服务对外开放的端口*：32000（**题4答案**）
 2. proxy-pass反向代理转发给8091端口
 
 但8091端口在netstat命令后并未显示
@@ -57,7 +57,7 @@ ls
 
     systemctl start docker
     docker ps -a
-（<u>-a包括未启动的容器</u>）
+*（-a包括未启动的容器）*
 ![image.png](https://s2.loli.net/2022/07/04/d3q9J1tLXn7DoyY.png)
 
 此时再使用netstat查看网络连接，发现8091端口：
@@ -69,7 +69,7 @@ ls
 进入容器中查看一下：
 
     docker exec -it 08 /bin/bash
-（ exec 在运行状态下的容器中执行命令 /bin/bash解释执行模式 ）
+*（ exec 在运行状态下的容器中执行命令 /bin/bash解释执行模式 ）*
 容器中同样进行上述分析：
 
  - 查看history（分析服务器可以先看一下）
@@ -83,10 +83,10 @@ ls
 
 可以得到：
 1. 监听docker内部80端口
-2. proxy_pass到192.168.1.176（***题8答案***）
+2. proxy_pass到192.168.1.176（**题8答案**）
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyNjcyNzExLDEzODQ4NTgxNCwxNjM3MD
-IyNjg5LDY3ODE4NDkzNywxNDg1ODU0MjEzXX0=
+eyJoaXN0b3J5IjpbMTg4MzQ2OTA1MywxMzg0ODU4MTQsMTYzNz
+AyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
 -->
