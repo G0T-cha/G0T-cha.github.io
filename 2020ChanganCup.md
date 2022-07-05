@@ -15,7 +15,7 @@ fdisk -l
 ```
 netstat -napt
 ```
-（<u>-n 直接使用ip地址，而不通过域名服务器</u>）
+*（-n 直接使用ip地址，而不通过域名服务器）*
 ![2022-07-04_105320.png](https://s2.loli.net/2022/07/04/vidHyjlBP1ZpMzo.png)
 
 获得信息：
@@ -87,6 +87,6 @@ ls
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzQ2OTA1MywxMzg0ODU4MTQsMTYzNz
-AyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
+eyJoaXN0b3J5IjpbNTgyMjAxNDMwLDEzODQ4NTgxNCwxNjM3MD
+IyNjg5LDY3ODE4NDkzNywxNDg1ODU0MjEzXX0=
 -->
