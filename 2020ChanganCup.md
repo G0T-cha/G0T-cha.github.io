@@ -70,10 +70,10 @@ www.kkzhc.com即为题目中嫌疑人犯罪网站
 
     docker exec -it 08 /bin/bash
 （ exec 在运行状态下的容器中执行命令 /bin/bash解释执行模式 ）
- 
+容器中同时
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA3MjczMTksNjc4MTg0OTM3LDE0OD
-U4NTQyMTNdfQ==
+eyJoaXN0b3J5IjpbMTYzNzAyMjY4OSw2NzgxODQ5MzcsMTQ4NT
+g1NDIxM119
 -->
