@@ -97,7 +97,7 @@ exit
 192.168.99.222即为**题7答案**
 
 **题6题9**：
-使用`exec `
+使用`docker exec -it 08 /bin/bash`进入容器，`cat /etc/nginx/nginx.conf`中de'zhi
 
 
 ***
@@ -118,8 +118,8 @@ Chrome浏览记录：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQzOTU2NSwtMzk5MDgyNDYxLDMwOD
-E5MTE4MiwxNzU4Mjc4OTM2LDEyMDc2MzkxODMsNjU1OTQ3OTAz
-LDEzODQ4NTgxNCwxNjM3MDIyNjg5LDY3ODE4NDkzNywxNDg1OD
-U0MjEzXX0=
+eyJoaXN0b3J5IjpbMjY5MjQ3MjQ2LC0zOTkwODI0NjEsMzA4MT
+kxMTgyLDE3NTgyNzg5MzYsMTIwNzYzOTE4Myw2NTU5NDc5MDMs
+MTM4NDg1ODE0LDE2MzcwMjI2ODksNjc4MTg0OTM3LDE0ODU4NT
+QyMTNdfQ==
 -->
