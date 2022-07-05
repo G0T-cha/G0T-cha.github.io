@@ -66,7 +66,13 @@ www.kkzhc.com即为题目中嫌疑人犯罪网站
 其中的30000、31000、32000都实际转发到8091端口，实现一级跳板：
 ![](https://img-blog.csdnimg.cn/20201121205650340.png#pic_center)
 
+进入容器中查看一下：
+
+    docker exec -it 08 /bin/bash
+（ exec  ） 
+
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4MTg0OTM3LDE0ODU4NTQyMTNdfQ==
+eyJoaXN0b3J5IjpbLTk3MDI1MzY4MCw2NzgxODQ5MzcsMTQ4NT
+g1NDIxM119
 -->
