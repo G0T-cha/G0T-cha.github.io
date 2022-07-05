@@ -75,12 +75,14 @@ www.kkzhc.com即为题目中嫌疑人犯罪网站
  - 查看history（分析服务器可以先看一下）
  - 发现用到多次nginx：`more /etc/nginx/nginx.conf`
  - 发现include：/etc/nginx/conf.d/*.conf
- - 到该路径下：`cd /etc/nginx/conf.d/` 
+ - 到该路径下：`cd /etc/nginx/conf.d/`  `ls`
+ - 目录下有：hl.conf
+ - 查看配置文件：`more hl.conf`
 
 
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTM2MTM1MywxNjM3MDIyNjg5LDY3OD
-E4NDkzNywxNDg1ODU0MjEzXX0=
+eyJoaXN0b3J5IjpbMTM4NDg1ODE0LDE2MzcwMjI2ODksNjc4MT
+g0OTM3LDE0ODU4NTQyMTNdfQ==
 -->
