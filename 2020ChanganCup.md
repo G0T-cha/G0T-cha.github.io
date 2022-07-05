@@ -95,7 +95,7 @@ ls
 ```
 exit
 ```
-第7题：查看远程登录使用的IP地址
+### 第7题：查看远程登录使用的IP地址
 
     last
 *（显示用户最近登录信息）*
@@ -104,7 +104,7 @@ exit
 
 192.168.99.222即为**题7答案**
 
-**题6题9**：
+### 题6题9：
 使用`docker exec -it 08 /bin/bash`进入容器，`cat /etc/nginx/nginx.conf`中得知nginx日志access.log位置：
 
 ![image.png](https://s2.loli.net/2022/07/05/8lh5atUuRiVLNfz.png)
@@ -146,9 +146,12 @@ Chrome浏览记录：
 
 *（hosts：将一些常用的网址域名与其对应的 IP 地址建立关联）*
 
-10. *检材2的SHA值*：使用火眼直接计算即可
+### 10. *检材2的SHA值*：
+使用火眼直接计算即可
 2D926D5E1CFE27553AE59B6152E038560D64E7837ECCAD30F2FBAD5052FABF37
-11. *OS内部版本号*：系统-设置-关于-Windows规格-操作系统版本：18363.1082
+
+### 11. *OS内部版本号*：
+系统-设置-关于-Windows规格-操作系统版本：18363.1082
 
 ![image.png](https://s2.loli.net/2022/07/05/liSXB2ApVQ1TEHb.png)
 
@@ -156,9 +159,10 @@ Chrome浏览记录：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDE4MTczNiwtNTU4MjIyODA1LDgzNz
-MzOTQwMCwtMTc4NDYyNTE1OCwtMjAxNjA5NzE4MiwtMjQyMTk2
-OTU2LC01OTkwNTAwNywtMzk5MDgyNDYxLDMwODE5MTE4MiwxNz
-U4Mjc4OTM2LDEyMDc2MzkxODMsNjU1OTQ3OTAzLDEzODQ4NTgx
-NCwxNjM3MDIyNjg5LDY3ODE4NDkzNywxNDg1ODU0MjEzXX0=
+eyJoaXN0b3J5IjpbMjkxMDA4NDE0LDE2NjAxODE3MzYsLTU1OD
+IyMjgwNSw4MzczMzk0MDAsLTE3ODQ2MjUxNTgsLTIwMTYwOTcx
+ODIsLTI0MjE5Njk1NiwtNTk5MDUwMDcsLTM5OTA4MjQ2MSwzMD
+gxOTExODIsMTc1ODI3ODkzNiwxMjA3NjM5MTgzLDY1NTk0Nzkw
+MywxMzg0ODU4MTQsMTYzNzAyMjY4OSw2NzgxODQ5MzcsMTQ4NT
+g1NDIxM119
 -->
