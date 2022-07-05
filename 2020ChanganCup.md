@@ -116,13 +116,13 @@ exit
 
     docker logs 08 | grep 192.168.99.222 | wc -l
 
-（grep 筛选前面管道传来的信息 wc -l 统计行数）
+*（| 管道  grep 筛选前面管道传来的信息  wc -l 统计行数）*
 得出18，即为**题9**答案
 ***
 
 ## 检材二
 
-**题6**：
+**题6**的简单解：
 Chrome浏览记录：
 ![image.png](https://s2.loli.net/2022/07/05/bLPQJ6qvnAcxGuK.png)
 
@@ -136,8 +136,8 @@ Chrome浏览记录：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDM0ODcyNiwtMjQyMTk2OTU2LC01OT
-kwNTAwNywtMzk5MDgyNDYxLDMwODE5MTE4MiwxNzU4Mjc4OTM2
-LDEyMDc2MzkxODMsNjU1OTQ3OTAzLDEzODQ4NTgxNCwxNjM3MD
-IyNjg5LDY3ODE4NDkzNywxNDg1ODU0MjEzXX0=
+eyJoaXN0b3J5IjpbLTIwMTYwOTcxODIsLTI0MjE5Njk1NiwtNT
+k5MDUwMDcsLTM5OTA4MjQ2MSwzMDgxOTExODIsMTc1ODI3ODkz
+NiwxMjA3NjM5MTgzLDY1NTk0NzkwMywxMzg0ODU4MTQsMTYzNz
+AyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
 -->
