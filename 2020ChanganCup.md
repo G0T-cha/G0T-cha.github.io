@@ -82,10 +82,11 @@ www.kkzhc.com即为题目中嫌疑人犯罪网站
 ![image.png](https://s2.loli.net/2022/07/05/tbErldXaGFIgxwo.png)
 
 可以得到：
-
+1. 监听docker内部80端口
+2. proxy_pass到192.168.1.176（*题8答案*）
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0MTI0NjgwLDEzODQ4NTgxNCwxNjM3MD
-IyNjg5LDY3ODE4NDkzNywxNDg1ODU0MjEzXX0=
+eyJoaXN0b3J5IjpbMTQ4MDU5NTAxNiwxMzg0ODU4MTQsMTYzNz
+AyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
 -->
