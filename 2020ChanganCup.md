@@ -83,10 +83,10 @@ ls
 
 可以得到：
 1. 监听docker内部80端口
-2. proxy_pass到192.168.1.176（**题8答案**）
+2. proxy_pass到192.168.1.176实现跳板（**题8答案**）
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyMjAxNDMwLDEzODQ4NTgxNCwxNjM3MD
-IyNjg5LDY3ODE4NDkzNywxNDg1ODU0MjEzXX0=
+eyJoaXN0b3J5IjpbLTE1NzQyODAwOCwxMzg0ODU4MTQsMTYzNz
+AyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
 -->
