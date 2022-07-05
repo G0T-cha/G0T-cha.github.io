@@ -92,21 +92,25 @@ exit
 
     last
 *（显示用户最近登录信息）*
+
 ![image.png](https://s2.loli.net/2022/07/05/4LWia69keVtrhqK.png)
 
 192.168.99.222即为**题7答案**
 
 **题6题9**：
 使用`docker exec -it 08 /bin/bash`进入容器，`cat /etc/nginx/nginx.conf`中得知nginx日志access.log位置：
+
 ![image.png](https://s2.loli.net/2022/07/05/8lh5atUuRiVLNfz.png)
 
 进入该目录`cd /var/log/nginx`,`cat access.log`无反应，`ls -l`（ -l 得到一个详细的文件和目录名列表）发现 access.log 重定向到其他位置，为链接无法查看：
+
 ![image.png](https://s2.loli.net/2022/07/05/kpcW6xNzECOMrXf.png)
 
 尝试其他方法
 
     docker logs 08
    （查看docker日志）
+   
 ![image.png](https://s2.loli.net/2022/07/05/18gDAcOhKCFrvpI.png)
 
 （99.3为IP访问 下面几行为域名访问）
@@ -142,7 +146,7 @@ Chrome浏览记录：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUyMTU4NjYsLTE3ODQ2MjUxNTgsLT
+eyJoaXN0b3J5IjpbLTE1NzU0NDY2MjAsLTE3ODQ2MjUxNTgsLT
 IwMTYwOTcxODIsLTI0MjE5Njk1NiwtNTk5MDUwMDcsLTM5OTA4
 MjQ2MSwzMDgxOTExODIsMTc1ODI3ODkzNiwxMjA3NjM5MTgzLD
 Y1NTk0NzkwMywxMzg0ODU4MTQsMTYzNzAyMjY4OSw2NzgxODQ5
