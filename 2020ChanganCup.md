@@ -106,8 +106,10 @@ Chrome浏览记录：
 ![image.png](https://s2.loli.net/2022/07/05/bLPQJ6qvnAcxGuK.png)
 
 192.168.99.3即为服务器原始ip地址
+
+或通过查看/Windows/System32
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MTkxMTgyLDE3NTgyNzg5MzYsMTIwNz
-YzOTE4Myw2NTU5NDc5MDMsMTM4NDg1ODE0LDE2MzcwMjI2ODks
-Njc4MTg0OTM3LDE0ODU4NTQyMTNdfQ==
+eyJoaXN0b3J5IjpbLTE5OTk0ODM5NTgsMzA4MTkxMTgyLDE3NT
+gyNzg5MzYsMTIwNzYzOTE4Myw2NTU5NDc5MDMsMTM4NDg1ODE0
+LDE2MzcwMjI2ODksNjc4MTg0OTM3LDE0ODU4NTQyMTNdfQ==
 -->
