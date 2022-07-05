@@ -10,7 +10,7 @@ uname -a
 ```
 fdisk -l
 ```
-***分析服务器：***
+### ***分析服务器：***
 查看网络连接和端口：
 ```
 netstat -napt
@@ -82,13 +82,13 @@ ls
 ![image.png](https://s2.loli.net/2022/07/05/tbErldXaGFIgxwo.png)
 
 可以得到：
-1. 监听docker内部80端口
-2. proxy_pass到192.168.1.176实现跳板（**题8答案**）
+ 1. 监听docker内部80端口
+ 2. proxy_pass到192.168.1.176实现跳板（**题8答案**）
 
 
 
 > Written with [StackEdit](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzI3ODI2MCwxMzg0ODU4MTQsMTYzNz
-AyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
+eyJoaXN0b3J5IjpbLTY3MjM1ODg1LDEzODQ4NTgxNCwxNjM3MD
+IyNjg5LDY3ODE4NDkzNywxNDg1ODU0MjEzXX0=
 -->
