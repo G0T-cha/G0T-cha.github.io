@@ -16,6 +16,7 @@ fdisk -l
 netstat -napt
 ```
 *（-n 直接使用ip地址，而不通过域名服务器）*
+
 ![2022-07-04_105320.png](https://s2.loli.net/2022/07/04/vidHyjlBP1ZpMzo.png)
 
 获得信息：
@@ -50,6 +51,7 @@ ls
 查看历史：
 
     history
+    
 ![image.png](https://s2.loli.net/2022/07/04/H431UBgIu6s2GbN.png)
 
 发现使用很多docker命令
@@ -58,12 +60,15 @@ ls
     systemctl start docker
     docker ps -a
 *（-a包括未启动的容器）*
+
 ![image.png](https://s2.loli.net/2022/07/04/d3q9J1tLXn7DoyY.png)
 
 此时再使用netstat查看网络连接，发现8091端口：
+
 ![image.png](https://s2.loli.net/2022/07/04/zy9qUdcOljY4fxo.png)
 
 其中的30000、31000、32000都实际转发到8091端口，实现一级跳板：
+
 ![](https://img-blog.csdnimg.cn/20201121205650340.png#pic_center)
 
 进入容器中查看一下：
@@ -128,6 +133,7 @@ exit
 
 **题6**的简单解：
 Chrome浏览记录：
+
 ![image.png](https://s2.loli.net/2022/07/05/bLPQJ6qvnAcxGuK.png)
 
 192.168.99.3即为**题6**服务器原始ip地址
@@ -148,7 +154,7 @@ Chrome浏览记录：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMjM4NDcyLC0xNzg0NjI1MTU4LC0yMD
+eyJoaXN0b3J5IjpbODM3MzM5NDAwLC0xNzg0NjI1MTU4LC0yMD
 E2MDk3MTgyLC0yNDIxOTY5NTYsLTU5OTA1MDA3LC0zOTkwODI0
 NjEsMzA4MTkxMTgyLDE3NTgyNzg5MzYsMTIwNzYzOTE4Myw2NT
 U5NDc5MDMsMTM4NDg1ODE0LDE2MzcwMjI2ODksNjc4MTg0OTM3
