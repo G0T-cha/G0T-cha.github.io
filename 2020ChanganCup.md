@@ -97,7 +97,10 @@ exit
 192.168.99.222即为**题7答案**
 
 **题6题9**：
-使用`docker exec -it 08 /bin/bash`进入容器，`cat /etc/nginx/nginx.conf`中de'zhi
+使用`docker exec -it 08 /bin/bash`进入容器，`cat /etc/nginx/nginx.conf`中得知nginx日志access.log位置：
+![image.png](https://s2.loli.net/2022/07/05/8lh5atUuRiVLNfz.png)
+
+进入该目录`cd /var/log/nginx`
 
 
 ***
@@ -118,8 +121,8 @@ Chrome浏览记录：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MjQ3MjQ2LC0zOTkwODI0NjEsMzA4MT
-kxMTgyLDE3NTgyNzg5MzYsMTIwNzYzOTE4Myw2NTU5NDc5MDMs
-MTM4NDg1ODE0LDE2MzcwMjI2ODksNjc4MTg0OTM3LDE0ODU4NT
-QyMTNdfQ==
+eyJoaXN0b3J5IjpbLTc1NTczMDM1MiwtMzk5MDgyNDYxLDMwOD
+E5MTE4MiwxNzU4Mjc4OTM2LDEyMDc2MzkxODMsNjU1OTQ3OTAz
+LDEzODQ4NTgxNCwxNjM3MDIyNjg5LDY3ODE4NDkzNywxNDg1OD
+U0MjEzXX0=
 -->
