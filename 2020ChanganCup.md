@@ -105,14 +105,14 @@ exit
 Chrome浏览记录：
 ![image.png](https://s2.loli.net/2022/07/05/bLPQJ6qvnAcxGuK.png)
 
-192.168.99.3即为服务器原始ip地址
+192.168.99.3即为**题6**服务器原始ip地址
 
 或通过查看/Windows/System32/drivers/etc/hosts
 ![image.png](https://s2.loli.net/2022/07/05/6t9Bjpge3hyK1wN.png)
 
 *（hosts：将一些常用的网址域名与其对应的 IP 地址建立关联）*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDQyMzY5LDMwODE5MTE4MiwxNzU4Mj
-c4OTM2LDEyMDc2MzkxODMsNjU1OTQ3OTAzLDEzODQ4NTgxNCwx
-NjM3MDIyNjg5LDY3ODE4NDkzNywxNDg1ODU0MjEzXX0=
+eyJoaXN0b3J5IjpbLTM5OTA4MjQ2MSwzMDgxOTExODIsMTc1OD
+I3ODkzNiwxMjA3NjM5MTgzLDY1NTk0NzkwMywxMzg0ODU4MTQs
+MTYzNzAyMjY4OSw2NzgxODQ5MzcsMTQ4NTg1NDIxM119
 -->
