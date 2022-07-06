@@ -193,13 +193,17 @@ telegram![](https://s2.loli.net/2022/07/06/mfvyqZOCSszaBF2.png)
 
 ![](https://s2.loli.net/2022/07/06/gyJcpMRaEoI8Ywb.png)
 
-导出路径下的vmx文件到pyvmx-cracker-master目录下，将其改名为“ 1.vmx ”（fangbian）
+导出路径下的vmx文件到pyvmx-cracker-master目录下，将其改名为“ 1.vmx ”（方便操作），打开命令行，执行：`python .\pyvmx-cracker.py -v 1.vmx -d wordlist.txt`爆破密码：
+
+![](https://s2.loli.net/2022/07/06/lc6YFjry3maezER.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjgzNDE5MDEsLTIwMTgwMTgwNDQsLT
-E0NjM4NzM5NjgsLTEzNjUxMDc2NCwtMTk1NjA1MTU5NiwxOTU0
-MDU1MjA2LC03MDg3MjczMzcsLTYyODEzMzgyMywtMTU3Njg1MD
-AxLC0xNTkwODUwNjk1LC0xNTE0Mzg0MzczLDExMTg3MTQ2MSwt
-MTI4NDA3MjQ2Miw3NDEyOTkyOTksLTIwMTcwMDE0MjksNjAxMj
-gwMTQ4LDE2NjAxODE3MzYsLTU1ODIyMjgwNSw4MzczMzk0MDAs
-LTE3ODQ2MjUxNThdfQ==
+eyJoaXN0b3J5IjpbMjkwODQ2MDY4LC0yMDE4MDE4MDQ0LC0xND
+YzODczOTY4LC0xMzY1MTA3NjQsLTE5NTYwNTE1OTYsMTk1NDA1
+NTIwNiwtNzA4NzI3MzM3LC02MjgxMzM4MjMsLTE1NzY4NTAwMS
+wtMTU5MDg1MDY5NSwtMTUxNDM4NDM3MywxMTE4NzE0NjEsLTEy
+ODQwNzI0NjIsNzQxMjk5Mjk5LC0yMDE3MDAxNDI5LDYwMTI4MD
+E0OCwxNjYwMTgxNzM2LC01NTgyMjI4MDUsODM3MzM5NDAwLC0x
+Nzg0NjI1MTU4XX0=
 -->
