@@ -263,7 +263,7 @@ App_Web_dllogin.aspx.7d7c2f33.dll（见上图）
 ![](https://s2.loli.net/2022/07/06/7PFaRqbVSI6pTuy.png)
 
 首先使用的算法为：AESEncrypt
-
+（审阅代码，先进行AES加密，AES加密函数中最后转化为base64，然后转化MD5）
 
 ### 39. 分析该网站连接的数据库地址为：
 
@@ -277,7 +277,7 @@ DBcon 应为数据库中正确密码和 IP 地址，查看：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODQ2MjcxLC03MDE5NDAyMjQsMTI4OT
+eyJoaXN0b3J5IjpbMzc5NzkwNjk2LC03MDE5NDAyMjQsMTI4OT
 UyMDYyMywtNjcxMTg3NDg1LDIzNTYxNDU2OSw0ODQ4NDkxMTUs
 LTM4ODk5ODc4MCwxMTM1NDgyMjE0LC03Njg2MDc4NzcsMTI1Nj
 Q0MzgxNCwtMTEyMzk1Mjk2MiwtMTYzMzk1OTUxNSwtMTc3NDA2
