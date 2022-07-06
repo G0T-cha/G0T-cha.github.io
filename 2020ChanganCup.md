@@ -174,14 +174,17 @@ docker-proxy（见服务器分析打开docker后的netstat）
 取证分析中查看用户痕迹，发现my iphone.tar.Ink，找到所在位置，导出文件，在取证分析中添加该镜像，即可对手机进行分析：![](https://s2.loli.net/2022/07/06/YwukBhPWzJ3N564.png)
 
 微信ID为：sstt119999
-### 
+### 19. 嫌疑人为与广告位供应商沟通时使用的通联工具的名称为：
+telegram![](https://s2.loli.net/2022/07/06/mfvyqZOCSszaBF2.png)
+
+### 20. 嫌疑人使用何种虚拟货币与供应商进行交易：
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkwMjI4NTQsLTcwODcyNzMzNywtNj
-I4MTMzODIzLC0xNTc2ODUwMDEsLTE1OTA4NTA2OTUsLTE1MTQz
-ODQzNzMsMTExODcxNDYxLC0xMjg0MDcyNDYyLDc0MTI5OTI5OS
-wtMjAxNzAwMTQyOSw2MDEyODAxNDgsMTY2MDE4MTczNiwtNTU4
-MjIyODA1LDgzNzMzOTQwMCwtMTc4NDYyNTE1OCwtMjAxNjA5Nz
-E4MiwtMjQyMTk2OTU2LC01OTkwNTAwNywtMzk5MDgyNDYxLDMw
-ODE5MTE4Ml19
+eyJoaXN0b3J5IjpbMTk1NDA1NTIwNiwtNzA4NzI3MzM3LC02Mj
+gxMzM4MjMsLTE1NzY4NTAwMSwtMTU5MDg1MDY5NSwtMTUxNDM4
+NDM3MywxMTE4NzE0NjEsLTEyODQwNzI0NjIsNzQxMjk5Mjk5LC
+0yMDE3MDAxNDI5LDYwMTI4MDE0OCwxNjYwMTgxNzM2LC01NTgy
+MjI4MDUsODM3MzM5NDAwLC0xNzg0NjI1MTU4LC0yMDE2MDk3MT
+gyLC0yNDIxOTY5NTYsLTU5OTA1MDA3LC0zOTkwODI0NjEsMzA4
+MTkxMTgyXX0=
 -->
