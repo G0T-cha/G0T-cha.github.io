@@ -258,10 +258,12 @@ C:\inetpub\wwwroot\v7w（见上图）
 ### 37. 请对网站代码进行分析，网站登录过程中，代码中调用的动态扩展库文件的完整名称为：
 App_Web_dllogin.aspx.7d7c2f33.dll（见上图）
 ### 38. 网站登录过程中，后台接收到明文密码后进行加密处理，首先使用的算法是 Encryption 中 的哪个函数：
-使用 dnSpy 在 bin 文件夹中找到上述动态扩展库文件
+使用 dnSpy 在 bin 文件夹中找到上述动态扩展库文件，找到主要方法：
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDkxODM3MCwxMjg5NTIwNjIzLC02Nz
+eyJoaXN0b3J5IjpbLTcwMTk0MDIyNCwxMjg5NTIwNjIzLC02Nz
 ExODc0ODUsMjM1NjE0NTY5LDQ4NDg0OTExNSwtMzg4OTk4Nzgw
 LDExMzU0ODIyMTQsLTc2ODYwNzg3NywxMjU2NDQzODE0LC0xMT
 IzOTUyOTYyLC0xNjMzOTU5NTE1LC0xNzc0MDY5MDAxLC0xMTEw
