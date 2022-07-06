@@ -208,8 +208,10 @@ telegram![](https://s2.loli.net/2022/07/06/mfvyqZOCSszaBF2.png)
 
 即可把镜像挂载到取证软件下进行快速分析。
 找到“广告”图片，导出。使用`certutil -hashfile "文件名" SHA256`计算哈希值：
+
+![](https://s2.loli.net/2022/07/06/qPz2UioDNgxj57A.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzkxNTcwMzAsLTExMTAzOTI2ODYsLT
+eyJoaXN0b3J5IjpbLTE3NzQwNjkwMDEsLTExMTAzOTI2ODYsLT
 IwMTgwMTgwNDQsLTE0NjM4NzM5NjgsLTEzNjUxMDc2NCwtMTk1
 NjA1MTU5NiwxOTU0MDU1MjA2LC03MDg3MjczMzcsLTYyODEzMz
 gyMywtMTU3Njg1MDAxLC0xNTkwODUwNjk1LC0xNTE0Mzg0Mzcz
