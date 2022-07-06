@@ -200,11 +200,14 @@ telegram![](https://s2.loli.net/2022/07/06/mfvyqZOCSszaBF2.png)
 ![](https://s2.loli.net/2022/07/06/FaIKEkDeXJOP57c.png)
 
 得出密码为：zzzxxx
+### 25. 嫌疑人发送给广告商的邮件中的图片附件的 SHA256 值为：
 在虚拟机设置——选项——访问控制中移除密码：
 
 ![](https://s2.loli.net/2022/07/06/v4dLu7BQqHfFl39.png)
+
+即可把镜像挂载到取证软件下进行快速分析
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODEyODExNjAsLTIwMTgwMTgwNDQsLT
+eyJoaXN0b3J5IjpbLTE1NTA5NjY4OTQsLTIwMTgwMTgwNDQsLT
 E0NjM4NzM5NjgsLTEzNjUxMDc2NCwtMTk1NjA1MTU5NiwxOTU0
 MDU1MjA2LC03MDg3MjczMzcsLTYyODEzMzgyMywtMTU3Njg1MD
 AxLC0xNTkwODUwNjk1LC0xNTE0Mzg0MzczLDExMTg3MTQ2MSwt
