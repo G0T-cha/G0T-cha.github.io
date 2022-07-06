@@ -252,13 +252,18 @@ C:\inetpub\wwwroot\v7w（见上图）
 ### 36. 对网站代码进行分析，网站登录过程中，代码中对输入的明文密码作了追加什么字符串处理：
 查看dllogin.aspx：
 
+![](https://s2.loli.net/2022/07/06/xq6KJwbQhktdFuD.png)
 
+追加字符为0v0
+### 37. 请对网站代码进行分析，网站登录过程中，代码中调用的动态扩展库文件的完整名称为：
+App_Web_dllogin.aspx.7d7c2f33（见上图）
+### 38. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTUyMDYyMywtNjcxMTg3NDg1LDIzNT
-YxNDU2OSw0ODQ4NDkxMTUsLTM4ODk5ODc4MCwxMTM1NDgyMjE0
-LC03Njg2MDc4NzcsMTI1NjQ0MzgxNCwtMTEyMzk1Mjk2MiwtMT
-YzMzk1OTUxNSwtMTc3NDA2OTAwMSwtMTExMDM5MjY4NiwtMjAx
-ODAxODA0NCwtMTQ2Mzg3Mzk2OCwtMTM2NTEwNzY0LC0xOTU2MD
-UxNTk2LDE5NTQwNTUyMDYsLTcwODcyNzMzNywtNjI4MTMzODIz
-LC0xNTc2ODUwMDFdfQ==
+eyJoaXN0b3J5IjpbLTIxNjQ4MzQ4LDEyODk1MjA2MjMsLTY3MT
+E4NzQ4NSwyMzU2MTQ1NjksNDg0ODQ5MTE1LC0zODg5OTg3ODAs
+MTEzNTQ4MjIxNCwtNzY4NjA3ODc3LDEyNTY0NDM4MTQsLTExMj
+M5NTI5NjIsLTE2MzM5NTk1MTUsLTE3NzQwNjkwMDEsLTExMTAz
+OTI2ODYsLTIwMTgwMTgwNDQsLTE0NjM4NzM5NjgsLTEzNjUxMD
+c2NCwtMTk1NjA1MTU5NiwxOTU0MDU1MjA2LC03MDg3MjczMzcs
+LTYyODEzMzgyM119
 -->
