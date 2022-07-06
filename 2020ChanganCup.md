@@ -225,9 +225,11 @@ Xshell
 ## 检材3
 
 ### 30. 检材 3 的原始磁盘 SHA256 值：
+![](https://s2.loli.net/2022/07/06/5LOpsFUjc4qD1KM.png)
 
+### 31.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc4NjA2MjEsMTI1NjQ0MzgxNCwtMT
+eyJoaXN0b3J5IjpbLTE4MDk0NDM5MjAsMTI1NjQ0MzgxNCwtMT
 EyMzk1Mjk2MiwtMTYzMzk1OTUxNSwtMTc3NDA2OTAwMSwtMTEx
 MDM5MjY4NiwtMjAxODAxODA0NCwtMTQ2Mzg3Mzk2OCwtMTM2NT
 EwNzY0LC0xOTU2MDUxNTk2LDE5NTQwNTUyMDYsLTcwODcyNzMz
