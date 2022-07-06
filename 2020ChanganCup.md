@@ -200,8 +200,11 @@ telegram![](https://s2.loli.net/2022/07/06/mfvyqZOCSszaBF2.png)
 ![](https://s2.loli.net/2022/07/06/FaIKEkDeXJOP57c.png)
 
 得出密码为：zzzxxx
+在虚拟机设置——选项——访问控制中移除密码：
+
+![](https://s2.loli.net/2022/07/06/v4dLu7BQqHfFl39.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTMyMDA2MjUsLTIwMTgwMTgwNDQsLT
+eyJoaXN0b3J5IjpbLTEyODEyODExNjAsLTIwMTgwMTgwNDQsLT
 E0NjM4NzM5NjgsLTEzNjUxMDc2NCwtMTk1NjA1MTU5NiwxOTU0
 MDU1MjA2LC03MDg3MjczMzcsLTYyODEzMzgyMywtMTU3Njg1MD
 AxLC0xNTkwODUwNjk1LC0xNTE0Mzg0MzczLDExMTg3MTQ2MSwt
