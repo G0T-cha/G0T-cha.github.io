@@ -171,10 +171,10 @@ docker-proxy（见服务器分析打开docker后的netstat）
 ### 17. 嫌疑人从检材 2 上访问该网站时，所使用的域名为：
 取证分析中查看Chrome浏览记录：www.sdhj.com
 ### 18. 嫌疑人所使用的微信 ID 是：
-取证分析中查看用户痕迹，发现my iphone 
+取证分析中查看用户痕迹，发现my iphone.tar.Ink，找到所在位置，导出文件
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjgwODYxNjgsLTE1NzY4NTAwMSwtMT
+eyJoaXN0b3J5IjpbLTIwNzU5OTAyMzMsLTE1NzY4NTAwMSwtMT
 U5MDg1MDY5NSwtMTUxNDM4NDM3MywxMTE4NzE0NjEsLTEyODQw
 NzI0NjIsNzQxMjk5Mjk5LC0yMDE3MDAxNDI5LDYwMTI4MDE0OC
 wxNjYwMTgxNzM2LC01NTgyMjI4MDUsODM3MzM5NDAwLC0xNzg0
