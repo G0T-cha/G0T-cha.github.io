@@ -280,10 +280,13 @@ DBcon 应为数据库中正确密码和 IP 地址，查看：
     Add-Type -Path .\DBManager.dll
     [DBManager.Encryption]::AESDecrypt("Mcyj19i/VubvqSM21YPjWnnGzk8G/GG6x9+qwdcOJd9bTEyprEOxs8TD9Ma1Lz1Ct72xlK/g8DDRAQ+X0GtJ8w==", "HL", "forensix")
     
+![](https://s2.loli.net/2022/07/06/oHcnIQFs4mM3r61.png)
+
+192.168.1.174
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjkzMTA0MzMsMTk0MDIyNDQwNiwzNz
+eyJoaXN0b3J5IjpbLTE0NDM3Nzc4NTEsMTk0MDIyNDQwNiwzNz
 k3OTA2OTYsLTcwMTk0MDIyNCwxMjg5NTIwNjIzLC02NzExODc0
 ODUsMjM1NjE0NTY5LDQ4NDg0OTExNSwtMzg4OTk4NzgwLDExMz
 U0ODIyMTQsLTc2ODYwNzg3NywxMjU2NDQzODE0LC0xMTIzOTUy
