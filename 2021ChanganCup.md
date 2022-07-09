@@ -4,6 +4,9 @@
 ---
 
 <h1 id="长安杯题解">2021长安杯题解</h1>
+<h2 id="镜像挂载">镜像挂载</h2>
+<p>使用VeraCrypt挂载并输入密码</p>
+<hr>
 <h2 id="检材一">检材一</h2>
 <ul>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> 拖进雷电APP智能分析</li>
@@ -20,10 +23,65 @@
 <p><img src="https://s2.loli.net/2022/07/07/dHaYOKvIx8Up69E.png" alt=""></p>
 <p>ABCDE</p>
 <h3 id="该apk发送回后台服务器的数据包含一下哪些内容（多选题）：a.手机通讯录-b.手机应用列表-c.手机号码-d.验证码-e.gps定位信息：">5. 该APK发送回后台服务器的数据包含一下哪些内容（多选题）：A.手机通讯录 B.手机应用列表 C.手机号码 D.验证码 E.GPS定位信息：</h3>
-<p>ACDE</p>
+<p>ACDE（见第八题）</p>
 <h3 id="该apk程序回传通讯录时使用的http请求方式为：">6. 该APK程序回传通讯录时,使用的http请求方式为：</h3>
 <p>下载安卓模拟器：使用雷电进行抓包（记得选为代理抓包，HTTP抓包抓不到）：</p>
 <p><img src="https://s2.loli.net/2022/07/08/dZsJg4F9cqDlMmC.png" alt=""></p>
-<p>POST</p>
+<p>红框为虚拟机设置的通讯录</p>
 <p><img src="https://s2.loli.net/2022/07/08/GQcPdzl7fwxXWFU.png" alt=""></p>
+<p>POST</p>
+<h3 id="该apk程序的回传地址域名为：">7. 该APK程序的回传地址域名为：</h3>
+<p><a href="http://www.honglian7001.com">www.honglian7001.com</a> （见上题）</p>
+<h3 id="该apk程序代码中配置的变量-apiserver-的值为：">8. 该APK程序代码中配置的变量 apiserver 的值为：</h3>
+<p>审阅代码：使用雷电自带的jadx反编译</p>
+<p><img src="https://s2.loli.net/2022/07/08/wde7NKaE1lFfmXb.png" alt=""></p>
+<p>找到资源文件下的 index.html , 发现最后一段 Sojson 加密代码：</p>
+<p><img src="https://s2.loli.net/2022/07/08/S8mprIQG9vVbxan.png" alt=""></p>
+<p>复制下来在 <a href="https://jsdec.js.org/">https://jsdec.js.org/</a> 中进行解密，在VS中打开：</p>
+<p><img src="https://s2.loli.net/2022/07/08/IdzN3JKgl1FRA25.png" alt=""></p>
+<p>apiserver 变量值为http://www.honglian7001.com/api/uploads/</p>
+<h3 id="分析该apk，发现该程序还具备获取短信回传到后台的功能，短信上传服务器接口地址为：">9. 分析该APK，发现该程序还具备获取短信回传到后台的功能，短信上传服务器接口地址为：</h3>
+<p>审阅代码：</p>
+<p><img src="https://s2.loli.net/2022/07/08/Ax5bqGrSoY9WiNL.png" alt=""></p>
+<p><a href="http://www.honglian7001.com/api/uploads/apisms">http://www.honglian7001.com/api/uploads/apisms</a> 即为接口地址</p>
+<p>（mui.ajax( url [,settings] )：<strong>-url</strong>：请求发送的目标地址， <strong>settings</strong>：key/value格式的json对象，用来配置ajax请求参数）</p>
+<p><img src="https://s2.loli.net/2022/07/08/1dEbP3sGACqm6yT.png" alt=""></p>
+<p>获取了经纬度，即GPS信息</p>
+<h3 id="经分析，发现该apk在运行过程中会在手机中产生一个数据库文件，该文件的文件名为：">10. 经分析，发现该APK在运行过程中会在手机中产生一个数据库文件，该文件的文件名为：</h3>
+<p>使用 Frida 对 apk 进行 hook（雷电自带）</p>
+<p><img src="https://s2.loli.net/2022/07/08/92KJVv7EZTUhdBj.png" alt=""></p>
+<p>test.db</p>
+<h3 id="该数据库的初始密码为：">11. 该数据库的初始密码为：</h3>
+<p>c74d97b01eae257e44aa9d5bade97baf（见上题）</p>
+<hr>
+<h2 id="检材二">检材二</h2>
+<h3 id="sha256值：">12. SHA256值：</h3>
+<p>E6873068B83AF9988D297C6916329CEC9D8BCB672C6A894D393E68764391C589</p>
+<h3 id="查询涉案于案发时间段内登陆服务器的ip地址为：">13. 查询涉案于案发时间段内登陆服务器的IP地址为：</h3>
+<p>仿真检材二：</p>
+<pre><code>last
+</code></pre>
+<p><img src="https://s2.loli.net/2022/07/08/MyGULNIVkHZrKc7.png" alt=""></p>
+<p>192.168.110.203</p>
+<h3 id="请对检材二进行分析，并回答该服务器在集群中承担的主要作用是：">14. 请对检材二进行分析，并回答该服务器在集群中承担的主要作用是：</h3>
+<p>负载均衡服务器（见以下分析）</p>
+<h3 id="上一题中，提到的主要功能对应的服务监听的端口为：">15. 上一题中，提到的主要功能对应的服务监听的端口为：</h3>
+<p>查看 <code>history</code>：</p>
+<p><img src="https://s2.loli.net/2022/07/09/5T6YsuASF7EgCnc.png" alt=""></p>
+<p>发现服务器的目录文件就是<code>/opt/honglianjingsai</code>，看一下 README.txt：</p>
+<p><img src="https://s2.loli.net/2022/07/09/QiHwsk6SCn1xfBT.png" alt=""></p>
+<p>发现端口配置是在文件 const.js 修改，查看：</p>
+<p><img src="https://s2.loli.net/2022/07/09/cFrMXYwGJBqv8oy.png" alt=""></p>
+<p>配置端口为 80</p>
+<h3 id="上一题中，提到的服务所使用的启动命令为：">16. 上一题中，提到的服务所使用的启动命令为：</h3>
+<p>查看history：</p>
+<p><img src="https://s2.loli.net/2022/07/09/49zdgT7DjbfXPuC.png" alt=""></p>
+<p>reboot 重启后，只有此条命令可能是启动服务命令：</p>
+<pre><code>node app.js
+</code></pre>
+<h3 id="经分析，该服务对于请求来源ip的处理依据是：根据请求源ip地址的第几位进行判断：">17. 经分析，该服务对于请求来源IP的处理依据是：根据请求源IP地址的第几位进行判断：</h3>
+<p><img src="https://s2.loli.net/2022/07/09/nDvYOyuJ6KqzTro.png" alt=""></p>
+<p>看到 Proxy 文件，看一下：</p>
+<p><img src="https://s2.loli.net/2022/07/09/D3RA6Uz87yvT5dk.png" alt=""></p>
+<p>可知是 IP 地址的第二位</p>
 
