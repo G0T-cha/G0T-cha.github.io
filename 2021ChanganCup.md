@@ -116,6 +116,18 @@
 <p>找到函数：MD5</p>
 <p><img src="https://s2.loli.net/2022/07/10/3tSze9g4Q7VAkul.png" alt=""></p>
 <h3 id="请分析宝塔面板对于其默认用户的密码一共执行了几次上题中的哈希算法：">27. 请分析宝塔面板对于其默认用户的密码一共执行了几次上题中的哈希算法：</h3>
-<p>password_salt 为 public 中的方法：</p>
+<p>password_salt 为 public 中的方法，找到public路径：</p>
 <p><img src="https://img2022.cnblogs.com/blog/2817142/202206/2817142-20220605223608828-523260372.png" alt=""></p>
+<p>定位到函数：</p>
+<p><img src="https://s2.loli.net/2022/07/10/docIDXBAaVe1zpU.png" alt=""></p>
+<p>用了两次 md5 ，加上前面一次，共三次</p>
+<h3 id="请分析当前宝塔面板密码加密过程中所使用的salt值为：">28. 请分析当前宝塔面板密码加密过程中所使用的salt值为：</h3>
+<p>由上题可知，salt 的获取调用了 M 方法，查找 <code>def M</code>:</p>
+<p><img src="https://s2.loli.net/2022/07/11/DZtLTxglH1aEQ3w.png" alt=""></p>
+<p>发现默认数据库为<code>/wwww/server/panel/data/default.db</code>，下载该文件，使用 DB Broswer for SQLite 打开数据库：</p>
+<p><img src="https://s2.loli.net/2022/07/11/CTbsg6NI3Uk7YHi.png" alt=""></p>
+<p>salt值为：v87ilhAVumZL</p>
+<h3 id="请分析该服务器，网站源代码所在的绝对路径为">29. 请分析该服务器，网站源代码所在的绝对路径为</h3>
+<p><img src="https://s2.loli.net/2022/07/11/m8dzc5TVUMAR4lx.png" alt=""></p>
+<p>绝对路径为：/www/wwwroot/www.honglian7001</p>
 
