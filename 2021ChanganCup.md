@@ -7,7 +7,7 @@
 <h2 id="镜像挂载">镜像挂载</h2>
 <p>使用VeraCrypt挂载并输入密码</p>
 <hr>
-<h2 id="检材一">检材一</h2>
+<h2 id="part1">PART1</h2>
 <ul>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> 拖进雷电APP智能分析</li>
 </ul>
@@ -54,7 +54,7 @@
 <h3 id="该数据库的初始密码为：">11. 该数据库的初始密码为：</h3>
 <p>c74d97b01eae257e44aa9d5bade97baf（见上题）</p>
 <hr>
-<h2 id="检材二">检材二</h2>
+<h2 id="part2">PART2</h2>
 <h3 id="sha256值：">12. SHA256值：</h3>
 <p>E6873068B83AF9988D297C6916329CEC9D8BCB672C6A894D393E68764391C589</p>
 <h3 id="查询涉案于案发时间段内登陆服务器的ip地址为：">13. 查询涉案于案发时间段内登陆服务器的IP地址为：</h3>
@@ -96,7 +96,7 @@
 <h3 id="请分析，受害者的通讯录被窃取之后，经由该服务器转发到了ip为多少的服务器上：">21.请分析，受害者的通讯录被窃取之后，经由该服务器转发到了IP为多少的服务器上：</h3>
 <p>192.168.110.113（见上题）</p>
 <hr>
-<h2 id="检材三">检材三</h2>
+<h2 id="part3">PART3</h2>
 <h3 id="检材三的原始硬盘的sha256值为：">22. 检材三的原始硬盘的SHA256值为：</h3>
 <p>205C1120874CE0E24ABFB3BB1525ACF330E05111E4AD1D323F3DEE59265306BF</p>
 <h3 id="请分析第21题中，所指的服务器的开机密码为：">23. 请分析第21题中，所指的服务器的开机密码为：</h3>
@@ -124,10 +124,115 @@
 <h3 id="请分析当前宝塔面板密码加密过程中所使用的salt值为：">28. 请分析当前宝塔面板密码加密过程中所使用的salt值为：</h3>
 <p>由上题可知，salt 的获取调用了 M 方法，查找 <code>def M</code>:</p>
 <p><img src="https://s2.loli.net/2022/07/11/DZtLTxglH1aEQ3w.png" alt=""></p>
-<p>发现默认数据库为<code>/wwww/server/panel/data/default.db</code>，下载该文件，使用 DB Broswer for SQLite 打开数据库：</p>
+<p>发现默认数据库为<code>/wwww/server/panel/data/default.db</code>，下载该文件，使用 <strong>DB Broswer for SQLite</strong> 打开数据库：</p>
 <p><img src="https://s2.loli.net/2022/07/11/CTbsg6NI3Uk7YHi.png" alt=""></p>
 <p>salt值为：v87ilhAVumZL</p>
 <h3 id="请分析该服务器，网站源代码所在的绝对路径为">29. 请分析该服务器，网站源代码所在的绝对路径为</h3>
-<p><img src="https://s2.loli.net/2022/07/11/m8dzc5TVUMAR4lx.png" alt=""></p>
+<p><img src="https://s2.loli.net/2022/07/11/znHhxvJ2q9McjFU.png" alt=""></p>
 <p>绝对路径为：/www/wwwroot/www.honglian7001</p>
+<h3 id="请分析，网站所使用的数据库位于ip为多少的服务器上：">30. 请分析，网站所使用的数据库位于IP为多少的服务器上：</h3>
+<p>网站目录下找到database文件：</p>
+<p><img src="https://s2.loli.net/2022/07/11/qSaEshQZxgXAbc2.png" alt=""></p>
+<p>192.168.110.115</p>
+<h3 id="数据库的登陆密码为">31. 数据库的登陆密码为:</h3>
+<p>wxrM5GtNXk5k5EPX（见上题）</p>
+<h3 id="请尝试重构该网站，并指出，该网站的后台管理界面的入口为：">32. 请尝试重构该网站，并指出，该网站的后台管理界面的入口为：</h3>
+<p>检材四PC机Chrome浏览记录：<br>
+<img src="https://s2.loli.net/2022/07/12/Hd8rWcMXYOht7ge.png" alt=""></p>
+<h3 id="已该涉案网站代码中对登录用户的密码做了加密处理。请找出加密算法中的salt值：">33. 已该涉案网站代码中对登录用户的密码做了加密处理。请找出加密算法中的salt值：</h3>
+<p><img src="https://s2.loli.net/2022/07/12/Mu2JPaX5Q6B9DVw.png" alt=""></p>
+<h3 id="请分析该网站的管理员用户的密码为：">34. 请分析该网站的管理员用户的密码为：</h3>
+<p>日志中查找 password:</p>
+<p><img src="https://s2.loli.net/2022/07/12/noWXkDyzf1UTV7P.png" alt=""></p>
+<h3 id="在对后台账号的密码加密处理过程中，后台一共计算几次哈希值">35. 在对后台账号的密码加密处理过程中，后台一共计算几次哈希值:</h3>
+<p>3 （见 33 题）</p>
+<h3 id="请统计，后台中，一共有多少条设备记录">36. 请统计，后台中，一共有多少条设备记录</h3>
+<p>挂载检材五，数据库镜像被raid打碎：</p>
+<p><img src="https://s2.loli.net/2022/07/12/zR9CrlnvwNq4KXQ.png" alt=""></p>
+<p>使用 UFS Professional Recovery 重组, 导入镜像</p>
+<p><img src="https://s2.loli.net/2022/07/12/PEqb84zK1olW6BG.png" alt=""></p>
+<p>New RAID----Add to RAID</p>
+<p><img src="https://s2.loli.net/2022/07/12/xaFVBC1lWZcbArn.png" alt=""></p>
+<p>Build:</p>
+<p><img src="https://s2.loli.net/2022/07/12/IKwJNzZXkyuSHlL.png" alt=""></p>
+<p>Save disk image</p>
+<p><img src="https://s2.loli.net/2022/07/12/xAeWLyzVf3gYTEc.png" alt=""></p>
+<p>把保存的数据库镜像仿真，此时访问 <a href="http://192.168.110.113/admin">http://192.168.110.113/admin</a> 不再报错（缺失数据库），出现登录页面，使用 admin security 登录</p>
+<p>用 Navicat 连接：</p>
+<p><img src="https://s2.loli.net/2022/07/12/hMxVy1oW5CZLfIn.png" alt=""></p>
+<p>设备记录：6002</p>
+<p><img src="https://s2.loli.net/2022/07/12/IgaHfpQGLdh136V.png" alt=""></p>
+<h3 id="请通过后台确认，本案中受害者的手机号码为：">37. 请通过后台确认，本案中受害者的手机号码为：</h3>
+<p><img src="https://s2.loli.net/2022/07/12/fvmtQdbDEkCJ5aW.png" alt=""></p>
+<p>和20题日志对比（20题为 UTC 时间，需要 -8），受害人手机号为18644099137</p>
+<h3 id="请分析，本案中受害者的通讯录一共有多少条记录：">38. 请分析，本案中受害者的通讯录一共有多少条记录：</h3>
+<p><img src="https://s2.loli.net/2022/07/12/4IoqCxL9Mfytkev.png" alt=""></p>
+<p>34条</p>
+<hr>
+<h2 id="part4：">PART4：</h2>
+<h3 id="请计算检材四-pc的原始硬盘的sha256值：">39. 请计算检材四-PC的原始硬盘的SHA256值：</h3>
+<p>取证要求输入 bitlocker 密码，忽略，计算哈希值：</p>
+<p>E9ABE6C8A51A633F809A3B9FE5CE80574AED133BC165B5E1B93109901BB94C2B</p>
+<h3 id="检材四-pc的bitlocker加密分区的解密密钥为：">40. 检材四-PC的Bitlocker加密分区的解密密钥为：</h3>
+<p>查看 txt 格式文件，发现密钥文件：</p>
+<p><img src="https://s2.loli.net/2022/07/12/LBymb9W3ITMxklO.png" alt=""></p>
+<p>511126-518936-161612-135234-698357-082929-144705-622578</p>
+<h3 id="检材四-pc的开机密码为：">41. 检材四-PC的开机密码为：</h3>
+<p>仿真中挂载，输入 bitlocker 密码，可查看开机密码：</p>
+<p>12306</p>
+<h3 id="检材四-pc是嫌疑人用于管理服务器的设备，其主要通过哪个浏览器控制网站后：">42. 检材四-PC是嫌疑人用于管理服务器的设备，其主要通过哪个浏览器控制网站后：</h3>
+<p>查看浏览记录可知：</p>
+<p>Chrome</p>
+<h3 id="算pc检材中用户目录下的zip文件的sha256值：">43. 算PC检材中用户目录下的zip文件的sha256值：</h3>
+<p>取证中直接右键计算即可</p>
+<p><img src="https://s2.loli.net/2022/07/12/1aMsg2woCpGQZeR.png" alt=""></p>
+<h3 id="检材四-phone，该手机的imei号为：">44. 检材四-phone，该手机的IMEI号为：</h3>
+<p><img src="https://s2.loli.net/2022/07/12/9zD4paubqve3fSg.png" alt=""></p>
+<h3 id="检材四-phone，嫌疑人和本案受害者是通过什么软件开始接触的：">45. 检材四-phone，嫌疑人和本案受害者是通过什么软件开始接触的：</h3>
+<p>查看聊天记录：</p>
+<p><img src="https://s2.loli.net/2022/07/12/XvCKZAVsuQ12BSG.png" alt=""></p>
+<p>伊对</p>
+<h3 id="检材四-phone，受害者下载恶意apk安装包的地址为">46. 检材四-phone，受害者下载恶意APK安装包的地址为</h3>
+<p>查看伊对中聊天记录可知：</p>
+<p><a href="https://cowtransfer.com/s/a6b28b4818904c">https://cowtransfer.com/s/a6b28b4818904c</a></p>
+<h3 id="检材四-phone，受害者的微信内部id号为">47. 检材四-phone，受害者的微信内部ID号为</h3>
+<p>查看微信聊天记录即得：wxid_op8i06j0aano22</p>
+<h3 id="检材四-phone，嫌疑人用于敲诈本案受害者的qq账号为：">48. 检材四-phone，嫌疑人用于敲诈本案受害者的QQ账号为：</h3>
+<p>查看QQ聊天记录：1649840939</p>
+<h3 id="嫌疑人用于管理敲诈对象的容器文件的sha256值为：">49. 嫌疑人用于管理敲诈对象的容器文件的SHA256值为：</h3>
+<p>解压“我的赚钱工具”，发现需要密码，没有任何提示：使用检材4开机密码12306（<s>脑洞？</s>）解压出虚拟机文件，	直接打开 vmx 文件开启虚拟机，需要开机密码，使用火眼仿真一下，得出密码：money，进入桌面，发现什么都没有：</p>
+<p><img src="https://s2.loli.net/2022/07/12/Ze4ihUjuqScNdLV.png" alt=""></p>
+<p>回头看解压出的文件夹，发现有两个 vmdk ，查看一下快照：</p>
+<p><img src="https://s2.loli.net/2022/07/12/GMSdT7j1QIWmwFX.png" alt=""></p>
+<p>恢复快照，桌面有东西了。</p>
+<p>结合取证中的访问痕迹，发现：</p>
+<p><img src="https://s2.loli.net/2022/07/12/GTl27mKjD94tex8.png" alt=""></p>
+<p>计算哈希：</p>
+<p><img src="https://s2.loli.net/2022/07/12/VO8LJP51chfMvH7.png" alt=""></p>
+<h3 id="请综合分析嫌疑人检材，另外一受害者“郭先生”的手机号码为：">50.请综合分析嫌疑人检材，另外一受害者“郭先生”的手机号码为：</h3>
+<p>在虚拟机中挂载<em>小白鼠.txt</em>：</p>
+<p><img src="https://s2.loli.net/2022/07/12/rnz5ZQjLU2cg49F.png" alt=""></p>
+<p>需要密码，查看取证软件：</p>
+<p><img src="https://s2.loli.net/2022/07/12/gsIeKdHBOltXwUG.png" alt=""></p>
+<p>用户痕迹中的 key 应是密钥文件，添加，挂载成功，打开该卷：</p>
+<p><img src="https://s2.loli.net/2022/07/12/ZMGDNh8UTIn67ty.png" alt=""></p>
+<p>可得手机号码</p>
+<h3 id="通过嫌疑人检材，其中记录了几位受害者的信息：">51. 通过嫌疑人检材，其中记录了几位受害者的信息：</h3>
+<p><img src="https://s2.loli.net/2022/07/12/rOgm8ZpcnY6kG9e.png" alt=""></p>
+<p>5</p>
+<h3 id="请使用第11题的密码解压“金先生转账.zip”文件，并对压缩包中的文件计算sha256值：">52. 请使用第11题的密码解压“金先生转账.zip”文件，并对压缩包中的文件计算SHA256值：</h3>
+<p>解压，计算哈希值，可得：cd62a83690a53e5b441838bc55ab83be92ff5ed26ec646d43911f119c15df510</p>
+<h3 id="请综合分析，受害者一共被嫌疑人敲诈了多少钱：">53. 请综合分析，受害者一共被嫌疑人敲诈了多少钱：</h3>
+<p>微信两千：</p>
+<p><img src="https://img2022.cnblogs.com/blog/2817142/202206/2817142-20220605223609070-2045151680.png" alt=""></p>
+<p>伊对一千：</p>
+<p><img src="https://img2022.cnblogs.com/blog/2817142/202206/2817142-20220605223608834-556812107.png" alt=""></p>
+<p>QQ六百：</p>
+<p><img src="https://img2022.cnblogs.com/blog/2817142/202206/2817142-20220605223608819-312786404.png" alt=""></p>
+<p>压缩包两千：<br>
+<img src="https://img2022.cnblogs.com/blog/2817142/202206/2817142-20220605223608857-1366895648.png" alt=""></p>
+<p>数据库中一千：</p>
+<p><img src="https://s2.loli.net/2022/07/12/ygAbOZVcpHLPehl.png" alt=""></p>
+<p>（导出查看为一千）</p>
+<p>总共6600元</p>
 
