@@ -6,9 +6,10 @@
 
     uname -a
     
-### 
+### 4. 硬盘分区数：
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTE1Nzg5MywxNTUwNjQwNDc5LC0xOD
+eyJoaXN0b3J5IjpbMTA1NzkwMTUyMywxNTUwNjQwNDc5LC0xOD
 UwNTYzNTcsLTIwODg3NDY2MTJdfQ==
 -->
