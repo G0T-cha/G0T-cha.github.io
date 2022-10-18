@@ -18,16 +18,20 @@
 
 2099200
 
-### 6、该分区逻辑卷分区内root卷的文件系统是什么：.
+### 6、该分区逻辑卷分区内root逻辑卷的文件系统是什么：
 
     df -T
 
 ![](https://s2.loli.net/2022/10/18/tOAEqLbCuP1WUFY.png)
 
-*emphasized text*
+*Linux df（英文全拼：disk free） 命令用于显示目前在 Linux 系统上的文件系统磁盘使用情况统计。-T    --print-type 显示文件系统的形式*
+
+### 7、该分区逻辑卷分区内root逻辑卷的物理大小：
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxNTE5ODkyLDExMDAzMzk2NjAsMjEwOT
-IxNTU0MiwxMDU3OTAxNTIzLDE1NTA2NDA0NzksLTE4NTA1NjM1
-NywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTc4NDYzNDM5OSwxMTAwMzM5NjYwLDIxMD
+kyMTU1NDIsMTA1NzkwMTUyMywxNTUwNjQwNDc5LC0xODUwNTYz
+NTcsLTIwODg3NDY2MTJdfQ==
 -->
