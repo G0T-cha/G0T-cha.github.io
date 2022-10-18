@@ -14,9 +14,14 @@
 
 ### 5、含有LVM逻辑卷的分区开始的逻辑区块地址：
 
+![](https://s2.loli.net/2022/10/18/U5JF6Obwd1DXBqN.png)
 
+2099200
+
+### 6、该分区逻辑卷分区内root卷的文件系统是什么
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTIxNTU0MiwxMDU3OTAxNTIzLDE1NT
-A2NDA0NzksLTE4NTA1NjM1NywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTEwMDMzOTY2MCwyMTA5MjE1NTQyLDEwNT
+c5MDE1MjMsMTU1MDY0MDQ3OSwtMTg1MDU2MzU3LC0yMDg4NzQ2
+NjEyXX0=
 -->
