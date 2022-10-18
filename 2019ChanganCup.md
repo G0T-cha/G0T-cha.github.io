@@ -18,10 +18,16 @@
 
 2099200
 
-### 6、该分区逻辑卷分区内root卷的文件系统是什么
+### 6、该分区逻辑卷分区内root卷的文件系统是什么：.
+
+    df -T
+
+![](https://s2.loli.net/2022/10/18/tOAEqLbCuP1WUFY.png)
+
+*emphasized text*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDMzOTY2MCwyMTA5MjE1NTQyLDEwNT
-c5MDE1MjMsMTU1MDY0MDQ3OSwtMTg1MDU2MzU3LC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbODIxNTE5ODkyLDExMDAzMzk2NjAsMjEwOT
+IxNTU0MiwxMDU3OTAxNTIzLDE1NTA2NDA0NzksLTE4NTA1NjM1
+NywtMjA4ODc0NjYxMl19
 -->
