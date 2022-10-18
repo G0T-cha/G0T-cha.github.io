@@ -36,10 +36,14 @@
 
 ### 9、在本地 docker 镜像数：
 
+    docker image ls
 
+11
+
+### 10、
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTkyNjMxMTksODQ5NzI1MTg3LDkzOT
+eyJoaXN0b3J5IjpbLTE1Njk5MDUzNDQsODQ5NzI1MTg3LDkzOT
 UyNDk4NiwxNjkwNzQwMDY2LDc4NzczNTczNiwxNzg0NjM0Mzk5
 LDExMDAzMzk2NjAsMjEwOTIxNTU0MiwxMDU3OTAxNTIzLDE1NT
 A2NDA0NzksLTE4NTA1NjM1NywtMjA4ODc0NjYxMl19
