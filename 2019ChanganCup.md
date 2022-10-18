@@ -28,10 +28,12 @@
 
 ### 7、该分区逻辑卷分区内root逻辑卷的物理大小：
 
+![image.png](https://s2.loli.net/2022/10/18/bIQ9ftljHoRLSKG.png)
 
+### 8、
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDYzNDM5OSwxMTAwMzM5NjYwLDIxMD
-kyMTU1NDIsMTA1NzkwMTUyMywxNTUwNjQwNDc5LC0xODUwNTYz
-NTcsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNzg3NzM1NzM2LDE3ODQ2MzQzOTksMTEwMD
+MzOTY2MCwyMTA5MjE1NTQyLDEwNTc5MDE1MjMsMTU1MDY0MDQ3
+OSwtMTg1MDU2MzU3LC0yMDg4NzQ2NjEyXX0=
 -->
