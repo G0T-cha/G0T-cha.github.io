@@ -104,10 +104,13 @@ nginx
 
 bridge
 
-### 25、
+### 25、当我们想将网站重构好时，访问网站时，web应用在其中承担什么样的工作：
 
+转发（？）
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjI2ODg0MiwxNjA4NzA5MDUzLDE4Nj
+eyJoaXN0b3J5IjpbMjA5MTYyMTczMSwxNjA4NzA5MDUzLDE4Nj
 M1MDk4NDIsLTIwODE3OTE5MTIsLTE2NTQ1Njk5NzEsLTkwNzUy
 MDc5LC00NDc3NTkyNDgsLTE3NjkyMzA5MTEsLTIwNjE2NDgxMD
 UsLTEyNzMyMTA2OTAsMjAxNTA3OTQxNSwtMTU2OTkwNTM0NCw4
