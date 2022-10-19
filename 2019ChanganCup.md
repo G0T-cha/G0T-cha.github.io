@@ -100,10 +100,12 @@ nginx
 
 `docker inspect`     获取容器/镜像的元数据
 
-    docker network
+`docker network` 显示所有docker局域网络
+
+### 25、
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjQwNDMzNywxODYzNTA5ODQyLC0yMD
+eyJoaXN0b3J5IjpbMTYwODcwOTA1MywxODYzNTA5ODQyLC0yMD
 gxNzkxOTEyLC0xNjU0NTY5OTcxLC05MDc1MjA3OSwtNDQ3NzU5
 MjQ4LC0xNzY5MjMwOTExLC0yMDYxNjQ4MTA1LC0xMjczMjEwNj
 kwLDIwMTUwNzk0MTUsLTE1Njk5MDUzNDQsODQ5NzI1MTg3LDkz
