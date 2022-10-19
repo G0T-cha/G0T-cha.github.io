@@ -112,9 +112,11 @@ bridge
 
 ![](https://s2.loli.net/2022/10/19/wd3LH8Et9ale5TN.png)
 
-嫌疑人尝试爆破密码：
+嫌疑人尝试爆破密码，IP为 192.168.184.133
+
+### 27、网站目录中网站的主配置文件是哪一个：
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk0NjMzNSwyMDAyOTY4Nzg3LDE2MD
+eyJoaXN0b3J5IjpbLTExOTYyNDYyNCwyMDAyOTY4Nzg3LDE2MD
 g3MDkwNTMsMTg2MzUwOTg0MiwtMjA4MTc5MTkxMiwtMTY1NDU2
 OTk3MSwtOTA3NTIwNzksLTQ0Nzc1OTI0OCwtMTc2OTIzMDkxMS
 wtMjA2MTY0ODEwNSwtMTI3MzIxMDY5MCwyMDE1MDc5NDE1LC0x
