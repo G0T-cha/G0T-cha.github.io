@@ -116,7 +116,7 @@ bridge
 
 ### 27、网站目录中网站的主配置文件是哪一个：
 
-查看 history
+在容器中查看 history
 
 ### 28、网站目录中网站的主配置文件是哪一个：
 
@@ -130,11 +130,11 @@ bridge
 
 ### 34、在案发时，黑客对该服务器某个文件/目录进行了加密，请问是哪个文件/目录：
 
-在 root 
+在 root 下查看 history
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTg4NDY3LC0xMTgzMTExOTEzLDc5MT
+eyJoaXN0b3J5IjpbMTg3ODExNTgyLC0xMTgzMTExOTEzLDc5MT
 MyODE3MywtMTk4MDA2MTc5NiwtMTE5NjI0NjI0LDIwMDI5Njg3
 ODcsMTYwODcwOTA1MywxODYzNTA5ODQyLC0yMDgxNzkxOTEyLC
 0xNjU0NTY5OTcxLC05MDc1MjA3OSwtNDQ3NzU5MjQ4LC0xNzY5
