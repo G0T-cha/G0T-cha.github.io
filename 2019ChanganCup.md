@@ -138,11 +138,15 @@ bridge
 
 ### 35、该数据库服务器使用数据库的安装路径在哪：
 
-文件全显，查找 mongo
+文件全显，查找 mongo ，查看路径
+
+### 36、数据库的配置文件的路径：
+
+mongo.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjM4ODkwOCw3ODg2NDI1MTUsMjEyNz
+eyJoaXN0b3J5IjpbMTM0NTYzNDQzNiw3ODg2NDI1MTUsMjEyNz
 Q4NTM1MywtMTE4MzExMTkxMyw3OTEzMjgxNzMsLTE5ODAwNjE3
 OTYsLTExOTYyNDYyNCwyMDAyOTY4Nzg3LDE2MDg3MDkwNTMsMT
 g2MzUwOTg0MiwtMjA4MTc5MTkxMiwtMTY1NDU2OTk3MSwtOTA3
