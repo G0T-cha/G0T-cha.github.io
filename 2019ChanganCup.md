@@ -187,30 +187,30 @@ users
 
 ## 检材三
 
-### 44、该服务器所使用的VPN软件，采用了什么协议：
+### 45、该服务器所使用的VPN软件，采用了什么协议：
 
 ![输入图片说明](https://s2.loli.net/2022/10/26/AkiFvKobVxmJP92.png)
 
 PPTP
 
-### 45、该服务器的时区为：
+### 46、该服务器的时区为：
 
 ```
 timedatectl
 ``` 
 
-### 46、该服务器中对VPN软件配置的option的文件位置在哪里：
+### 47、该服务器中对VPN软件配置的option的文件位置在哪里：
 
 history 中可以看出
 
-### 47、
+### 48、VPN软件开启了写入客户端的连接与断开，请问写入的文件：
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MjY3MDUzLC0yNDkzMTQwNDAsLTg4ND
-QyNDYxMiw2OTA3MjAyMTgsLTkxOTExMDksLTIxMDI5Mzk0Mjgs
-LTEyOTQ0NDE5OTksLTMyMTM1ODU1MywxNTE5NDY5MjgzLDc4OD
-Y0MjUxNSwyMTI3NDg1MzUzLC0xMTgzMTExOTEzLDc5MTMyODE3
-MywtMTk4MDA2MTc5NiwtMTE5NjI0NjI0LDIwMDI5Njg3ODcsMT
-YwODcwOTA1MywxODYzNTA5ODQyLC0yMDgxNzkxOTEyLC0xNjU0
-NTY5OTcxXX0=
+eyJoaXN0b3J5IjpbMTgyNjM5NzIxMyw0OTgyNjcwNTMsLTI0OT
+MxNDA0MCwtODg0NDI0NjEyLDY5MDcyMDIxOCwtOTE5MTEwOSwt
+MjEwMjkzOTQyOCwtMTI5NDQ0MTk5OSwtMzIxMzU4NTUzLDE1MT
+k0NjkyODMsNzg4NjQyNTE1LDIxMjc0ODUzNTMsLTExODMxMTE5
+MTMsNzkxMzI4MTczLC0xOTgwMDYxNzk2LC0xMTk2MjQ2MjQsMj
+AwMjk2ODc4NywxNjA4NzA5MDUzLDE4NjM1MDk4NDIsLTIwODE3
+OTE5MTJdfQ==
 -->
