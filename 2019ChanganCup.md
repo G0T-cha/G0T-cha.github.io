@@ -150,11 +150,20 @@ mongod.log
 
 ### 38、该数据库的网站用户表名是什么：
 
-查看上述日志，搜索 password
+查看上述日志，搜索 password：
 
 ![输入图片说明](https://s2.loli.net/2022/10/26/ryFd8Qqu5OBCRYt.png)
+
+users
+
+### 39、该数据库中网站用户表里的密码字段加密方式：
+
+未加密
+
+前端中没有进行加解密：
+(https://forensics.xidian.edu.cn/wiki/images/image-20201112114926679.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjYzNTgyMCwxNTE5NDY5MjgzLDc4OD
+eyJoaXN0b3J5IjpbMTEwOTQxMjY2MiwxNTE5NDY5MjgzLDc4OD
 Y0MjUxNSwyMTI3NDg1MzUzLC0xMTgzMTExOTEzLDc5MTMyODE3
 MywtMTk4MDA2MTc5NiwtMTE5NjI0NjI0LDIwMDI5Njg3ODcsMT
 YwODcwOTA1MywxODYzNTA5ODQyLC0yMDgxNzkxOTEyLC0xNjU0
