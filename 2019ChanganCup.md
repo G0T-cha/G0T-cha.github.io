@@ -219,14 +219,14 @@ wtmp
 
 ![输入图片说明](https://s2.loli.net/2022/10/26/Go5ibhRx7lgIpuJ.png)
 
-### 51、
+### 51、VPN软件记录了客户端使用的名称和密码，记录的文件是：
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzU4ODIxNywtMTQ4MDYxMjMxMiwtMT
+eyJoaXN0b3J5IjpbLTY4NjM3ODM4NSwtMTQ4MDYxMjMxMiwtMT
 MxNTc0MzM0NiwxODI2Mzk3MjEzLDQ5ODI2NzA1MywtMjQ5MzE0
 MDQwLC04ODQ0MjQ2MTIsNjkwNzIwMjE4LC05MTkxMTA5LC0yMT
 AyOTM5NDI4LC0xMjk0NDQxOTk5LC0zMjEzNTg1NTMsMTUxOTQ2
