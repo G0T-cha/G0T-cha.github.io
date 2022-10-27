@@ -282,15 +282,17 @@ bitlocker.rar（时间线）
 
 ### 66、系统于2019-07-13 17:53:45时运行的程序
 
-### 67，68、文件test2-master.zip是什么时间下载到本机的：
+### 67 68、文件test2-master.zip是什么时间下载到本机的：
 
 Chrome-下载记录
 
-### 69
+### 69、嫌疑人成功连接至192.168.184.128服务器的时间为：
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODk3ODYxMjUsLTI3NjI5NjY2NywtOT
+eyJoaXN0b3J5IjpbLTEwNzA1ODkwNTcsLTI3NjI5NjY2NywtOT
 YyNTMzMjI2LC0zNjcyMDM4MjQsLTEyOTU3NDcxMDEsLTE4NTcy
 NDkwMCwyMTI0MzI2ODgwLDY3NzAwNjc4OCwxNjIyMDIzNTE2LD
 E0OTQ4ODAxMDksMTU5MjE4Mzg5NywtMTI0NTY5OTY3OSw4MDU1
