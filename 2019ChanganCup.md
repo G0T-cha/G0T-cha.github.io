@@ -295,11 +295,11 @@ Xshell — 跳转到 192.168.184.128 记录
 ![输入图片说明](https://s2.loli.net/2022/10/27/szIPVvXt53iSchu.png)
 
 
-### 70、嫌疑人通过远程连接到128服务器，下载了什么文件到本机
+### 70、嫌疑人通过远程连接到128服务器，下载了什么文件到本机：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTE2NTY4MSwxMzYwODM3MTA3LC0yNz
+eyJoaXN0b3J5IjpbMTAxODEyNDAzNSwxMzYwODM3MTA3LC0yNz
 YyOTY2NjcsLTk2MjUzMzIyNiwtMzY3MjAzODI0LC0xMjk1NzQ3
 MTAxLC0xODU3MjQ5MDAsMjEyNDMyNjg4MCw2NzcwMDY3ODgsMT
 YyMjAyMzUxNiwxNDk0ODgwMTA5LDE1OTIxODM4OTcsLTEyNDU2
