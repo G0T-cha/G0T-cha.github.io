@@ -250,11 +250,14 @@ cat pptpd.log | grep C5 172.16.80.188
 
 ![输入图片说明](https://s2.loli.net/2022/10/27/tZiq7TsIvCEdjwo.png)
 
+### 57、
+
+![输入图片说明](https://s2.loli.net/2022/10/27/KCRBUYjXZDmWhi3.png)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjIyNDE5NSwxNDk0ODgwMTA5LDE1OT
+eyJoaXN0b3J5IjpbMTYyMjAyMzUxNiwxNDk0ODgwMTA5LDE1OT
 IxODM4OTcsLTEyNDU2OTk2NzksODA1NTc1NTk3LC0xNTg3MDM1
 MzQ4LDEwMDU3MTg0NzcsNTQ0NjM0NTQ2LC02ODYzNzgzODUsLT
 E0ODA2MTIzMTIsLTEzMTU3NDMzNDYsMTgyNjM5NzIxMyw0OTgy
