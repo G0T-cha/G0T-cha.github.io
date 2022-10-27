@@ -290,11 +290,11 @@ Chrome-下载记录
 
 Xshell — 跳转到 192.168.184.128 记录
 
-[图片上传失败...(image-TD5WqyGLeqDDvHnV)]
+[图片上传失败...(image-FMdRAbUzHKu89uDN)]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODU1ODE0OSwtMjc2Mjk2NjY3LC05Nj
+eyJoaXN0b3J5IjpbLTE0NDM0NDIzMSwtMjc2Mjk2NjY3LC05Nj
 I1MzMyMjYsLTM2NzIwMzgyNCwtMTI5NTc0NzEwMSwtMTg1NzI0
 OTAwLDIxMjQzMjY4ODAsNjc3MDA2Nzg4LDE2MjIwMjM1MTYsMT
 Q5NDg4MDEwOSwxNTkyMTgzODk3LC0xMjQ1Njk5Njc5LDgwNTU3
