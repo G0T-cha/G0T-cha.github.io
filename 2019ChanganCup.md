@@ -343,9 +343,9 @@ edge 下载记录
 
 ### 81、嫌疑人是什么时间开始对受害者实施诈骗的：
 
-[图片上传中...(image-I29nWwQ9cbk4Lnv8)]
+![输入图片说明](https://s2.loli.net/2022/10/28/8VxzuQBJchk9RIG.png)
 
-### 82、
+### 82、请提取受害者的银行卡信息，银行卡账号为
 
 
 
@@ -354,7 +354,7 @@ edge 下载记录
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjQwMzYzMiwyNDI5ODUyMjcsMTMyOT
+eyJoaXN0b3J5IjpbMTE2MzI0OTM4NSwyNDI5ODUyMjcsMTMyOT
 AxODMyNCwzMDM5NzY3MzEsMTQ4OTE2MTEwNCwyMDQ1OTE3NzA2
 LC0xNDk2OTA0NTA2LC0xNjQ0NTc2OTE2LDEzNjA4MzcxMDcsLT
 I3NjI5NjY2NywtOTYyNTMzMjI2LC0zNjcyMDM4MjQsLTEyOTU3
