@@ -56,13 +56,13 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ![输入图片说明](https://s2.loli.net/2023/03/14/AVKEBWz8OIaiQ2y.png)
 
-4. 打开浏览器，输入 http://127.0.0.1:8080/WebGoat 注册登录即可
+4. 打开浏览器，输入 http://127.0.0.1:8080/WebGoat ，注册登录即可
 
 ![输入图片说明](https://s2.loli.net/2023/03/14/sRomKprDGWP26Vq.png)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Njc2MzcyOSwtMjA0NDM1NTY3NSwtMT
-Q3NTE3NjY0OV19
+eyJoaXN0b3J5IjpbODQyMzAxMjI5LC0yMDQ0MzU1Njc1LC0xND
+c1MTc2NjQ5XX0=
 -->
