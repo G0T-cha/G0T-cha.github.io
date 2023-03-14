@@ -23,11 +23,18 @@
 
 ![输入图片说明](https://s2.loli.net/2023/03/14/IkURKrlcaZgneuQ.png)
 
-但感觉界面有点问题 (?)：
+但感觉界面有点问题 (?)，没有某些应该被提问的问题：
 
-[图片上传中...(image-v5aeqkOloz5vHmOB)]
+![输入图片说明](https://s2.loli.net/2023/03/14/zDLtTc9N7Rg2BbS.png)
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
+
+### Linux下
+
+搭一个Kali下的
+
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTk3OTQ0LC0xNDc1MTc2NjQ5XX0=
+eyJoaXN0b3J5IjpbLTIwNDQzNTU2NzUsLTE0NzUxNzY2NDldfQ
+==
 -->
