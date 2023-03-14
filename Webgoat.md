@@ -19,9 +19,15 @@
 
 ![输入图片说明](https://s2.loli.net/2023/03/14/DFvZ7q5LoWnNw9d.png)
 
-再打开
+再打开 localhost:8080/WebGoat/attack，即可运行 Webgoat：
+
+![输入图片说明](https://s2.loli.net/2023/03/14/IkURKrlcaZgneuQ.png)
+
+但感觉界面有点问题 (?)：
+
+[图片上传中...(image-v5aeqkOloz5vHmOB)]
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODc2MjgsLTE0NzUxNzY2NDldfQ==
+eyJoaXN0b3J5IjpbLTkwMTk3OTQ0LC0xNDc1MTc2NjQ5XX0=
 -->
