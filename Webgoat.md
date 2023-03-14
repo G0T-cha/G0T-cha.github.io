@@ -15,9 +15,12 @@
 
 3.下载安装Webgoat
 
-在 Github 中下载
+在 Github 中下载 Webgoat 5.4，打开 .bat 文件即可：
+
+![输入图片说明](https://s2.loli.net/2023/03/14/DFvZ7q5LoWnNw9d.png)
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTE3MTI1MiwtMTQ3NTE3NjY0OV19
+eyJoaXN0b3J5IjpbLTE3MDI4MTkzMjAsLTE0NzUxNzY2NDldfQ
+==
 -->
