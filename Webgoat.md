@@ -43,7 +43,12 @@ sudo apt-get update
 *（证书出现问题，更新一下证书即可）*
 
 2. 获取Webgoat
+
+```
+sudo docker pull webgoat/webgoat-8.0
+sudo docker pull webgoat/goatandwolf
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMDcxMjE2LC0yMDQ0MzU1Njc1LC0xND
-c1MTc2NjQ5XX0=
+eyJoaXN0b3J5IjpbMTA1ODg3MTk4NCwtMjA0NDM1NTY3NSwtMT
+Q3NTE3NjY0OV19
 -->
