@@ -66,7 +66,7 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ### General
 
-shiyong
+使用ZAP
 
 #### 1、HTTP Basics
 
@@ -74,6 +74,6 @@ shiyong
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTEwMzQxNTYsOTU5OTI2NDk2LC0zMT
+eyJoaXN0b3J5IjpbLTE1NDU2MjU3NjksOTU5OTI2NDk2LC0zMT
 Y3MDQ0NDgsLTIwNDQzNTU2NzUsLTE0NzUxNzY2NDldfQ==
 -->
