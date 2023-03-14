@@ -1,7 +1,7 @@
 
 # Webgoat
 
-## 环境搭建
+## 一、环境搭建
 
 ### Windows下
 
@@ -62,11 +62,12 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ~~（看着舒服多了）~~
 
+## 二、
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjcwNDQ0OCwtMjA0NDM1NTY3NSwtMT
-Q3NTE3NjY0OV19
+eyJoaXN0b3J5IjpbOTU5OTI2NDk2LC0zMTY3MDQ0NDgsLTIwND
+QzNTU2NzUsLTE0NzUxNzY2NDldfQ==
 -->
