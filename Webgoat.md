@@ -68,11 +68,15 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 使用 ZAP 进行 http 抓包，首先要配置 ZAP 端口（否则默认端口8080会和Webgoat冲突）
 
+![输入图片说明](https://s2.loli.net/2023/03/14/pv9Kl3L2o4RfjM6.png)
+
+然后可以通过右上角浏览器图标直接进入经过ZAP代理的浏览器，z
+
 #### 1、HTTP Basics
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTA4NDY4Nyw2NTUzNDA0MjYsOTU5OT
-I2NDk2LC0zMTY3MDQ0NDgsLTIwNDQzNTU2NzUsLTE0NzUxNzY2
-NDldfQ==
+eyJoaXN0b3J5IjpbLTE4NjIwNjcwMzQsLTY2MTA4NDY4Nyw2NT
+UzNDA0MjYsOTU5OTI2NDk2LC0zMTY3MDQ0NDgsLTIwNDQzNTU2
+NzUsLTE0NzUxNzY2NDldfQ==
 -->
