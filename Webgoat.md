@@ -80,11 +80,11 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 可以看出使用POST方法传递参数（还可以通过观察 url 得知）
 
-问题中还有一个magic number，不知道
-
 ![输入图片说明](https://s2.loli.net/2023/03/14/93jJm1sHQLyW25v.png)
+
+问题中还有一个magic number，不知道，先随便输入一个看看ZAP；
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4NDk1OTkwLC0xNTY4MDkwNTc3LC02Nj
-EwODQ2ODcsNjU1MzQwNDI2LDk1OTkyNjQ5NiwtMzE2NzA0NDQ4
-LC0yMDQ0MzU1Njc1LC0xNDc1MTc2NjQ5XX0=
+eyJoaXN0b3J5IjpbLTExNzA1MTIzNDgsLTE1NjgwOTA1NzcsLT
+Y2MTA4NDY4Nyw2NTUzNDA0MjYsOTU5OTI2NDk2LC0zMTY3MDQ0
+NDgsLTIwNDQzNTU2NzUsLTE0NzUxNzY2NDldfQ==
 -->
