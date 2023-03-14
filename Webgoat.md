@@ -70,13 +70,13 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ![输入图片说明](https://s2.loli.net/2023/03/14/pv9Kl3L2o4RfjM6.png)
 
-然后可以通过右上角浏览器图标直接进入经过ZAP代理的浏览器，z
+然后可以通过右上角浏览器图标直接进入经过ZAP代理的浏览器，再输入Webgoat的url
 
 #### 1、HTTP Basics
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjIwNjcwMzQsLTY2MTA4NDY4Nyw2NT
+eyJoaXN0b3J5IjpbLTE1NjgwOTA1NzcsLTY2MTA4NDY4Nyw2NT
 UzNDA0MjYsOTU5OTI2NDk2LC0zMTY3MDQ0NDgsLTIwNDQzNTU2
 NzUsLTE0NzUxNzY2NDldfQ==
 -->
