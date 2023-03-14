@@ -40,8 +40,10 @@ sudo apt-get install docker.io
 sudo apt-get install docker-ce
 sudo apt-get update
 ```
-（出现）
+*（证书出现问题，更新一下证书即可）*
+
+2. 获取Webgoat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjQ1OTA2MywtMjA0NDM1NTY3NSwtMT
-Q3NTE3NjY0OV19
+eyJoaXN0b3J5IjpbOTgwMDcxMjE2LC0yMDQ0MzU1Njc1LC0xND
+c1MTc2NjQ5XX0=
 -->
