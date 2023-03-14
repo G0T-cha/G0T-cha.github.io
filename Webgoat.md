@@ -66,7 +66,7 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ### General
 
-使用ZAP
+使用 ZAP 进行 http 抓包，首先要配置
 
 #### 1、HTTP Basics
 
@@ -74,6 +74,6 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU2MjU3NjksOTU5OTI2NDk2LC0zMT
-Y3MDQ0NDgsLTIwNDQzNTU2NzUsLTE0NzUxNzY2NDldfQ==
+eyJoaXN0b3J5IjpbNjU1MzQwNDI2LDk1OTkyNjQ5NiwtMzE2Nz
+A0NDQ4LC0yMDQ0MzU1Njc1LC0xNDc1MTc2NjQ5XX0=
 -->
