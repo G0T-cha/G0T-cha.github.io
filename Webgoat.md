@@ -37,9 +37,11 @@
 
 ```
 sudo apt-get install docker.io
-
+sudo apt-get install docker-ce
+sudo apt-get update
 ```
+（出现）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1MTAwNzMxLC0yMDQ0MzU1Njc1LC0xND
-c1MTc2NjQ5XX0=
+eyJoaXN0b3J5IjpbMjEyNjQ1OTA2MywtMjA0NDM1NTY3NSwtMT
+Q3NTE3NjY0OV19
 -->
