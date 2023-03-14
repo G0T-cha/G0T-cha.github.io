@@ -50,9 +50,15 @@ sudo docker pull webgoat/webgoat-8.0
 
 3. 连接Webgoat
 
+```
+sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
+```
+
+![输入图片说明](https://s2.loli.net/2023/03/14/AVKEBWz8OIaiQ2y.png)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM4NDI1NSwtMjA0NDM1NTY3NSwtMT
+eyJoaXN0b3J5IjpbMTM4OTgxNjMxOSwtMjA0NDM1NTY3NSwtMT
 Q3NTE3NjY0OV19
 -->
