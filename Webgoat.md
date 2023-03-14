@@ -90,9 +90,11 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ![输入图片说明](https://s2.loli.net/2023/03/14/SnFp65jwLV7MmUd.png)
 
-#### 2、HTTP ### Proxies
+#### 2、HTTP Proxies
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzY1OTY4OCwtMTU2ODA5MDU3NywtNj
+eyJoaXN0b3J5IjpbMTk3NzAxMTQ0NywtMTU2ODA5MDU3NywtNj
 YxMDg0Njg3LDY1NTM0MDQyNiw5NTk5MjY0OTYsLTMxNjcwNDQ0
 OCwtMjA0NDM1NTY3NSwtMTQ3NTE3NjY0OV19
 -->
