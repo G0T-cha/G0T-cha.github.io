@@ -33,8 +33,13 @@
 
 搭一个Kali下的
 
-1. 
+1. 先在 Kali 下进行 Docker 配置
+
+```
+sudo apt-get install docker.io
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQzNTU2NzUsLTE0NzUxNzY2NDldfQ
-==
+eyJoaXN0b3J5IjpbMjM1MTAwNzMxLC0yMDQ0MzU1Njc1LC0xND
+c1MTc2NjQ5XX0=
 -->
