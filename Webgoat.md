@@ -82,9 +82,17 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ![输入图片说明](https://s2.loli.net/2023/03/14/93jJm1sHQLyW25v.png)
 
-问题中还有一个magic number，不知道，先随便输入一个看看ZAP；
+问题中还有一个magic number，不知道，先随便输入一个看看ZAP：
+
+![输入图片说明](https://s2.loli.net/2023/03/14/LEjATyXwvFVJauD.png)
+
+数据栏中 magic number 值为55
+
+![输入图片说明](https://s2.loli.net/2023/03/14/SnFp65jwLV7MmUd.png)
+
+#### 2、HTTP ### Proxies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzA1MTIzNDgsLTE1NjgwOTA1NzcsLT
-Y2MTA4NDY4Nyw2NTUzNDA0MjYsOTU5OTI2NDk2LC0zMTY3MDQ0
-NDgsLTIwNDQzNTU2NzUsLTE0NzUxNzY2NDldfQ==
+eyJoaXN0b3J5IjpbLTg0MzY1OTY4OCwtMTU2ODA5MDU3NywtNj
+YxMDg0Njg3LDY1NTM0MDQyNiw5NTk5MjY0OTYsLTMxNjcwNDQ0
+OCwtMjA0NDM1NTY3NSwtMTQ3NTE3NjY0OV19
 -->
