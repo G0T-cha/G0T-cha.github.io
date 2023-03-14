@@ -74,9 +74,13 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 #### 1、HTTP Basics
 
+实现一个接收字符串并回传字符串的 reverse 的功能，输入一个试试，并查看ZAP抓到的包：
 
+![输入图片说明](https://s2.loli.net/2023/03/14/GWagE2j6dX1mfBz.png)
+
+可以看出使用POST方法传递参数（还可以通过观察 url 得知）。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjgwOTA1NzcsLTY2MTA4NDY4Nyw2NT
-UzNDA0MjYsOTU5OTI2NDk2LC0zMTY3MDQ0NDgsLTIwNDQzNTU2
-NzUsLTE0NzUxNzY2NDldfQ==
+eyJoaXN0b3J5IjpbLTE0NjUzMjY1MjAsLTE1NjgwOTA1NzcsLT
+Y2MTA4NDY4Nyw2NTUzNDA0MjYsOTU5OTI2NDk2LC0zMTY3MDQ0
+NDgsLTIwNDQzNTU2NzUsLTE0NzUxNzY2NDldfQ==
 -->
