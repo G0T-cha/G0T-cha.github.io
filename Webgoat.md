@@ -46,10 +46,13 @@ sudo apt-get update
 
 ```
 sudo docker pull webgoat/webgoat-8.0
-sudo docker pull webgoat/goatandwolf
 ```
 
+3. 连接Webgoat
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjMxMzE4MiwtMjA0NDM1NTY3NSwtMT
+eyJoaXN0b3J5IjpbLTEzMzM4NDI1NSwtMjA0NDM1NTY3NSwtMT
 Q3NTE3NjY0OV19
 -->
