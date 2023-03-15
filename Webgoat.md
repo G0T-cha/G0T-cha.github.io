@@ -102,9 +102,13 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 然后点击绿色按钮，开始监听/拦截：
 
+![输入图片说明](https://s2.loli.net/2023/03/15/gvru3zhDOK67QPe.png)
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjI0MDM5MiwxOTc3MDExNDQ3LC0xNT
+eyJoaXN0b3J5IjpbMTA4OTM3MTIzNywxOTc3MDExNDQ3LC0xNT
 Y4MDkwNTc3LC02NjEwODQ2ODcsNjU1MzQwNDI2LDk1OTkyNjQ5
 NiwtMzE2NzA0NDQ4LC0yMDQ0MzU1Njc1LC0xNDc1MTc2NjQ5XX
 0=
