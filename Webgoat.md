@@ -131,10 +131,14 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 *出现的两个问题*：控制台不允许粘贴，输入 allow pasting 即可；另外使用上面的ZAP代理的浏览器发送函数没有回送，切换浏览器收到
 
 2. 点击 go 产生请求，查看 F12 的网络界面，搜索 networkNum 即可找到对应值
+
+![输入图片说明](https://s2.loli.net/2023/03/15/vFYAS283G9aCznV.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTE2MDI0MywtNjUwODYwNDY3LC03Nj
-kxMzU0MTEsMTk3MzQ5NTQ1OCwxMDg5MzcxMjM3LDE5NzcwMTE0
-NDcsLTE1NjgwOTA1NzcsLTY2MTA4NDY4Nyw2NTUzNDA0MjYsOT
-U5OTI2NDk2LC0zMTY3MDQ0NDgsLTIwNDQzNTU2NzUsLTE0NzUx
-NzY2NDldfQ==
+eyJoaXN0b3J5IjpbLTE5MDgzNDcwNDAsLTY1MDg2MDQ2NywtNz
+Y5MTM1NDExLDE5NzM0OTU0NTgsMTA4OTM3MTIzNywxOTc3MDEx
+NDQ3LC0xNTY4MDkwNTc3LC02NjEwODQ2ODcsNjU1MzQwNDI2LD
+k1OTkyNjQ5NiwtMzE2NzA0NDQ4LC0yMDQ0MzU1Njc1LC0xNDc1
+MTc2NjQ5XX0=
 -->
