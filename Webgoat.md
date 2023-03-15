@@ -110,10 +110,11 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 可在此页面直接进行修改，修改后点击“提交”，即完成任务。
 
+![输入图片说明](https://s2.loli.net/2023/03/15/HtkxviSVlARcG6g.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0MzUxMzI4LDEwODkzNzEyMzcsMTk3Nz
-AxMTQ0NywtMTU2ODA5MDU3NywtNjYxMDg0Njg3LDY1NTM0MDQy
-Niw5NTk5MjY0OTYsLTMxNjcwNDQ0OCwtMjA0NDM1NTY3NSwtMT
-Q3NTE3NjY0OV19
+eyJoaXN0b3J5IjpbMTk3MzQ5NTQ1OCwxMDg5MzcxMjM3LDE5Nz
+cwMTE0NDcsLTE1NjgwOTA1NzcsLTY2MTA4NDY4Nyw2NTUzNDA0
+MjYsOTU5OTI2NDk2LC0zMTY3MDQ0NDgsLTIwNDQzNTU2NzUsLT
+E0NzUxNzY2NDldfQ==
 -->
