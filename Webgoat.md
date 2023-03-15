@@ -112,9 +112,19 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ![输入图片说明](https://s2.loli.net/2023/03/15/HtkxviSVlARcG6g.png)
 
+**同样的**，可以通过查看历史请求，右键
+
+![输入图片说明](https://s2.loli.net/2023/03/15/O4BlKck6uxL9d5t.png)
+
+在新窗口中直接修改请求，并点击右侧 Send：
+
+![输入图片说明](https://s2.loli.net/2023/03/15/ijzaNVtBqK9vI4A.png)
+
+也可成功。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzQ5NTQ1OCwxMDg5MzcxMjM3LDE5Nz
-cwMTE0NDcsLTE1NjgwOTA1NzcsLTY2MTA4NDY4Nyw2NTUzNDA0
-MjYsOTU5OTI2NDk2LC0zMTY3MDQ0NDgsLTIwNDQzNTU2NzUsLT
-E0NzUxNzY2NDldfQ==
+eyJoaXN0b3J5IjpbLTc2OTEzNTQxMSwxOTczNDk1NDU4LDEwOD
+kzNzEyMzcsMTk3NzAxMTQ0NywtMTU2ODA5MDU3NywtNjYxMDg0
+Njg3LDY1NTM0MDQyNiw5NTk5MjY0OTYsLTMxNjcwNDQ0OCwtMj
+A0NDM1NTY3NSwtMTQ3NTE3NjY0OV19
 -->
