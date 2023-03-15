@@ -96,12 +96,14 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ![输入图片说明](https://s2.loli.net/2023/03/15/vnVCKZj3yeRb6QD.png)
 
-首先需要设置一个断点，并设置过滤的：
+首先需要设置一个断点，并设置过滤的条件：
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI2NjUxMDUsMTk3NzAxMTQ0NywtMT
-U2ODA5MDU3NywtNjYxMDg0Njg3LDY1NTM0MDQyNiw5NTk5MjY0
-OTYsLTMxNjcwNDQ0OCwtMjA0NDM1NTY3NSwtMTQ3NTE3NjY0OV
-19
+eyJoaXN0b3J5IjpbNjU1MTQyNzg0LDE5NzcwMTE0NDcsLTE1Nj
+gwOTA1NzcsLTY2MTA4NDY4Nyw2NTUzNDA0MjYsOTU5OTI2NDk2
+LC0zMTY3MDQ0NDgsLTIwNDQzNTU2NzUsLTE0NzUxNzY2NDldfQ
+==
 -->
