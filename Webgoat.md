@@ -104,12 +104,16 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ![输入图片说明](https://s2.loli.net/2023/03/15/gvru3zhDOK67QPe.png)
 
+在浏览器提交一个字符串，在 ZAP “拦截”中查看：
 
+![输入图片说明](https://s2.loli.net/2023/03/15/dSkIGQ9hfbPMcJg.png)
+
+可在此页面直接进行修改，修改后点击“提交”，即完成任务。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTM3MTIzNywxOTc3MDExNDQ3LC0xNT
-Y4MDkwNTc3LC02NjEwODQ2ODcsNjU1MzQwNDI2LDk1OTkyNjQ5
-NiwtMzE2NzA0NDQ4LC0yMDQ0MzU1Njc1LC0xNDc1MTc2NjQ5XX
-0=
+eyJoaXN0b3J5IjpbMzg0MzUxMzI4LDEwODkzNzEyMzcsMTk3Nz
+AxMTQ0NywtMTU2ODA5MDU3NywtNjYxMDg0Njg3LDY1NTM0MDQy
+Niw5NTk5MjY0OTYsLTMxNjcwNDQ0OCwtMjA0NDM1NTY3NSwtMT
+Q3NTE3NjY0OV19
 -->
