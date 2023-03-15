@@ -98,12 +98,14 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 首先需要设置一个断点，并设置过滤的条件：
 
+![输入图片说明](https://s2.loli.net/2023/03/15/j4vowdmk1MXt8ND.png)
 
+然后点击绿色按钮，开始监听/拦截：
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1MTQyNzg0LDE5NzcwMTE0NDcsLTE1Nj
-gwOTA1NzcsLTY2MTA4NDY4Nyw2NTUzNDA0MjYsOTU5OTI2NDk2
-LC0zMTY3MDQ0NDgsLTIwNDQzNTU2NzUsLTE0NzUxNzY2NDldfQ
-==
+eyJoaXN0b3J5IjpbLTgyNjI0MDM5MiwxOTc3MDExNDQ3LC0xNT
+Y4MDkwNTc3LC02NjEwODQ2ODcsNjU1MzQwNDI2LDk1OTkyNjQ5
+NiwtMzE2NzA0NDQ4LC0yMDQ0MzU1Njc1LC0xNDc1MTc2NjQ5XX
+0=
 -->
