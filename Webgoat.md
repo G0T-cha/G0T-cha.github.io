@@ -140,11 +140,15 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 ![输入图片说明](https://s2.loli.net/2023/03/16/3pV2WJvhEGTDOC5.png)
 
-2. xor
+2. xor解码：
+
+https://www.sysman.nl/wasdecoder/
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU3MTg1MjEsLTEyNTM2NDU2MjIsMT
+eyJoaXN0b3J5IjpbLTE1NzQ2NzYyMTksLTEyNTM2NDU2MjIsMT
 c3MzM1NDY2MywtMTkwODM0NzA0MCwtNjUwODYwNDY3LC03Njkx
 MzU0MTEsMTk3MzQ5NTQ1OCwxMDg5MzcxMjM3LDE5NzcwMTE0ND
 csLTE1NjgwOTA1NzcsLTY2MTA4NDY4Nyw2NTUzNDA0MjYsOTU5
