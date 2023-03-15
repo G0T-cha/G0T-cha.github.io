@@ -124,10 +124,14 @@ sudo docker run -d -p 8888:8888 -p 8080:8080 -p 9090:9090 webgoat/goatandwolf
 
 #### 3、Develop Tools
 
-1. 在 F12 的控制台中，输入 webgoat.customjs.phoneHome() 即可
+1. 在 F12 的控制台中，输入 webgoat.customjs.phoneHome() 即可，复制下回送的信息即可
+
+![输入图片说明](https://s2.loli.net/2023/03/15/l7C4UERxcnWS5DZ.png)
+
+（出现的两个问题：控制台不允许粘贴，输入 allow pasting 即可）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTU4OTYwMiwtNzY5MTM1NDExLDE5Nz
-M0OTU0NTgsMTA4OTM3MTIzNywxOTc3MDExNDQ3LC0xNTY4MDkw
-NTc3LC02NjEwODQ2ODcsNjU1MzQwNDI2LDk1OTkyNjQ5NiwtMz
-E2NzA0NDQ4LC0yMDQ0MzU1Njc1LC0xNDc1MTc2NjQ5XX0=
+eyJoaXN0b3J5IjpbLTE5NzkzMDMyNTksLTc2OTEzNTQxMSwxOT
+czNDk1NDU4LDEwODkzNzEyMzcsMTk3NzAxMTQ0NywtMTU2ODA5
+MDU3NywtNjYxMDg0Njg3LDY1NTM0MDQyNiw5NTk5MjY0OTYsLT
+MxNjcwNDQ0OCwtMjA0NDM1NTY3NSwtMTQ3NTE3NjY0OV19
 -->
