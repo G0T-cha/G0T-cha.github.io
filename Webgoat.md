@@ -189,12 +189,12 @@ result 即为签名后文件
 
 退出`exit`
 以 root 身份重新进入容器`sudo docker exec --user root -it d0 /bin/bash `
-查看 /root 目录下文件并 cat 内容`这里输入代码`
+查看 /root 目录下文件并 cat 内容`ls /root/` `cat /root/secret`
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3MzUxNjAyLC01NjQxNDAwODQsLTExMD
+eyJoaXN0b3J5IjpbNDUwMDg5MjAwLC01NjQxNDAwODQsLTExMD
 Y3NTI0OTAsMjM5NDM3NDA0LC01NDIwODkyNDMsLTQyMTkyODc4
 NiwtMTU3NDI3NTkxMCwtMTA1NDQ4NzkzNiwtMTc0OTMyNTczNS
 wtOTg1Nzk2NzYzLDE3NzU4MTc2ODMsLTE1NzQ2NzYyMTksLTEy
