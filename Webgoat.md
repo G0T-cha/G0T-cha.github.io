@@ -207,15 +207,11 @@ echo "U2FsdGVkX199jgh5oANElFdtCxIEvdEvciLi+v+5loE+VCuy6Ii0b+5byb5DXp32RPmT02Ek1p
 ```
 SELECT department FROM Employees WHERE first_name='Bob';
 ```
-
 2. update 语句的使用
-
 ```
 UPDATE Employees SET department='Sales' WHERE first_name='Tobi';
 ```
-
 3. alter 语句的使用
-
 ```
 ALTER TABLE employees ADD phone varchar(20);
 ```
@@ -223,13 +219,21 @@ ALTER TABLE employees ADD phone varchar(20);
 ```
 GRANT ALL ON grant_rights TO unauthorized_user;
 ```
-5. 
+5. 字符串（单引号）注入
+```
+SELECT * FROM user_data WHERE first_name = 'John' and last_name = 'Smith' or '1' = '1'
+```
+6. 数字注入
+```
+SELECT * From user_data WHERE Login_Count = 1 and userid= 1 or 1=1
+```
+7. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNDE1MDU1LC0xOTc4OTYyMTg0LC0xMz
-g2NDIzNDEsODU1MTg2NTAxLDEzNDIwMTcwMjcsMTk5MjkyNDMs
-LTUwMDk0NjgwMSw0NTAwODkyMDAsLTU2NDE0MDA4NCwtMTEwNj
-c1MjQ5MCwyMzk0Mzc0MDQsLTU0MjA4OTI0MywtNDIxOTI4Nzg2
-LC0xNTc0Mjc1OTEwLC0xMDU0NDg3OTM2LC0xNzQ5MzI1NzM1LC
-05ODU3OTY3NjMsMTc3NTgxNzY4MywtMTU3NDY3NjIxOSwtMTI1
-MzY0NTYyMl19
+eyJoaXN0b3J5IjpbLTM4Mjg3NDgzOSwyOTE0MTUwNTUsLTE5Nz
+g5NjIxODQsLTEzODY0MjM0MSw4NTUxODY1MDEsMTM0MjAxNzAy
+NywxOTkyOTI0MywtNTAwOTQ2ODAxLDQ1MDA4OTIwMCwtNTY0MT
+QwMDg0LC0xMTA2NzUyNDkwLDIzOTQzNzQwNCwtNTQyMDg5MjQz
+LC00MjE5Mjg3ODYsLTE1NzQyNzU5MTAsLTEwNTQ0ODc5MzYsLT
+E3NDkzMjU3MzUsLTk4NTc5Njc2MywxNzc1ODE3NjgzLC0xNTc0
+Njc2MjE5XX0=
 -->
