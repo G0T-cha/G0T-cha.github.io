@@ -233,10 +233,10 @@ SELECT * FROM employees WHERE last_name = ‘Smith' AND auth_tan ='3SL99A' or '1
 ```
 8. 破坏完整性（添加新的语句）
 ```
-SELECT * FROM employees WHERE last_name = ‘Smith' AND auth_tan ='3SL99A';UPDATE employees  SET salary= ;
+SELECT * FROM employees WHERE last_name = ‘Smith' AND auth_tan ='3SL99A';UPDATE employees  SET salary=100000 WHERE ;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTgzMjk5MCwtMTk2NzM4OTQzNCwxOD
+eyJoaXN0b3J5IjpbLTQ0OTUxODE3MiwtMTk2NzM4OTQzNCwxOD
 Y5MTA3OTYxLC0xMjMwNTQwNzY1LDExNTk2MjkyMjQsLTM4Mjg3
 NDgzOSwyOTE0MTUwNTUsLTE5Nzg5NjIxODQsLTEzODY0MjM0MS
 w4NTUxODY1MDEsMTM0MjAxNzAyNywxOTkyOTI0MywtNTAwOTQ2
