@@ -205,19 +205,25 @@ echo "U2FsdGVkX199jgh5oANElFdtCxIEvdEvciLi+v+5loE+VCuy6Ii0b+5byb5DXp32RPmT02Ek1p
 
 1. select 语句的使用
 ```
-select department from Employees where first_name='Bob';
+SELECT department FROM Employees WHERE first_name='Bob';
 ```
 
 2. update 语句的使用
 
 ```
-UPDATE Employees set department='Sales' where first_name='Tobi';
+UPDATE Employees SET department='Sales' where first_name='Tobi';
 ```
 
-3. alter 语句
+3. alter 语句的使用
+
+```
+ALTER TABLE employees ADD phone varchar(20);
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDYxNzk1LDg1NTE4NjUwMSwxMzQyMD
+eyJoaXN0b3J5IjpbNDUxMzY2NjIzLDg1NTE4NjUwMSwxMzQyMD
 E3MDI3LDE5OTI5MjQzLC01MDA5NDY4MDEsNDUwMDg5MjAwLC01
 NjQxNDAwODQsLTExMDY3NTI0OTAsMjM5NDM3NDA0LC01NDIwOD
 kyNDMsLTQyMTkyODc4NiwtMTU3NDI3NTkxMCwtMTA1NDQ4Nzkz
