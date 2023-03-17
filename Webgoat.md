@@ -261,9 +261,12 @@ SELECT * FROM user_data WHERE last_name = 'Dave' OR 1=1;SELECT * FROM user_syste
 ![输入图片说明](https://s2.loli.net/2023/03/17/Iqm51zC3kbYpuxr.png)
 ~~使用参数命令检测不出漏洞？~~
 右键保存为RAW，使用命令：`sqlmap -r 桌面/1.raw`，可以检测出注册用户名存在注入漏洞。
+
 （2）探测密码
+**继续使用 sqlmap**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2NTYwMTk2LC0yMDc2MTY1MTMzLDE2Mz
+eyJoaXN0b3J5IjpbMTM1NDYyNzgzLC0yMDc2MTY1MTMzLDE2Mz
 YzMDMzNTIsLTE3Mjg1MDgxNjIsMTAwMTYwODM5Niw5MDY4NjU4
 NDMsLTE5NjczODk0MzQsMTg2OTEwNzk2MSwtMTIzMDU0MDc2NS
 wxMTU5NjI5MjI0LC0zODI4NzQ4MzksMjkxNDE1MDU1LC0xOTc4
