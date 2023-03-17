@@ -262,8 +262,10 @@ SELECT * FROM user_data WHERE last_name = 'Dave' OR 1=1;SELECT * FROM user_syste
 ~~使用参数命令检测不出漏洞？~~
 右键保存为RAW，使用命令：`sqlmap -r 桌面/1.raw`，可以检测出漏洞：
 
+
+123
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTIyMTUyNiwtMjA3NjE2NTEzMywxNj
+eyJoaXN0b3J5IjpbLTIxMjY0OTkzNiwtMjA3NjE2NTEzMywxNj
 M2MzAzMzUyLC0xNzI4NTA4MTYyLDEwMDE2MDgzOTYsOTA2ODY1
 ODQzLC0xOTY3Mzg5NDM0LDE4NjkxMDc5NjEsLTEyMzA1NDA3Nj
 UsMTE1OTYyOTIyNCwtMzgyODc0ODM5LDI5MTQxNTA1NSwtMTk3
