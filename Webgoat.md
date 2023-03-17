@@ -257,13 +257,14 @@ SELECT * FROM user_data WHERE last_name = 'Dave' OR 1=1;SELECT * FROM user_syste
 
 （1）寻找注入点
 这里练习使用 sqlmap。
-~~首先使用 ZAP 获取 sqlmap 需要的参数：cookie，url，请求body~~
+~~首先使用 ZAP 抓一个注册时的包，获取 sqlmap 需要的参数：cookie，url，请求body~~
 ![输入图片说明](https://s2.loli.net/2023/03/17/Iqm51zC3kbYpuxr.png)
 ~~使用参数命令检测不出漏洞？~~
-右键保存为RAW，使用命令：`sqlmap -r 桌面/1.raw`，可以检测出注册用户名存在注入漏洞
+右键保存为RAW，使用命令：`sqlmap -r 桌面/1.raw`，可以检测出注册用户名存在注入漏洞。
+（2）
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjQ3NTAxOSwtMjA3NjE2NTEzMywxNj
+eyJoaXN0b3J5IjpbLTM4NDU2NTczOCwtMjA3NjE2NTEzMywxNj
 M2MzAzMzUyLC0xNzI4NTA4MTYyLDEwMDE2MDgzOTYsOTA2ODY1
 ODQzLC0xOTY3Mzg5NDM0LDE4NjkxMDc5NjEsLTEyMzA1NDA3Nj
 UsMTE1OTYyOTIyNCwtMzgyODc0ODM5LDI5MTQxNTA1NSwtMTk3
