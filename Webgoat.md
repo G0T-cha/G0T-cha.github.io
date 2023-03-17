@@ -258,10 +258,9 @@ SELECT * FROM user_data WHERE last_name = 'Dave' OR 1=1;SELECT * FROM user_syste
 （1）寻找注入点
 这里练习使用 sqlmap。
 首先使用 ZAP 获取 sqlmap 需要的参数：cookie，url，请求body
-
-
+![输入图片说明](https://s2.loli.net/2023/03/17/Iqm51zC3kbYpuxr.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDk4NTM4OCwxNjM2MzAzMzUyLC0xNz
+eyJoaXN0b3J5IjpbLTMyMTU5NDYxOSwxNjM2MzAzMzUyLC0xNz
 I4NTA4MTYyLDEwMDE2MDgzOTYsOTA2ODY1ODQzLC0xOTY3Mzg5
 NDM0LDE4NjkxMDc5NjEsLTEyMzA1NDA3NjUsMTE1OTYyOTIyNC
 wtMzgyODc0ODM5LDI5MTQxNTA1NSwtMTk3ODk2MjE4NCwtMTM4
