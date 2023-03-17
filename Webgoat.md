@@ -256,9 +256,10 @@ SELECT * FROM user_data WHERE last_name = 'Dave' OR 1=1;SELECT * FROM user_syste
 > 参考了https://blog.csdn.net/u013553529/article/details/82794814
 
 （1）寻找注入点
-
+这里练习使用 sqlmap。
+首先使用 ZAP 获取 sqlmap 需要的参数
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDczNzI2MjEsLTE3Mjg1MDgxNjIsMT
+eyJoaXN0b3J5IjpbLTIwNTAwMTcwNzIsLTE3Mjg1MDgxNjIsMT
 AwMTYwODM5Niw5MDY4NjU4NDMsLTE5NjczODk0MzQsMTg2OTEw
 Nzk2MSwtMTIzMDU0MDc2NSwxMTU5NjI5MjI0LC0zODI4NzQ4Mz
 ksMjkxNDE1MDU1LC0xOTc4OTYyMTg0LC0xMzg2NDIzNDEsODU1
