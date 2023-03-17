@@ -256,6 +256,7 @@ SELECT * FROM user_data WHERE last_name = 'Dave' OR 1=1;SELECT * FROM user_syste
 > 参考了https://blog.csdn.net/u013553529/article/details/82794814
 
 （1）寻找注入点
+
 这里练习使用 sqlmap。
 ~~首先使用 ZAP 抓一个注册时的包，获取 sqlmap 需要的参数：cookie，url，请求body~~
 ![输入图片说明](https://s2.loli.net/2023/03/17/Iqm51zC3kbYpuxr.png)
@@ -263,17 +264,19 @@ SELECT * FROM user_data WHERE last_name = 'Dave' OR 1=1;SELECT * FROM user_syste
 右键保存为RAW，使用命令：`sqlmap -r 桌面/1.raw`，可以检测出注册用户名存在注入漏洞。
 
 （2）探测密码
+
 **继续使用 sqlmap**
 ```
 sqlmap --no-cast -r 文件路径 --dbs#查看数据库
 ```
+unable 权限不够，
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTU5MjkxOCwxMzU0NjI3ODMsLTIwNz
-YxNjUxMzMsMTYzNjMwMzM1MiwtMTcyODUwODE2MiwxMDAxNjA4
-Mzk2LDkwNjg2NTg0MywtMTk2NzM4OTQzNCwxODY5MTA3OTYxLC
-0xMjMwNTQwNzY1LDExNTk2MjkyMjQsLTM4Mjg3NDgzOSwyOTE0
-MTUwNTUsLTE5Nzg5NjIxODQsLTEzODY0MjM0MSw4NTUxODY1MD
-EsMTM0MjAxNzAyNywxOTkyOTI0MywtNTAwOTQ2ODAxLDQ1MDA4
-OTIwMF19
+eyJoaXN0b3J5IjpbOTEwNjAzNjc2LDEzNTQ2Mjc4MywtMjA3Nj
+E2NTEzMywxNjM2MzAzMzUyLC0xNzI4NTA4MTYyLDEwMDE2MDgz
+OTYsOTA2ODY1ODQzLC0xOTY3Mzg5NDM0LDE4NjkxMDc5NjEsLT
+EyMzA1NDA3NjUsMTE1OTYyOTIyNCwtMzgyODc0ODM5LDI5MTQx
+NTA1NSwtMTk3ODk2MjE4NCwtMTM4NjQyMzQxLDg1NTE4NjUwMS
+wxMzQyMDE3MDI3LDE5OTI5MjQzLC01MDA5NDY4MDEsNDUwMDg5
+MjAwXX0=
 -->
