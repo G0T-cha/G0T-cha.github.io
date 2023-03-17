@@ -275,10 +275,11 @@ unable 权限不够，手工注入
 
 首先要知道 Tom 用户名：在注册界面试一下，当注册“tom”时，提示用户已存在，故用户名为 tom
 
-然后进行**猜列名**，猜测密码对应列名字，猜其为 password：`tom'`
+然后进行**猜列名**，猜测密码对应列名字，猜其为 password：`tom' or password='12345`
+[图片上传中...(image-JxJWZnYIBOeVqIXG)]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzcwNTUwNCwtMTA4MTIxNzkwNiwtMT
+eyJoaXN0b3J5IjpbMTQ0MTk2MjY0OCwtMTA4MTIxNzkwNiwtMT
 AyMzkwMTQ3OSw5MTA2MDM2NzYsMTM1NDYyNzgzLC0yMDc2MTY1
 MTMzLDE2MzYzMDMzNTIsLTE3Mjg1MDgxNjIsMTAwMTYwODM5Ni
 w5MDY4NjU4NDMsLTE5NjczODk0MzQsMTg2OTEwNzk2MSwtMTIz
