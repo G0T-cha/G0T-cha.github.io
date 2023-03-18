@@ -285,15 +285,18 @@ unable 权限不够，手工注入
  
  然后通过**Burpsuite**，对密码进行爆破：
  打开 Burpsuite，在 Proxy 中 Open Broswer，进入 WebGoat 注入页，打开 Intercept ，注册，在 Burpsuite 端 Forword 到该请求页，右键 Send to Intruder
- 在 Intruder 页编辑请求
+ 在 Intruder Position页编辑请求，注意 Type 需改为 Cluster Bomb（否则只能编辑一个Payload）：
+![输入图片说明](https://s2.loli.net/2023/03/18/v1YfHnuseUJEcQ9.png)
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTM2NTYxMCwtMTkzODkzNjIwNCwtMT
-YwNDgxMjkyOCwtMTYwNDgxMjkyOCwyMDE3MTgxMDkwLC0xODU3
-OTQ2MTMsLTEzMjk2MzEwNDcsMTA0NzY1OTg1NSwtMTA4MTIxNz
-kwNiwtMTAyMzkwMTQ3OSw5MTA2MDM2NzYsMTM1NDYyNzgzLC0y
-MDc2MTY1MTMzLDE2MzYzMDMzNTIsLTE3Mjg1MDgxNjIsMTAwMT
-YwODM5Niw5MDY4NjU4NDMsLTE5NjczODk0MzQsMTg2OTEwNzk2
-MSwtMTIzMDU0MDc2NV19
+eyJoaXN0b3J5IjpbLTYxMjYyNzA5MSwtODgxMzY1NjEwLC0xOT
+M4OTM2MjA0LC0xNjA0ODEyOTI4LC0xNjA0ODEyOTI4LDIwMTcx
+ODEwOTAsLTE4NTc5NDYxMywtMTMyOTYzMTA0NywxMDQ3NjU5OD
+U1LC0xMDgxMjE3OTA2LC0xMDIzOTAxNDc5LDkxMDYwMzY3Niwx
+MzU0NjI3ODMsLTIwNzYxNjUxMzMsMTYzNjMwMzM1MiwtMTcyOD
+UwODE2MiwxMDAxNjA4Mzk2LDkwNjg2NTg0MywtMTk2NzM4OTQz
+NCwxODY5MTA3OTYxXX0=
 -->
