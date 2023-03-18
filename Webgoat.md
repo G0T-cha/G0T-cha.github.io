@@ -287,11 +287,15 @@ unable 权限不够，手工注入
  打开 Burpsuite，在 Proxy 中 Open Broswer，进入 WebGoat 注入页，打开 Intercept ，注册，在 Burpsuite 端 Forword 到该请求页，右键 Send to Intruder
  在 Intruder Position页编辑请求，注意 Type 需改为 Cluster Bomb（否则只能编辑一个Payload）：
 ![输入图片说明](https://s2.loli.net/2023/03/18/v1YfHnuseUJEcQ9.png)
-za
+
+在 payload 界面设置字典，分别设置 Payload Set 1,2：
+![输入图片说明](https://s2.loli.net/2023/03/18/LEWVyPXFNc65dTC.png)
+
+Start Attack（x）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjczMjE1MiwtNjEyNjI3MDkxLC04OD
+eyJoaXN0b3J5IjpbLTg0MDE0Njc0NSwtNjEyNjI3MDkxLC04OD
 EzNjU2MTAsLTE5Mzg5MzYyMDQsLTE2MDQ4MTI5MjgsLTE2MDQ4
 MTI5MjgsMjAxNzE4MTA5MCwtMTg1Nzk0NjEzLC0xMzI5NjMxMD
 Q3LDEwNDc2NTk4NTUsLTEwODEyMTc5MDYsLTEwMjM5MDE0Nzks
