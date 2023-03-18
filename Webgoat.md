@@ -284,15 +284,15 @@ unable 权限不够，手工注入
 > Sorry the solution is not correct, please try again
  
  然后通过**Burpsuite**，对密码进行爆破：
- 打开 Burpsuite，在 Proxy 中 Open Broswer，进入 WebGoat 注入页，
+ 打开 Burpsuite，在 Proxy 中 Open Broswer，进入 WebGoat 注入页，打开 Intercept ，注册，在 Burpsuite 端 Forword 到该请求页，右键
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzg5MzYyMDQsLTE2MDQ4MTI5MjgsLT
-E2MDQ4MTI5MjgsMjAxNzE4MTA5MCwtMTg1Nzk0NjEzLC0xMzI5
-NjMxMDQ3LDEwNDc2NTk4NTUsLTEwODEyMTc5MDYsLTEwMjM5MD
-E0NzksOTEwNjAzNjc2LDEzNTQ2Mjc4MywtMjA3NjE2NTEzMywx
-NjM2MzAzMzUyLC0xNzI4NTA4MTYyLDEwMDE2MDgzOTYsOTA2OD
-Y1ODQzLC0xOTY3Mzg5NDM0LDE4NjkxMDc5NjEsLTEyMzA1NDA3
-NjUsMTE1OTYyOTIyNF19
+eyJoaXN0b3J5IjpbMTMxNTg0OTk2MiwtMTkzODkzNjIwNCwtMT
+YwNDgxMjkyOCwtMTYwNDgxMjkyOCwyMDE3MTgxMDkwLC0xODU3
+OTQ2MTMsLTEzMjk2MzEwNDcsMTA0NzY1OTg1NSwtMTA4MTIxNz
+kwNiwtMTAyMzkwMTQ3OSw5MTA2MDM2NzYsMTM1NDYyNzgzLC0y
+MDc2MTY1MTMzLDE2MzYzMDMzNTIsLTE3Mjg1MDgxNjIsMTAwMT
+YwODM5Niw5MDY4NjU4NDMsLTE5NjczODk0MzQsMTg2OTEwNzk2
+MSwtMTIzMDU0MDc2NV19
 -->
