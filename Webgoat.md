@@ -284,11 +284,12 @@ unable 权限不够，手工注入
 > Sorry the solution is not correct, please try again
  
  然后通过**Burpsuite**，对密码进行爆破：
- 打开 Burpsuite，在 Proxy 中 Open Broswer，进入 WebGoat 注入页，打开 Intercept ，注册，在 Burpsuite 端 Forword 到该请求页，右键
+ 打开 Burpsuite，在 Proxy 中 Open Broswer，进入 WebGoat 注入页，打开 Intercept ，注册，在 Burpsuite 端 Forword 到该请求页，右键 Send to Intruder
+ 在 Intruder 页编辑请求
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTg0OTk2MiwtMTkzODkzNjIwNCwtMT
+eyJoaXN0b3J5IjpbLTg4MTM2NTYxMCwtMTkzODkzNjIwNCwtMT
 YwNDgxMjkyOCwtMTYwNDgxMjkyOCwyMDE3MTgxMDkwLC0xODU3
 OTQ2MTMsLTEzMjk2MzEwNDcsMTA0NzY1OTg1NSwtMTA4MTIxNz
 kwNiwtMTAyMzkwMTQ3OSw5MTA2MDM2NzYsMTM1NDYyNzgzLC0y
