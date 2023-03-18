@@ -292,14 +292,14 @@ unable 权限不够，手工注入
 ![输入图片说明](https://s2.loli.net/2023/03/18/LEWVyPXFNc65dTC.png)
 
 Start Attack（需要等一阵）
-根据 Length 进行排序（根据返回报文可知密码共有24位）：
+根据 Length 进行排序：
 ![输入图片说明](https://s2.loli.net/2023/03/18/9xRigFKCXaJMUo7.png)
 *想通过高亮筛选再排序，但并没有用处？？*
 
-可知密码为：`thisisasecretfortomo`
-thisisasecr
+可知密码为：`thisisasecretfortomonly`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjQxMjA0MywtMTE0NjM4NzIzMSwyNT
+eyJoaXN0b3J5IjpbMTczMDI2NTYyNiwtMTE0NjM4NzIzMSwyNT
 k0NTU1MzIsLTYxMjYyNzA5MSwtODgxMzY1NjEwLC0xOTM4OTM2
 MjA0LC0xNjA0ODEyOTI4LC0xNjA0ODEyOTI4LDIwMTcxODEwOT
 AsLTE4NTc5NDYxMywtMTMyOTYzMTA0NywxMDQ3NjU5ODU1LC0x
