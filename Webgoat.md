@@ -303,9 +303,9 @@ Start Attack（需要等一阵）
 1. 修改请求头更改上传文件位置：
 
 上传一下头像，查看 ZAP 记录
-[图片上传中...(image-zOnTY2uxBrPpVgN8)]
+[图片上传失败...(image-zOnTY2uxBrPpVgN8)]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDExNTEzMTQsMTQ4MDA2MzM3LC0xNj
+eyJoaXN0b3J5IjpbLTE2NDA4MjQyMjMsMTQ4MDA2MzM3LC0xNj
 I4NDU4NTUyLDE3MzAyNjU2MjYsLTExNDYzODcyMzEsMjU5NDU1
 NTMyLC02MTI2MjcwOTEsLTg4MTM2NTYxMCwtMTkzODkzNjIwNC
 wtMTYwNDgxMjkyOCwtMTYwNDgxMjkyOCwyMDE3MTgxMDkwLC0x
