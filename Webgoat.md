@@ -322,16 +322,17 @@ Send 重放，成功
 响应中：
 ![输入图片说明](https://s2.loli.net/2023/03/19/32NkchW4fdPArnb.png)
 
-要找的图片应该在上一级目录中，图片为`id`，方法为 GET，所以使用`?id=../path-traversal-secret.jpg`，重发，提示不合法：
+要找的图片应该在上一级目录中，图片为`id`，方法为 GET，所以使用`?id=../path-traversal-secret`，重发，提示不合法：
 ![输入图片说明](https://s2.loli.net/2023/03/19/KuCYsZIJ3QiwNq2.png)
 
-
+不适用字符，使用`%2e%2e%2f`,提示`bad request`
+双写`%2e%2e%2e%2e%2f%2f`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODQ2NzkyOSwyMDk5NzQ5OTkxLC0xMj
-YzOTU2Mjk4LDE0NjY0NzUwMzYsLTU0NTg5Mjk2OSwxMjQyMjcz
-ODMxLDE0MjE0MzkxNjEsMjAwNDM5MTk5Niw5NDQyNDUzNDEsOT
-EyNTY2NjkyLDIyMTkwOTE4MSwxNDgwMDYzMzcsLTE2Mjg0NTg1
-NTIsMTczMDI2NTYyNiwtMTE0NjM4NzIzMSwyNTk0NTU1MzIsLT
-YxMjYyNzA5MSwtODgxMzY1NjEwLC0xOTM4OTM2MjA0LC0xNjA0
-ODEyOTI4XX0=
+eyJoaXN0b3J5IjpbLTg0ODA3OTEzNywxMjU4NDY3OTI5LDIwOT
+k3NDk5OTEsLTEyNjM5NTYyOTgsMTQ2NjQ3NTAzNiwtNTQ1ODky
+OTY5LDEyNDIyNzM4MzEsMTQyMTQzOTE2MSwyMDA0MzkxOTk2LD
+k0NDI0NTM0MSw5MTI1NjY2OTIsMjIxOTA5MTgxLDE0ODAwNjMz
+NywtMTYyODQ1ODU1MiwxNzMwMjY1NjI2LC0xMTQ2Mzg3MjMxLD
+I1OTQ1NTUzMiwtNjEyNjI3MDkxLC04ODEzNjU2MTAsLTE5Mzg5
+MzYyMDRdfQ==
 -->
