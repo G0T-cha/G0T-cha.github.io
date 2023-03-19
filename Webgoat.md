@@ -340,14 +340,16 @@ Send 重放，成功
 在题目中，通过将 **question0，question1 改为 question2，question3**，绕过密保：
 ![输入图片说明](https://s2.loli.net/2023/03/19/jHeVq5EgQz7rF1J.png)
 
-#### Authentication Bypass
-[图片上传中...(image-8hEHkK1WcwW7pMd3)]
+#### JWT Token
+
+1. 
+![输入图片说明](https://s2.loli.net/2023/03/19/mYTyc56BvhaWbQL.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTc0MjQyMywyMDAxNzUzMDI3LC00Mj
-c1ODAxNjksMjA5Njk2MTg4MiwxMjgxOTEzNTYwLDEyNTg0Njc5
-MjksMjA5OTc0OTk5MSwtMTI2Mzk1NjI5OCwxNDY2NDc1MDM2LC
-01NDU4OTI5NjksMTI0MjI3MzgzMSwxNDIxNDM5MTYxLDIwMDQz
-OTE5OTYsOTQ0MjQ1MzQxLDkxMjU2NjY5MiwyMjE5MDkxODEsMT
-Q4MDA2MzM3LC0xNjI4NDU4NTUyLDE3MzAyNjU2MjYsLTExNDYz
-ODcyMzFdfQ==
+eyJoaXN0b3J5IjpbOTM5MjkzNDM3LDIwMDE3NTMwMjcsLTQyNz
+U4MDE2OSwyMDk2OTYxODgyLDEyODE5MTM1NjAsMTI1ODQ2Nzky
+OSwyMDk5NzQ5OTkxLC0xMjYzOTU2Mjk4LDE0NjY0NzUwMzYsLT
+U0NTg5Mjk2OSwxMjQyMjczODMxLDE0MjE0MzkxNjEsMjAwNDM5
+MTk5Niw5NDQyNDUzNDEsOTEyNTY2NjkyLDIyMTkwOTE4MSwxND
+gwMDYzMzcsLTE2Mjg0NTg1NTIsMTczMDI2NTYyNiwtMTE0NjM4
+NzIzMV19
 -->
