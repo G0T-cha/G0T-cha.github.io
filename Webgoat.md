@@ -335,9 +335,10 @@ Send 重放，成功
 
 #### Authentication Bypass
 
-密保问题的绕过
+密保问题的绕
+在例子中，通过**删除请求中的密保问题**再发送，实现了绕过
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDgwNjMwNywyMDk2OTYxODgyLDEyOD
+eyJoaXN0b3J5IjpbMjAyNDYwMzQ5NSwyMDk2OTYxODgyLDEyOD
 E5MTM1NjAsMTI1ODQ2NzkyOSwyMDk5NzQ5OTkxLC0xMjYzOTU2
 Mjk4LDE0NjY0NzUwMzYsLTU0NTg5Mjk2OSwxMjQyMjczODMxLD
 E0MjE0MzkxNjEsMjAwNDM5MTk5Niw5NDQyNDUzNDEsOTEyNTY2
