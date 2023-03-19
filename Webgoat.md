@@ -335,13 +335,15 @@ Send 重放，成功
 
 #### Authentication Bypass
 
-密保问题的绕
+密保问题的绕过
 在例子中，通过**删除请求中的密保问题**再发送，实现了绕过
-在题目中，通过将 **question0，question1 改为 question2，question3**，绕过密保
+在题目中，通过将 **question0，question1 改为 question2，question3**，绕过密保：
 ![输入图片说明](https://s2.loli.net/2023/03/19/jHeVq5EgQz7rF1J.png)
 
+#### Authentication Bypass
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTY1NDYzOCwtNDI3NTgwMTY5LDIwOT
+eyJoaXN0b3J5IjpbMjAwMTc1MzAyNywtNDI3NTgwMTY5LDIwOT
 Y5NjE4ODIsMTI4MTkxMzU2MCwxMjU4NDY3OTI5LDIwOTk3NDk5
 OTEsLTEyNjM5NTYyOTgsMTQ2NjQ3NTAzNiwtNTQ1ODkyOTY5LD
 EyNDIyNzM4MzEsMTQyMTQzOTE2MSwyMDA0MzkxOTk2LDk0NDI0
