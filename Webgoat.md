@@ -302,13 +302,16 @@ Start Attack（需要等一阵）
 
 1. 修改请求头更改上传文件位置：
 
-上传一下头像，查看 ZAP 记录，根据电子邮件等的提交顺序和位置，推测第一个test为文件位置![输入图片说明](https://s2.loli.net/2023/03/19/FEsZvTgyaVYGult.png)
+上传一下头像，查看 ZAP 记录，根据电子邮件等的提交顺序和位置，推测第一个test为文件位置，修改为 `../test`
+![输入图片说明](https://s2.loli.net/2023/03/19/FEsZvTgyaVYGult.png)
+
+Send重放
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODYzMDA4MjYsMTQ4MDA2MzM3LC0xNj
-I4NDU4NTUyLDE3MzAyNjU2MjYsLTExNDYzODcyMzEsMjU5NDU1
-NTMyLC02MTI2MjcwOTEsLTg4MTM2NTYxMCwtMTkzODkzNjIwNC
-wtMTYwNDgxMjkyOCwtMTYwNDgxMjkyOCwyMDE3MTgxMDkwLC0x
-ODU3OTQ2MTMsLTEzMjk2MzEwNDcsMTA0NzY1OTg1NSwtMTA4MT
-IxNzkwNiwtMTAyMzkwMTQ3OSw5MTA2MDM2NzYsMTM1NDYyNzgz
-LC0yMDc2MTY1MTMzXX0=
+eyJoaXN0b3J5IjpbMjIxOTA5MTgxLDE0ODAwNjMzNywtMTYyOD
+Q1ODU1MiwxNzMwMjY1NjI2LC0xMTQ2Mzg3MjMxLDI1OTQ1NTUz
+MiwtNjEyNjI3MDkxLC04ODEzNjU2MTAsLTE5Mzg5MzYyMDQsLT
+E2MDQ4MTI5MjgsLTE2MDQ4MTI5MjgsMjAxNzE4MTA5MCwtMTg1
+Nzk0NjEzLC0xMzI5NjMxMDQ3LDEwNDc2NTk4NTUsLTEwODEyMT
+c5MDYsLTEwMjM5MDE0NzksOTEwNjAzNjc2LDEzNTQ2Mjc4Mywt
+MjA3NjE2NTEzM119
 -->
