@@ -302,10 +302,9 @@ Start Attack（需要等一阵）
 
 1. 修改请求头更改上传文件位置：
 
-上传一下头像，查看 ZAP 记录
-[图片上传失败...(image-zOnTY2uxBrPpVgN8)]
+上传一下头像，查看 ZAP 记录，根据电子邮件等的提交顺序和位置，推测第一个test![输入图片说明](https://s2.loli.net/2023/03/19/FEsZvTgyaVYGult.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA4MjQyMjMsMTQ4MDA2MzM3LC0xNj
+eyJoaXN0b3J5IjpbLTE0OTMyOTQyMzgsMTQ4MDA2MzM3LC0xNj
 I4NDU4NTUyLDE3MzAyNjU2MjYsLTExNDYzODcyMzEsMjU5NDU1
 NTMyLC02MTI2MjcwOTEsLTg4MTM2NTYxMCwtMTkzODkzNjIwNC
 wtMTYwNDgxMjkyOCwtMTYwNDgxMjkyOCwyMDE3MTgxMDkwLC0x
