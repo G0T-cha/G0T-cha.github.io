@@ -321,8 +321,10 @@ Send 重放，成功
 *开始抓不到随机图片的包，然后突然又能抓到了？？*
 响应中：
 ![输入图片说明](https://s2.loli.net/2023/03/19/32NkchW4fdPArnb.png)
+
+要找的图片应该在上一级目录中，方法为GET
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE5ODc1NjksMjA5OTc0OTk5MSwtMT
+eyJoaXN0b3J5IjpbLTEzNzQ2NzkxMDMsMjA5OTc0OTk5MSwtMT
 I2Mzk1NjI5OCwxNDY2NDc1MDM2LC01NDU4OTI5NjksMTI0MjI3
 MzgzMSwxNDIxNDM5MTYxLDIwMDQzOTE5OTYsOTQ0MjQ1MzQxLD
 kxMjU2NjY5MiwyMjE5MDkxODEsMTQ4MDA2MzM3LC0xNjI4NDU4
