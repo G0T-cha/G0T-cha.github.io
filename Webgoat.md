@@ -382,10 +382,10 @@ Send 重放，成功
 5. sql 注入和令牌修改综合
 删除一下 TOM，显然失败了，查看一下 token：
 ![输入图片说明](https://s2.loli.net/2023/03/20/8msvXuteW5gaRiG.png)
-代表密钥需要通过 kid 从数据库中查找到，所以这里可以利用 sql 注入，
+代表密钥需要通过 kid 从数据库中查找到，所以这里可以利用 sql 注入，将密钥
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjI2NTc5MiwtMTQ4NjE5MzA1OSw1Nj
+eyJoaXN0b3J5IjpbMTA5MjAzMjIzNSwtMTQ4NjE5MzA1OSw1Nj
 U4OTY2NSw1MDI1NDg3MCwxOTgyOTA5ODE2LC0xODUyMjI1MTYw
 LDIwMTMwNTc4OTYsLTExMzU2OTQyMDIsLTExMjkxODA1MTcsLT
 gwMjI5MTAxMSwxOTAwMDY3NjQyLC0xNTEyNjAxNzYzLC0xODY2
