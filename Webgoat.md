@@ -351,18 +351,18 @@ Send 重放，成功
 在 `jwt.io` 中进行解码：![输入图片说明](https://s2.loli.net/2023/03/20/FStwjDZLlkWGciK.png)
 
 	参考下一页的 solution，需要更改admin 为 `true`，**加密算法置空**，*但似乎这里改不了加密算法？*，只更改 admin 布尔值会提示 valid
-	不过同时删掉签名尾部，就可以了（*为什么？？？*）
+	不过同时删掉签名尾部，就可以了
 ![输入图片说明](https://s2.loli.net/2023/03/20/2JLzFbicmBv4l8g.png)
 	然后就可以重置票数了
 3. 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDkxNTg1MywxNzI0MTc1NzE2LDE3Mj
-Y0OTc4MjksOTExMTY0NDUzLC0yODIxNDU0NDAsOTM5MjkzNDM3
-LDIwMDE3NTMwMjcsLTQyNzU4MDE2OSwyMDk2OTYxODgyLDEyOD
-E5MTM1NjAsMTI1ODQ2NzkyOSwyMDk5NzQ5OTkxLC0xMjYzOTU2
-Mjk4LDE0NjY0NzUwMzYsLTU0NTg5Mjk2OSwxMjQyMjczODMxLD
-E0MjE0MzkxNjEsMjAwNDM5MTk5Niw5NDQyNDUzNDEsOTEyNTY2
-NjkyXX0=
+eyJoaXN0b3J5IjpbLTE4NjY4NjkwMSwxNzc0OTE1ODUzLDE3Mj
+QxNzU3MTYsMTcyNjQ5NzgyOSw5MTExNjQ0NTMsLTI4MjE0NTQ0
+MCw5MzkyOTM0MzcsMjAwMTc1MzAyNywtNDI3NTgwMTY5LDIwOT
+Y5NjE4ODIsMTI4MTkxMzU2MCwxMjU4NDY3OTI5LDIwOTk3NDk5
+OTEsLTEyNjM5NTYyOTgsMTQ2NjQ3NTAzNiwtNTQ1ODkyOTY5LD
+EyNDIyNzM4MzEsMTQyMTQzOTE2MSwyMDA0MzkxOTk2LDk0NDI0
+NTM0MV19
 -->
