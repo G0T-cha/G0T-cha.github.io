@@ -362,9 +362,11 @@ Send 重放，成功
 *也可以用`hashcat -m 16500`暴力破解 JWT*
 解码一下 JWT
 ![输入图片说明](https://s2.loli.net/2023/03/20/oBnxT4aJgi8Fezs.png)
-发现其中还包含有效期（一分钟），需要延后截止时间 exp，然后
+
+	发现其中还包含有效期（一分钟），需要延后截止时间 exp，然后修改用户名为 Webgoat 即可：
+![输入图片说明](https://s2.loli.net/2023/03/20/3ShsWPKNUTERaXO.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzAwMDQ5NywxOTAwMDY3NjQyLC0xNT
+eyJoaXN0b3J5IjpbLTgwMjI5MTAxMSwxOTAwMDY3NjQyLC0xNT
 EyNjAxNzYzLC0xODY2ODY5MDEsMTc3NDkxNTg1MywxNzI0MTc1
 NzE2LDE3MjY0OTc4MjksOTExMTY0NDUzLC0yODIxNDU0NDAsOT
 M5MjkzNDM3LDIwMDE3NTMwMjcsLTQyNzU4MDE2OSwyMDk2OTYx
