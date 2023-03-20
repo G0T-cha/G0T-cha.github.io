@@ -382,13 +382,14 @@ Send 重放，成功
 5. sql 注入和令牌修改综合
 删除一下 TOM，显然失败了，查看一下 token：
 ![输入图片说明](https://s2.loli.net/2023/03/20/8msvXuteW5gaRiG.png)
-代表密钥需要通过 kid 从数据库中查找到（密钥以唯一 id 标识的形式存储在 jwt_keys 中），所以这里可以利用 sql 注入，将 kid 变成我们想要的值
+代表密钥需要通过 kid 从数据库中查找到（密钥以唯一 id 标识的形式存储在 jwt_keys 中），所以这里可以利用 sql 注入，将 kid 变成我们想要的值。此外，再改一下时间戳和用户名：
+![输入图片说明](https://s2.loli.net/2023/03/20/MXNUex95smWVkg3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDY0OTY4MSwxMDc4ODE2OTc2LC0xND
-g2MTkzMDU5LDU2NTg5NjY1LDUwMjU0ODcwLDE5ODI5MDk4MTYs
-LTE4NTIyMjUxNjAsMjAxMzA1Nzg5NiwtMTEzNTY5NDIwMiwtMT
-EyOTE4MDUxNywtODAyMjkxMDExLDE5MDAwNjc2NDIsLTE1MTI2
-MDE3NjMsLTE4NjY4NjkwMSwxNzc0OTE1ODUzLDE3MjQxNzU3MT
-YsMTcyNjQ5NzgyOSw5MTExNjQ0NTMsLTI4MjE0NTQ0MCw5Mzky
-OTM0MzddfQ==
+eyJoaXN0b3J5IjpbLTY2NjUwNzA3LDEwNzg4MTY5NzYsLTE0OD
+YxOTMwNTksNTY1ODk2NjUsNTAyNTQ4NzAsMTk4MjkwOTgxNiwt
+MTg1MjIyNTE2MCwyMDEzMDU3ODk2LC0xMTM1Njk0MjAyLC0xMT
+I5MTgwNTE3LC04MDIyOTEwMTEsMTkwMDA2NzY0MiwtMTUxMjYw
+MTc2MywtMTg2Njg2OTAxLDE3NzQ5MTU4NTMsMTcyNDE3NTcxNi
+wxNzI2NDk3ODI5LDkxMTE2NDQ1MywtMjgyMTQ1NDQwLDkzOTI5
+MzQzN119
 -->
