@@ -369,20 +369,21 @@ Send 重放，成功
 **方法一**
 ![输入图片说明](https://s2.loli.net/2023/03/20/eNxrWyCvKdzU1b4.png)
 
-在这里可以看到之前的令牌：可以看到时间戳已经过期，修改一下，然后删掉后面的签名部分：
+	在这里可以看到之前的令牌：可以看到时间戳已经过期，修改一下，然后删掉后面的签名部分：
 ![输入图片说明](https://s2.loli.net/2023/03/20/bquUzgc1DtM2e5v.png)
 提交一下付款，然后在这里添加 `Authorization：JWT`![输入图片说明](https://s2.loli.net/2023/03/20/sUGY4bTpCiQZjgO.png)
 成功
+**方法二**
 重发，返回：
 ![输入图片说明](https://s2.loli.net/2023/03/20/GxMpNwKvgASZQ9U.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzA1Nzg5NiwtMTEzNTY5NDIwMiwtMT
-EyOTE4MDUxNywtODAyMjkxMDExLDE5MDAwNjc2NDIsLTE1MTI2
-MDE3NjMsLTE4NjY4NjkwMSwxNzc0OTE1ODUzLDE3MjQxNzU3MT
-YsMTcyNjQ5NzgyOSw5MTExNjQ0NTMsLTI4MjE0NTQ0MCw5Mzky
-OTM0MzcsMjAwMTc1MzAyNywtNDI3NTgwMTY5LDIwOTY5NjE4OD
-IsMTI4MTkxMzU2MCwxMjU4NDY3OTI5LDIwOTk3NDk5OTEsLTEy
-NjM5NTYyOThdfQ==
+eyJoaXN0b3J5IjpbLTE4NTIyMjUxNjAsMjAxMzA1Nzg5NiwtMT
+EzNTY5NDIwMiwtMTEyOTE4MDUxNywtODAyMjkxMDExLDE5MDAw
+Njc2NDIsLTE1MTI2MDE3NjMsLTE4NjY4NjkwMSwxNzc0OTE1OD
+UzLDE3MjQxNzU3MTYsMTcyNjQ5NzgyOSw5MTExNjQ0NTMsLTI4
+MjE0NTQ0MCw5MzkyOTM0MzcsMjAwMTc1MzAyNywtNDI3NTgwMT
+Y5LDIwOTY5NjE4ODIsMTI4MTkxMzU2MCwxMjU4NDY3OTI5LDIw
+OTk3NDk5OTFdfQ==
 -->
