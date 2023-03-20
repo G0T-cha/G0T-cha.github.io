@@ -365,23 +365,24 @@ Send 重放，成功
 
 	发现其中还包含有效期（一分钟），需要延后截止时间 exp，然后修改用户名为 Webgoat 即可：
 ![输入图片说明](https://s2.loli.net/2023/03/20/3ShsWPKNUTERaXO.png)
-4. 更改时间戳使用刷新令牌
-
+4. 更改时间戳/使用刷新令牌
+**方法一**
 ![输入图片说明](https://s2.loli.net/2023/03/20/eNxrWyCvKdzU1b4.png)
 
 在这里可以看到之前的令牌：可以看到时间戳已经过期，修改一下，然后删掉后面的签名部分：
 ![输入图片说明](https://s2.loli.net/2023/03/20/bquUzgc1DtM2e5v.png)
 提交一下付款，然后在这里添加 `Authorization：JWT`![输入图片说明](https://s2.loli.net/2023/03/20/sUGY4bTpCiQZjgO.png)
+成功
 重发，返回：
 ![输入图片说明](https://s2.loli.net/2023/03/20/GxMpNwKvgASZQ9U.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyNzg0NTQ4LC0xMTM1Njk0MjAyLC0xMT
-I5MTgwNTE3LC04MDIyOTEwMTEsMTkwMDA2NzY0MiwtMTUxMjYw
-MTc2MywtMTg2Njg2OTAxLDE3NzQ5MTU4NTMsMTcyNDE3NTcxNi
-wxNzI2NDk3ODI5LDkxMTE2NDQ1MywtMjgyMTQ1NDQwLDkzOTI5
-MzQzNywyMDAxNzUzMDI3LC00Mjc1ODAxNjksMjA5Njk2MTg4Mi
-wxMjgxOTEzNTYwLDEyNTg0Njc5MjksMjA5OTc0OTk5MSwtMTI2
-Mzk1NjI5OF19
+eyJoaXN0b3J5IjpbMjAxMzA1Nzg5NiwtMTEzNTY5NDIwMiwtMT
+EyOTE4MDUxNywtODAyMjkxMDExLDE5MDAwNjc2NDIsLTE1MTI2
+MDE3NjMsLTE4NjY4NjkwMSwxNzc0OTE1ODUzLDE3MjQxNzU3MT
+YsMTcyNjQ5NzgyOSw5MTExNjQ0NTMsLTI4MjE0NTQ0MCw5Mzky
+OTM0MzcsMjAwMTc1MzAyNywtNDI3NTgwMTY5LDIwOTY5NjE4OD
+IsMTI4MTkxMzU2MCwxMjU4NDY3OTI5LDIwOTk3NDk5OTEsLTEy
+NjM5NTYyOThdfQ==
 -->
