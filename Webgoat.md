@@ -389,11 +389,13 @@ Send 重放，成功
 
 #### password
 1. 简单的邮件找回密码
-2. 简单的爆破
-	
+2. 简单的安全问题爆破
+```
+	tom purple
+```
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE4MDI4OTAsLTMxNTU1NDYyOCwtNj
+eyJoaXN0b3J5IjpbLTE4MzI5MDAwMzEsLTMxNTU1NDYyOCwtNj
 Y2NTA3MDcsMTA3ODgxNjk3NiwtMTQ4NjE5MzA1OSw1NjU4OTY2
 NSw1MDI1NDg3MCwxOTgyOTA5ODE2LC0xODUyMjI1MTYwLDIwMT
 MwNTc4OTYsLTExMzU2OTQyMDIsLTExMjkxODA1MTcsLTgwMjI5
