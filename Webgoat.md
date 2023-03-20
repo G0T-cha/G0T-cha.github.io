@@ -357,9 +357,10 @@ Send 重放，成功
 3. 爆破 JWT 私钥
 已知一个 JWT 的值，获取对应的私钥以更改 payload 的内容
 直接暴力破解，使用 jwtcrack-master：`python crackjwt.py JWT dictionary.txt`
-
+![输入图片说明](https://s2.loli.net/2023/03/20/5Ceqrp293UjWt47.png)
+得出密钥为`available`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjMyMTkxNywtMTUxMjYwMTc2MywtMT
+eyJoaXN0b3J5IjpbLTgwNDIzMjYzNCwtMTUxMjYwMTc2MywtMT
 g2Njg2OTAxLDE3NzQ5MTU4NTMsMTcyNDE3NTcxNiwxNzI2NDk3
 ODI5LDkxMTE2NDQ1MywtMjgyMTQ1NDQwLDkzOTI5MzQzNywyMD
 AxNzUzMDI3LC00Mjc1ODAxNjksMjA5Njk2MTg4MiwxMjgxOTEz
