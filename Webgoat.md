@@ -371,11 +371,12 @@ Send 重放，成功
 
 在这里可以看到之前的令牌：可以看到时间戳已经过期，修改一下，然后删掉后面的签名部分：
 ![输入图片说明](https://s2.loli.net/2023/03/20/bquUzgc1DtM2e5v.png)
-提交一下付款，然后在这里添加 `Authorization：JWT`
+提交一下付款，然后在这里添加 `Authorization：JWT`，chongfa
+![输入图片说明](https://s2.loli.net/2023/03/20/sUGY4bTpCiQZjgO.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjMzNjg2MTMsLTExMjkxODA1MTcsLT
+eyJoaXN0b3J5IjpbLTE3MTYyOTE3OTEsLTExMjkxODA1MTcsLT
 gwMjI5MTAxMSwxOTAwMDY3NjQyLC0xNTEyNjAxNzYzLC0xODY2
 ODY5MDEsMTc3NDkxNTg1MywxNzI0MTc1NzE2LDE3MjY0OTc4Mj
 ksOTExMTY0NDUzLC0yODIxNDU0NDAsOTM5MjkzNDM3LDIwMDE3
