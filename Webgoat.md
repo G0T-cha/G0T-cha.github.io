@@ -347,10 +347,13 @@ Send 重放，成功
 ![输入图片说明](https://s2.loli.net/2023/03/19/mYTyc56BvhaWbQL.png)
 
 2. 修改JWT
-在 jwt.io 中进行解码，参考其他攻略，需要更改admin 为 true，**加密算法置空**，*但似乎这里改不了加密算法？*，但只更改 admin 布尔值
-![输入图片说明](https://s2.loli.net/2023/03/20/FStwjDZLlkWGciK.png)
+在 jwt.io 中进行解码：![输入图片说明](https://s2.loli.net/2023/03/20/FStwjDZLlkWGciK.png)
+
+	参考其他攻略，需要更改admin 为 true，**加密算法置空**，*但似乎这里改不了加密算法？*，但只更改 admin 布尔值会提示 valid
+	删掉签名尾部
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc4MTY1MTIsMTcyNjQ5NzgyOSw5MT
+eyJoaXN0b3J5IjpbLTExNzY1NjMyMTQsMTcyNjQ5NzgyOSw5MT
 ExNjQ0NTMsLTI4MjE0NTQ0MCw5MzkyOTM0MzcsMjAwMTc1MzAy
 NywtNDI3NTgwMTY5LDIwOTY5NjE4ODIsMTI4MTkxMzU2MCwxMj
 U4NDY3OTI5LDIwOTk3NDk5OTEsLTEyNjM5NTYyOTgsMTQ2NjQ3
