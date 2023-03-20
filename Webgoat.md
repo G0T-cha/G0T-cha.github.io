@@ -347,9 +347,10 @@ Send 重放，成功
 ![输入图片说明](https://s2.loli.net/2023/03/19/mYTyc56BvhaWbQL.png)
 
 2. 修改JWT
-在 jwt.io 中进行解码
+在 jwt.io 中进行解码，但似乎z改不了
+![输入图片说明](https://s2.loli.net/2023/03/20/FStwjDZLlkWGciK.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzUzMDEyMiw5MTExNjQ0NTMsLTI4Mj
+eyJoaXN0b3J5IjpbLTg1NTA1MjI4Myw5MTExNjQ0NTMsLTI4Mj
 E0NTQ0MCw5MzkyOTM0MzcsMjAwMTc1MzAyNywtNDI3NTgwMTY5
 LDIwOTY5NjE4ODIsMTI4MTkxMzU2MCwxMjU4NDY3OTI5LDIwOT
 k3NDk5OTEsLTEyNjM5NTYyOTgsMTQ2NjQ3NTAzNiwtNTQ1ODky
