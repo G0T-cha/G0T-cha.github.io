@@ -347,17 +347,20 @@ Send 重放，成功
 ![输入图片说明](https://s2.loli.net/2023/03/19/mYTyc56BvhaWbQL.png)
 
 2. 修改JWT
+需要以管理员身份登录，以重置票数，需要修改 JWT laiojie
 在 jwt.io 中进行解码：![输入图片说明](https://s2.loli.net/2023/03/20/FStwjDZLlkWGciK.png)
 
 	参考其他攻略，需要更改admin 为 true，**加密算法置空**，*但似乎这里改不了加密算法？*，但只更改 admin 布尔值会提示 valid
 	不过同时删掉签名尾部，就可以了（*为什么？？？*）
+![输入图片说明](https://s2.loli.net/2023/03/20/2JLzFbicmBv4l8g.png)
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzOTA1NzIxLDE3MjY0OTc4MjksOTExMT
-Y0NDUzLC0yODIxNDU0NDAsOTM5MjkzNDM3LDIwMDE3NTMwMjcs
-LTQyNzU4MDE2OSwyMDk2OTYxODgyLDEyODE5MTM1NjAsMTI1OD
-Q2NzkyOSwyMDk5NzQ5OTkxLC0xMjYzOTU2Mjk4LDE0NjY0NzUw
-MzYsLTU0NTg5Mjk2OSwxMjQyMjczODMxLDE0MjE0MzkxNjEsMj
-AwNDM5MTk5Niw5NDQyNDUzNDEsOTEyNTY2NjkyLDIyMTkwOTE4
-MV19
+eyJoaXN0b3J5IjpbMTcyMjU3ODEyMSwxNzI2NDk3ODI5LDkxMT
+E2NDQ1MywtMjgyMTQ1NDQwLDkzOTI5MzQzNywyMDAxNzUzMDI3
+LC00Mjc1ODAxNjksMjA5Njk2MTg4MiwxMjgxOTEzNTYwLDEyNT
+g0Njc5MjksMjA5OTc0OTk5MSwtMTI2Mzk1NjI5OCwxNDY2NDc1
+MDM2LC01NDU4OTI5NjksMTI0MjI3MzgzMSwxNDIxNDM5MTYxLD
+IwMDQzOTE5OTYsOTQ0MjQ1MzQxLDkxMjU2NjY5MiwyMjE5MDkx
+ODFdfQ==
 -->
