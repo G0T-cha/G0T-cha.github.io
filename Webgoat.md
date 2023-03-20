@@ -373,20 +373,20 @@ Send 重放，成功
 ![输入图片说明](https://s2.loli.net/2023/03/20/bquUzgc1DtM2e5v.png)
 提交一下付款，然后在这里添加 `Authorization：JWT`![输入图片说明](https://s2.loli.net/2023/03/20/sUGY4bTpCiQZjgO.png)
 成功
-**方法二**
-刷新一下，用本账号登录：
+~~**方法二**~~
+~~刷新一下，用本账号登录：
 ![输入图片说明](https://s2.loli.net/2023/03/20/4mvaSVx7WTbMNFH.png)
 会返回新的访问令牌和刷新令牌：
 ![输入图片说明](https://s2.loli.net/2023/03/20/GxMpNwKvgASZQ9U.png)
-用自己的刷新令牌刷新 TOM 的访问令牌：
+用自己的刷新令牌刷新 TOM 的访问令牌，但是找不到获取新Token的请求？~~
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjkwOTgxNiwtMTg1MjIyNTE2MCwyMD
-EzMDU3ODk2LC0xMTM1Njk0MjAyLC0xMTI5MTgwNTE3LC04MDIy
-OTEwMTEsMTkwMDA2NzY0MiwtMTUxMjYwMTc2MywtMTg2Njg2OT
-AxLDE3NzQ5MTU4NTMsMTcyNDE3NTcxNiwxNzI2NDk3ODI5LDkx
-MTE2NDQ1MywtMjgyMTQ1NDQwLDkzOTI5MzQzNywyMDAxNzUzMD
-I3LC00Mjc1ODAxNjksMjA5Njk2MTg4MiwxMjgxOTEzNTYwLDEy
-NTg0Njc5MjldfQ==
+eyJoaXN0b3J5IjpbNTAyNTQ4NzAsMTk4MjkwOTgxNiwtMTg1Mj
+IyNTE2MCwyMDEzMDU3ODk2LC0xMTM1Njk0MjAyLC0xMTI5MTgw
+NTE3LC04MDIyOTEwMTEsMTkwMDA2NzY0MiwtMTUxMjYwMTc2My
+wtMTg2Njg2OTAxLDE3NzQ5MTU4NTMsMTcyNDE3NTcxNiwxNzI2
+NDk3ODI5LDkxMTE2NDQ1MywtMjgyMTQ1NDQwLDkzOTI5MzQzNy
+wyMDAxNzUzMDI3LC00Mjc1ODAxNjksMjA5Njk2MTg4MiwxMjgx
+OTEzNTYwXX0=
 -->
