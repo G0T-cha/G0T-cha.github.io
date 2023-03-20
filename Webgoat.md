@@ -347,14 +347,14 @@ Send 重放，成功
 ![输入图片说明](https://s2.loli.net/2023/03/19/mYTyc56BvhaWbQL.png)
 
 2. 修改JWT
-在 jwt.io 中进行解码，*但似乎这里改不了加密算法？*，需要更改用户名，admin 改为 true，**加密算法置空**
+在 jwt.io 中进行解码，参考其他攻略，需要更改admin 为 true，**加密算法置空**，*但似乎这里改不了加密算法？*，但只更改 admin 布尔值
 ![输入图片说明](https://s2.loli.net/2023/03/20/FStwjDZLlkWGciK.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjQ5NzgyOSw5MTExNjQ0NTMsLTI4Mj
-E0NTQ0MCw5MzkyOTM0MzcsMjAwMTc1MzAyNywtNDI3NTgwMTY5
-LDIwOTY5NjE4ODIsMTI4MTkxMzU2MCwxMjU4NDY3OTI5LDIwOT
-k3NDk5OTEsLTEyNjM5NTYyOTgsMTQ2NjQ3NTAzNiwtNTQ1ODky
-OTY5LDEyNDIyNzM4MzEsMTQyMTQzOTE2MSwyMDA0MzkxOTk2LD
-k0NDI0NTM0MSw5MTI1NjY2OTIsMjIxOTA5MTgxLDE0ODAwNjMz
-N119
+eyJoaXN0b3J5IjpbLTIwOTc4MTY1MTIsMTcyNjQ5NzgyOSw5MT
+ExNjQ0NTMsLTI4MjE0NTQ0MCw5MzkyOTM0MzcsMjAwMTc1MzAy
+NywtNDI3NTgwMTY5LDIwOTY5NjE4ODIsMTI4MTkxMzU2MCwxMj
+U4NDY3OTI5LDIwOTk3NDk5OTEsLTEyNjM5NTYyOTgsMTQ2NjQ3
+NTAzNiwtNTQ1ODkyOTY5LDEyNDIyNzM4MzEsMTQyMTQzOTE2MS
+wyMDA0MzkxOTk2LDk0NDI0NTM0MSw5MTI1NjY2OTIsMjIxOTA5
+MTgxXX0=
 -->
