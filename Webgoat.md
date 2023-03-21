@@ -416,8 +416,10 @@ Login一下 可以发现数据，用该数据登录即可：
 1. 简单 XXE 
 提交个评论，抓个包：
 ![输入图片说明](https://s2.loli.net/2023/03/22/4UTVX9hrxDni57S.png)
+
+`<text></text>`标签之前的内容是会显示在评论区的，因此如果在此处引用外部实体，外部实体的内容也是可以显示在评论区的。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxMjAwNDAzLDE3MDQyODQzNjAsMTg5Mj
+eyJoaXN0b3J5IjpbNjA3NjA0NDAzLDE3MDQyODQzNjAsMTg5Mj
 U5MDk2NCw5OTA2MjQ4NiwtOTE5MDY4NTA0LDE2MzA3NDA0NTAs
 LTEwMTMyNDgxNzQsLTE4MzI5MDAwMzEsLTMxNTU1NDYyOCwtNj
 Y2NTA3MDcsMTA3ODgxNjk3NiwtMTQ4NjE5MzA1OSw1NjU4OTY2
