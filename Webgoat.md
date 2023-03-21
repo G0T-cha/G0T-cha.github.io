@@ -411,15 +411,15 @@ Login一下 可以发现数据，用该数据登录即可：
 ![输入图片说明](https://s2.loli.net/2023/03/21/w5PJBRxhodzNW8D.png)``
 
 ### XXE
-全称XML External Entity attack，XML外部实体攻击。
-因为XML允许从外部引入实体，并且该请求是由服务器处理过程发生的，是受信任的，攻击者就可以通过XXE获取到服务器上重要的数据，或者通过引入自己写的代码进行其他操作。
-1.
+全称XML External Entity attack，XML外部实体攻击。因为XML允许从外部引入实体，并且该请求是由服务器处理过程发生的，是受信任的，攻击者就可以通过XXE获取到服务器上重要的数据，或者通过引入自己写的代码进行其他操作。XML同样从抓到的包中获取。
+
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzOTk5MDIwLDE4OTI1OTA5NjQsOTkwNj
-I0ODYsLTkxOTA2ODUwNCwxNjMwNzQwNDUwLC0xMDEzMjQ4MTc0
-LC0xODMyOTAwMDMxLC0zMTU1NTQ2MjgsLTY2NjUwNzA3LDEwNz
-g4MTY5NzYsLTE0ODYxOTMwNTksNTY1ODk2NjUsNTAyNTQ4NzAs
-MTk4MjkwOTgxNiwtMTg1MjIyNTE2MCwyMDEzMDU3ODk2LC0xMT
-M1Njk0MjAyLC0xMTI5MTgwNTE3LC04MDIyOTEwMTEsMTkwMDA2
-NzY0Ml19
+eyJoaXN0b3J5IjpbMTcwNDI4NDM2MCwxODkyNTkwOTY0LDk5MD
+YyNDg2LC05MTkwNjg1MDQsMTYzMDc0MDQ1MCwtMTAxMzI0ODE3
+NCwtMTgzMjkwMDAzMSwtMzE1NTU0NjI4LC02NjY1MDcwNywxMD
+c4ODE2OTc2LC0xNDg2MTkzMDU5LDU2NTg5NjY1LDUwMjU0ODcw
+LDE5ODI5MDk4MTYsLTE4NTIyMjUxNjAsMjAxMzA1Nzg5NiwtMT
+EzNTY5NDIwMiwtMTEyOTE4MDUxNywtODAyMjkxMDExLDE5MDAw
+Njc2NDJdfQ==
 -->
