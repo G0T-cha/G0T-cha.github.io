@@ -419,7 +419,7 @@ Login一下 可以发现数据，用该数据登录即可：
 ![输入图片说明](https://s2.loli.net/2023/03/22/4UTVX9hrxDni57S.png)
 
 `<text></text`>标签之前的内容是会显示在评论区的，因此如果在此处引用外		部实体，外部实体的内容也是可以显示在评论区的。
-修改一下，在request报文中的xml代码中增加DTD，并在其中定义外部实体，其内容是"file:///"，然后引用外部实体，重发，实现目标：
+修改一下，在request报文中的xml代码中增加DTD，并在其中定义外部实体，其内容是"file:///"，然后引用外部实体：
 ```
 <?xml version="1.0"?>
 <!DOCTYPE cat [
@@ -427,14 +427,16 @@ Login一下 可以发现数据，用该数据登录即可：
 ]>
 <comment>  <text>&root;</text></comment>
 ```
-2. 
+重发，实现目标：
+[图片上传失败...(image-JTzE6zeQAVWs7Dqw)]
 
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1MzI2NTE0LC00OTA0MDE5OTgsMTg1MD
-c1ODIxOCw0OTU0MTQ3OTUsMTcwNDI4NDM2MCwxODkyNTkwOTY0
-LDk5MDYyNDg2LC05MTkwNjg1MDQsMTYzMDc0MDQ1MCwtMTAxMz
-I0ODE3NCwtMTgzMjkwMDAzMSwtMzE1NTU0NjI4LC02NjY1MDcw
-NywxMDc4ODE2OTc2LC0xNDg2MTkzMDU5LDU2NTg5NjY1LDUwMj
-U0ODcwLDE5ODI5MDk4MTYsLTE4NTIyMjUxNjAsMjAxMzA1Nzg5
-Nl19
+eyJoaXN0b3J5IjpbLTM1NzYwNDAyOSw5MTUzMjY1MTQsLTQ5MD
+QwMTk5OCwxODUwNzU4MjE4LDQ5NTQxNDc5NSwxNzA0Mjg0MzYw
+LDE4OTI1OTA5NjQsOTkwNjI0ODYsLTkxOTA2ODUwNCwxNjMwNz
+QwNDUwLC0xMDEzMjQ4MTc0LC0xODMyOTAwMDMxLC0zMTU1NTQ2
+MjgsLTY2NjUwNzA3LDEwNzg4MTY5NzYsLTE0ODYxOTMwNTksNT
+Y1ODk2NjUsNTAyNTQ4NzAsMTk4MjkwOTgxNiwtMTg1MjIyNTE2
+MF19
 -->
