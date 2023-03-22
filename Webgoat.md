@@ -415,7 +415,9 @@ Login一下 可以发现数据，用该数据登录即可：
 
 1. 简单 XXE 
 提交个评论，抓个包：
+
 ![输入图片说明](https://s2.loli.net/2023/03/22/4UTVX9hrxDni57S.png)
+
 `<text></text`>标签之前的内容是会显示在评论区的，因此如果在此处引用外		部实体，外部实体的内容也是可以显示在评论区的。
 修改一下，在request报文中的xml代码中增加DTD，并在其中定义外部实体，其内容是"file:///"，然后引用外部实体，重发，实现目标：
 ```
@@ -428,11 +430,11 @@ Login一下 可以发现数据，用该数据登录即可：
 2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDQwMTk5OCwxODUwNzU4MjE4LDQ5NT
-QxNDc5NSwxNzA0Mjg0MzYwLDE4OTI1OTA5NjQsOTkwNjI0ODYs
-LTkxOTA2ODUwNCwxNjMwNzQwNDUwLC0xMDEzMjQ4MTc0LC0xOD
-MyOTAwMDMxLC0zMTU1NTQ2MjgsLTY2NjUwNzA3LDEwNzg4MTY5
-NzYsLTE0ODYxOTMwNTksNTY1ODk2NjUsNTAyNTQ4NzAsMTk4Mj
-kwOTgxNiwtMTg1MjIyNTE2MCwyMDEzMDU3ODk2LC0xMTM1Njk0
-MjAyXX0=
+eyJoaXN0b3J5IjpbOTE1MzI2NTE0LC00OTA0MDE5OTgsMTg1MD
+c1ODIxOCw0OTU0MTQ3OTUsMTcwNDI4NDM2MCwxODkyNTkwOTY0
+LDk5MDYyNDg2LC05MTkwNjg1MDQsMTYzMDc0MDQ1MCwtMTAxMz
+I0ODE3NCwtMTgzMjkwMDAzMSwtMzE1NTU0NjI4LC02NjY1MDcw
+NywxMDc4ODE2OTc2LC0xNDg2MTkzMDU5LDU2NTg5NjY1LDUwMj
+U0ODcwLDE5ODI5MDk4MTYsLTE4NTIyMjUxNjAsMjAxMzA1Nzg5
+Nl19
 -->
