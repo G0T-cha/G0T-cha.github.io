@@ -445,9 +445,12 @@ Login一下 可以发现数据，用该数据登录即可：
 
 1. 以 tom 身份登录即可
 2. 简单抓个包，就可以发现回复中有不回显在界面中的信息：
+![输入图片说明](https://s2.loli.net/2023/03/26/UNwgbiZYSOaQoXt.png)
+3. 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDI3OTA4MywxNTk5MTY4NTUwLC0xMz
+eyJoaXN0b3J5IjpbMTgyMjg0NjcyNywxNTk5MTY4NTUwLC0xMz
 k5MjI2Nzk5LDEwOTg3NDE2NDEsMjAyNDA1NzkxOCwxODA1NTc0
 NjcyLDgwODc3OTQ0NSwxNTEwODUwOTAzLC0xNDQ3Mzg4NTcyLC
 0xMzU3MzM5NTk0LDkxNTMyNjUxNCwtNDkwNDAxOTk4LDE4NTA3
