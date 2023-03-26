@@ -448,11 +448,11 @@ Login一下 可以发现数据，用该数据登录即可：
 ![输入图片说明](https://s2.loli.net/2023/03/26/UNwgbiZYSOaQoXt.png)
 
 3. 这一页要求用直接对象引用的方式来查看自己的profile
-从上一次抓包，可以看到请求`GET http://127.0.0.1:8080/WebGoat/IDOR/profile`，可知
+从上一次抓包，可以看到请求`GET http://127.0.0.1:8080/WebGoat/IDOR/profile`，再加上 tom 的 userid 为2342384，推测 url we
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODUyODY5MiwxODY3MTgwMjE1LDE4Mj
+eyJoaXN0b3J5IjpbLTYxNjIxOTE0NywxODY3MTgwMjE1LDE4Mj
 I4NDY3MjcsMTU5OTE2ODU1MCwtMTM5OTIyNjc5OSwxMDk4NzQx
 NjQxLDIwMjQwNTc5MTgsMTgwNTU3NDY3Miw4MDg3Nzk0NDUsMT
 UxMDg1MDkwMywtMTQ0NzM4ODU3MiwtMTM1NzMzOTU5NCw5MTUz
