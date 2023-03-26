@@ -433,9 +433,9 @@ Login一下 可以发现数据，用该数据登录即可：
 2. 修改 Content-Type
 抓个包，发现 Content-Type 为 json：
 ![输入图片说明](https://s2.loli.net/2023/03/26/HrqTSEJl8xkmwhR.png)
-改为 xml
+改为 xml，再使用上题的代码，重发：
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzIwNzM1MSwtMTQ0NzM4ODU3MiwtMT
+eyJoaXN0b3J5IjpbMTUxMDg1MDkwMywtMTQ0NzM4ODU3MiwtMT
 M1NzMzOTU5NCw5MTUzMjY1MTQsLTQ5MDQwMTk5OCwxODUwNzU4
 MjE4LDQ5NTQxNDc5NSwxNzA0Mjg0MzYwLDE4OTI1OTA5NjQsOT
 kwNjI0ODYsLTkxOTA2ODUwNCwxNjMwNzQwNDUwLC0xMDEzMjQ4
