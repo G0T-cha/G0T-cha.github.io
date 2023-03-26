@@ -441,11 +441,12 @@ Login一下 可以发现数据，用该数据登录即可：
 ### Broke Access Control
 
 #### Insecure Direct Object References
+越权漏洞
 
-1. 越权漏洞
+1. 以 tom 身份登录
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjc4NjQ2OCwyMDI0MDU3OTE4LDE4MD
+eyJoaXN0b3J5IjpbMTA5ODc0MTY0MSwyMDI0MDU3OTE4LDE4MD
 U1NzQ2NzIsODA4Nzc5NDQ1LDE1MTA4NTA5MDMsLTE0NDczODg1
 NzIsLTEzNTczMzk1OTQsOTE1MzI2NTE0LC00OTA0MDE5OTgsMT
 g1MDc1ODIxOCw0OTU0MTQ3OTUsMTcwNDI4NDM2MCwxODkyNTkw
