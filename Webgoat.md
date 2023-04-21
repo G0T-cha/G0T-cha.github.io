@@ -475,14 +475,16 @@ GET 改为 PUT，Content-type 改成 application/json，下面补充 json 语句
  
 1. 要求找到两个藏起来的菜单项:
 F12可以找到:
+
 ![输入图片说明](/imgs/2023-04-21/NqV4XIEzMtrUwZ1S.png)
 
 2. 查看用户列表
 进入上面藏起来的 users：https://127.0.0.1:8080/WebGoat/users，发现报错
-改一下 Content-Type 为 json/application，显示用户列表：
+改一下 Content-Type 为 json/application，*显示用户列表（为什么？？？）*：
+
 ![输入图片说明](/imgs/2023-04-22/WpCIdN49L9AKS4Cv.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzg1NDI0NiwtMTY1MzEwMTg4MywxMD
+eyJoaXN0b3J5IjpbMTQ0NjI5NzU3NCwtMTY1MzEwMTg4MywxMD
 kyMjQ4NjkxLDg1MjY4MzE4OCwxNzExMjM3MzE3LDI4NDgxNjM4
 NCwtMzQ1ODc3NzA3LC0yMDk4NjI4OTY1LDE4NjcxODAyMTUsMT
 gyMjg0NjcyNywxNTk5MTY4NTUwLC0xMzk5MjI2Nzk5LDEwOTg3
