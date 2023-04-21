@@ -449,9 +449,9 @@ Login一下 可以发现数据，用该数据登录即可：
 如图：
 ![输入图片说明](https://s2.loli.net/2023/03/26/UNwgbiZYSOaQoXt.png)
 
-4. 这一页要求用直接对象引用的方式来查看自己的profile
+3. 这一页要求用直接对象引用的方式来查看自己的profile
 从上一次抓包，可以看到请求`GET http://127.0.0.1:8080/WebGoat/IDOR/profile`，再加上 tom 的 userid 为2342384，推测 profile 的 url 为`WebGoat/IDOR/profile/2342384`
-5. 看其他用户的profile
+4. 看其他用户的profile
 可以看出通过 userid 识别不同库，所以需要首先知道其他用户的 id，使用 burpsuite 爆破：
 ![输入图片说明](/imgs/2023-04-21/Nx7U39LzwF48qnyg.png)
 ![输入图片说明](/imgs/2023-04-21/9PtZNCmFznfVTIXO.png)
@@ -459,14 +459,15 @@ Login一下 可以发现数据，用该数据登录即可：
 
 	可以看出id为2342388
 
-5. Edit Another Profile
+5. 修改其他用户的 Profile
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk0MDUyNTksLTM0NTg3NzcwNywtMj
-A5ODYyODk2NSwxODY3MTgwMjE1LDE4MjI4NDY3MjcsMTU5OTE2
-ODU1MCwtMTM5OTIyNjc5OSwxMDk4NzQxNjQxLDIwMjQwNTc5MT
-gsMTgwNTU3NDY3Miw4MDg3Nzk0NDUsMTUxMDg1MDkwMywtMTQ0
-NzM4ODU3MiwtMTM1NzMzOTU5NCw5MTUzMjY1MTQsLTQ5MDQwMT
-k5OCwxODUwNzU4MjE4LDQ5NTQxNDc5NSwxNzA0Mjg0MzYwLDE4
-OTI1OTA5NjRdfQ==
+eyJoaXN0b3J5IjpbMjg0ODE2Mzg0LC0zNDU4Nzc3MDcsLTIwOT
+g2Mjg5NjUsMTg2NzE4MDIxNSwxODIyODQ2NzI3LDE1OTkxNjg1
+NTAsLTEzOTkyMjY3OTksMTA5ODc0MTY0MSwyMDI0MDU3OTE4LD
+E4MDU1NzQ2NzIsODA4Nzc5NDQ1LDE1MTA4NTA5MDMsLTE0NDcz
+ODg1NzIsLTEzNTczMzk1OTQsOTE1MzI2NTE0LC00OTA0MDE5OT
+gsMTg1MDc1ODIxOCw0OTU0MTQ3OTUsMTcwNDI4NDM2MCwxODky
+NTkwOTY0XX0=
 -->
