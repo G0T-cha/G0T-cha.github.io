@@ -460,15 +460,24 @@ Login一下 可以发现数据，用该数据登录即可：
 	可以看出id为2342388
 
 5. 修改其他用户的 Profile
-GET 改为 PUT，Content-type 改成 application/json，下面补充 json 语句
-
+GET 改为 PUT，Content-type 改成 application/json，下面补充 json 语句：
+```
+{
+    "role":"1", 
+    "color":"red", 
+    "size":"large",
+    "name":"Buffalo Bill",
+    "userId":"2342388"
+}
+```
+#### Missing Function Level Access Control
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTk1NzMsMjg0ODE2Mzg0LC0zNDU4Nz
-c3MDcsLTIwOTg2Mjg5NjUsMTg2NzE4MDIxNSwxODIyODQ2NzI3
-LDE1OTkxNjg1NTAsLTEzOTkyMjY3OTksMTA5ODc0MTY0MSwyMD
-I0MDU3OTE4LDE4MDU1NzQ2NzIsODA4Nzc5NDQ1LDE1MTA4NTA5
-MDMsLTE0NDczODg1NzIsLTEzNTczMzk1OTQsOTE1MzI2NTE0LC
-00OTA0MDE5OTgsMTg1MDc1ODIxOCw0OTU0MTQ3OTUsMTcwNDI4
-NDM2MF19
+eyJoaXN0b3J5IjpbMTMzOTYwMjU1MiwyODQ4MTYzODQsLTM0NT
+g3NzcwNywtMjA5ODYyODk2NSwxODY3MTgwMjE1LDE4MjI4NDY3
+MjcsMTU5OTE2ODU1MCwtMTM5OTIyNjc5OSwxMDk4NzQxNjQxLD
+IwMjQwNTc5MTgsMTgwNTU3NDY3Miw4MDg3Nzk0NDUsMTUxMDg1
+MDkwMywtMTQ0NzM4ODU3MiwtMTM1NzMzOTU5NCw5MTUzMjY1MT
+QsLTQ5MDQwMTk5OCwxODUwNzU4MjE4LDQ5NTQxNDc5NSwxNzA0
+Mjg0MzYwXX0=
 -->
