@@ -477,10 +477,10 @@ GET 改为 PUT，Content-type 改成 application/json，下面补充 json 语句
 F12可以找到:
 ![输入图片说明](/imgs/2023-04-21/NqV4XIEzMtrUwZ1S.png)
 
-2. 
-
+2. 查看用户列表
+进入上面藏起来的 users，https://127.0.0.1:8080/WebGoat/users
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQzOTE2MjksLTE2NTMxMDE4ODMsMT
+eyJoaXN0b3J5IjpbLTE4Njc2OTQzMTMsLTE2NTMxMDE4ODMsMT
 A5MjI0ODY5MSw4NTI2ODMxODgsMTcxMTIzNzMxNywyODQ4MTYz
 ODQsLTM0NTg3NzcwNywtMjA5ODYyODk2NSwxODY3MTgwMjE1LD
 E4MjI4NDY3MjcsMTU5OTE2ODU1MCwtMTM5OTIyNjc5OSwxMDk4
