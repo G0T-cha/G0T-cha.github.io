@@ -455,12 +455,14 @@ Login一下 可以发现数据，用该数据登录即可：
 可以看出通过 userid 识别不同库，所以需要首先知道其他用户的 id，使用 burpsuite 爆破：
 ![输入图片说明](/imgs/2023-04-21/Nx7U39LzwF48qnyg.png)
 ![输入图片说明](/imgs/2023-04-21/9PtZNCmFznfVTIXO.png)
+![输入图片说明](/imgs/2023-04-21/xsjddd1tJqxVMgMM.png)
 
+	可以看出id为2342388
 
-5.
+5. Edit Another Profile
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTkwMjM4MzMsLTM0NTg3NzcwNywtMj
+eyJoaXN0b3J5IjpbLTE5OTk0MDUyNTksLTM0NTg3NzcwNywtMj
 A5ODYyODk2NSwxODY3MTgwMjE1LDE4MjI4NDY3MjcsMTU5OTE2
 ODU1MCwtMTM5OTIyNjc5OSwxMDk4NzQxNjQxLDIwMjQwNTc5MT
 gsMTgwNTU3NDY3Miw4MDg3Nzk0NDUsMTUxMDg1MDkwMywtMTQ0
