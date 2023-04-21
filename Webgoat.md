@@ -418,7 +418,7 @@ Login一下 可以发现数据，用该数据登录即可：
 
 ![输入图片说明](https://s2.loli.net/2023/03/22/4UTVX9hrxDni57S.png)
 
-`<text></text`>标签之前的内容是会显示在评论区的，因此如果在此处引用外		部实体，外部实体的内容也是可以显示在评论区的。
+`<text></text`>标签之前的内容是会显示在评论区的，因此如果在此处引用外		部实体，外部实体的内		容也是可以显示在评论区的。
 修改一下，在request报文中的xml代码中增加DTD，并在其中定义外部实体，其内容是"file:///"，然后引用外部实体：
 ```
 <?xml version="1.0"?>
@@ -433,7 +433,8 @@ Login一下 可以发现数据，用该数据登录即可：
 2. 修改 Content-Type
 抓个包，发现 Content-Type 为 json：
 ![输入图片说明](https://s2.loli.net/2023/03/26/HrqTSEJl8xkmwhR.png) 
-改为 xml，再使用上题的代码，重发成功。
+
+	改为 xml，再使用上题的代码，重发成功。
 
 3. XXE盲注
 参考https://blog.csdn.net/XenonL/article/details/104528423
@@ -453,12 +454,13 @@ Login一下 可以发现数据，用该数据登录即可：
 5. 看其他用户的profile
 可以看出通过 userid 识别不同库，所以需要首先知道其他用户的 id，使用 burpsuite 爆破：
 ![输入图片说明](/imgs/2023-04-21/Nx7U39LzwF48qnyg.png)
+![输入图片说明](/imgs/2023-04-21/9PtZNCmFznfVTIXO.png)
 
 
 5.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTgyMjIxMzcsLTM0NTg3NzcwNywtMj
+eyJoaXN0b3J5IjpbLTEwNTkwMjM4MzMsLTM0NTg3NzcwNywtMj
 A5ODYyODk2NSwxODY3MTgwMjE1LDE4MjI4NDY3MjcsMTU5OTE2
 ODU1MCwtMTM5OTIyNjc5OSwxMDk4NzQxNjQxLDIwMjQwNTc5MT
 gsMTgwNTU3NDY3Miw4MDg3Nzk0NDUsMTUxMDg1MDkwMywtMTQ0
