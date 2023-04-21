@@ -471,9 +471,11 @@ GET 改为 PUT，Content-type 改成 application/json，下面补充 json 语句
 }
 ```
 #### Missing Function Level Access Control
-
+ 缺少功能级访问控制
+ 
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTYwMjU1MiwyODQ4MTYzODQsLTM0NT
+eyJoaXN0b3J5IjpbMTcxMTIzNzMxNywyODQ4MTYzODQsLTM0NT
 g3NzcwNywtMjA5ODYyODk2NSwxODY3MTgwMjE1LDE4MjI4NDY3
 MjcsMTU5OTE2ODU1MCwtMTM5OTIyNjc5OSwxMDk4NzQxNjQxLD
 IwMjQwNTc5MTgsMTgwNTU3NDY3Miw4MDg3Nzk0NDUsMTUxMDg1
