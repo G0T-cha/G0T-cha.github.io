@@ -494,10 +494,10 @@ F12可以找到:
 2. Reflect-XSS
 找出注入点：都试一下:
 ```
-<scip>
+<script>alert(document);</script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjIxNzQwNSwtNDY2MTQ2ODUsMTQ0Nj
+eyJoaXN0b3J5IjpbMTk1NTQ5NzY1NCwtNDY2MTQ2ODUsMTQ0Nj
 I5NzU3NCwtMTY1MzEwMTg4MywxMDkyMjQ4NjkxLDg1MjY4MzE4
 OCwxNzExMjM3MzE3LDI4NDgxNjM4NCwtMzQ1ODc3NzA3LC0yMD
 k4NjI4OTY1LDE4NjcxODAyMTUsMTgyMjg0NjcyNywxNTk5MTY4
