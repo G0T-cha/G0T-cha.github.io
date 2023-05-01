@@ -10,9 +10,11 @@ https://huaweicloud.csdn.net/638db1bbdacf622b8df8c6a0.html#5mysqlphpnginxmysqlph
 https://blog.csdn.net/weixin_43268590/article/details/125650002
 但都不成功，恢复了无数次快照之后，按照
 https://xp-rience.blogspot.com/2020/05/nginx-php-fpm-setup-under-kali-linux.html
-成功搭建了
+成功搭建了 php+nginx 的环境：
+
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyMDgxNzMsMTczMjY3NjE4OF19
+eyJoaXN0b3J5IjpbLTEzOTI0OTg2NTAsMjMyMDgxNzMsMTczMj
+Y3NjE4OF19
 -->
