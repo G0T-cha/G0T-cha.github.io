@@ -3,11 +3,16 @@
 
 ## 环境搭建
 
-老师的视频中给出的是 Fedola 中的搭建，但在此尝试了 Kali 下的搭建，由于文件目录等的不同，在搭建时出现了诸多问题，尝试了
+老师的视频中给出的是 Fedola 中的搭建，但在此尝试了 Kali 下的搭建，由于文件目录等的不同，在搭建时出现了诸多问题:
+尝试了
 https://blog.csdn.net/weixin_54252904/article/details/117855931
-
+https://huaweicloud.csdn.net/638db1bbdacf622b8df8c6a0.html#5mysqlphpnginxmysqlphpapache_36
+https://blog.csdn.net/weixin_43268590/article/details/125650002
+但都不成功，恢复了无数次快照之后，按照
+https://xp-rience.blogspot.com/2020/05/nginx-php-fpm-setup-under-kali-linux.html
+成功搭建了
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzU0NTA3NSwxNzMyNjc2MTg4XX0=
+eyJoaXN0b3J5IjpbMjMyMDgxNzMsMTczMjY3NjE4OF19
 -->
