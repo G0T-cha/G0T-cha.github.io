@@ -40,13 +40,14 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 
 #### 1.php
 
-1.php
+1.php 将通过输入的 id 查询对应学生的姓名，并将查询到的结果直接返回到页面
+
 ![输入图片说明](/imgs/2023-05-08/YVyVf1NnSjoRSYdA.png)
 
  
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgwMDgzMDcsNzk2MjgzMTA4LDg4OT
+eyJoaXN0b3J5IjpbLTEyNTE0MDU0MDIsNzk2MjgzMTA4LDg4OT
 gzMjU5NCwxODAzNTAxNDg2LC02NzQ2NTQ5NTgsMTU4OTA0ODU4
 OSwtMTg1ODg2Mjk1NywtMTU2NjM1NDE3MCwyNzE5OTA2MzQsMj
 M5NzQ3MjI2LC0yMDY4Nzg4NTEyLDE2NDg1NTY2MTAsLTE4MDIz
