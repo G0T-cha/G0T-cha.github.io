@@ -22,14 +22,17 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 ![输入图片说明](/imgs/2023-05-07/z1PI87MXORtb1ekc.png)
 
 在建立一个 用于mysql查询的命令行窗口：`mysql -u root -p`，输入密码登录进入数据库，再进到表 sql_injection中：`use sql_injection`：
+
 ![输入图片说明](/imgs/2023-05-08/R2xSGCa1ApdJmNF9.png)
+
 
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzUwMTQ4NiwtNjc0NjU0OTU4LDE1OD
-kwNDg1ODksLTE4NTg4NjI5NTcsLTE1NjYzNTQxNzAsMjcxOTkw
-NjM0LDIzOTc0NzIyNiwtMjA2ODc4ODUxMiwxNjQ4NTU2NjEwLC
-0xODAyMzc4MDYwLC0xOTE1NDI2OTUsLTU5ODkwMjE1LC0zNTkx
-OTU3OTcsMjMyMDgxNzMsMTczMjY3NjE4OF19
+eyJoaXN0b3J5IjpbODg5ODMyNTk0LDE4MDM1MDE0ODYsLTY3ND
+Y1NDk1OCwxNTg5MDQ4NTg5LC0xODU4ODYyOTU3LC0xNTY2MzU0
+MTcwLDI3MTk5MDYzNCwyMzk3NDcyMjYsLTIwNjg3ODg1MTIsMT
+Y0ODU1NjYxMCwtMTgwMjM3ODA2MCwtMTkxNTQyNjk1LC01OTg5
+MDIxNSwtMzU5MTk1Nzk3LDIzMjA4MTczLDE3MzI2NzYxODhdfQ
+==
 -->
