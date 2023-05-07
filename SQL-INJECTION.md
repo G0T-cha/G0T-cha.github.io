@@ -14,12 +14,12 @@ https://xp-rience.blogspot.com/2020/05/nginx-php-fpm-setup-under-kali-linux.html
 ![输入图片说明](/imgs/2023-05-01/ybY35dzlQrrS24fa.png)
 
 kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不行，推倒重来 fedora 了
-大概思路是先安装 nginx（启动，检查是否启动成功），安装php、php-fpm（启动，检查是否启动成功），修改 nginx 配置文件：监听php，这时就可以通过浏览器打开 nginx 目录下的 php 文件了，然后安装 mysql（mariadb 及服务器），使用命令`mysql_secure_installation` 配置mysql，导入需要的sql_injection表，安装 php-mysqlnd，重启 nginx，php-fpm
+大概思路是先安装 nginx（启动，检查是否启动成功），安装php、php-fpm（启动，检查是否启动成功），修改 nginx 配置文件：监听php，这时就可以通过浏览器打开 nginx 目录下的 php 文件了，然后安装 mysql（mariadb 及服务器），使用命令`mysql_secure_installation` 配置mysql，导入需要的sql_injection表，安装 php-mysqlnd，重启 nginx，php-fpm，这是按视频就可以打开 1.php 查看内容
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODk5ODQ5LDI3MTk5MDYzNCwyMzk3ND
-cyMjYsLTIwNjg3ODg1MTIsMTY0ODU1NjYxMCwtMTgwMjM3ODA2
-MCwtMTkxNTQyNjk1LC01OTg5MDIxNSwtMzU5MTk1Nzk3LDIzMj
-A4MTczLDE3MzI2NzYxODhdfQ==
+eyJoaXN0b3J5IjpbLTE1NjYzNTQxNzAsMjcxOTkwNjM0LDIzOT
+c0NzIyNiwtMjA2ODc4ODUxMiwxNjQ4NTU2NjEwLC0xODAyMzc4
+MDYwLC0xOTE1NDI2OTUsLTU5ODkwMjE1LC0zNTkxOTU3OTcsMj
+MyMDgxNzMsMTczMjY3NjE4OF19
 -->
