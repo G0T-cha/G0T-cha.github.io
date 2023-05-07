@@ -15,9 +15,8 @@ https://xp-rience.blogspot.com/2020/05/nginx-php-fpm-setup-under-kali-linux.html
 mysql
 
 
-
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA5MTYwNDUsLTU5ODkwMjE1LC0zNT
+eyJoaXN0b3J5IjpbLTIwODUyNDU5MTksLTU5ODkwMjE1LC0zNT
 kxOTU3OTcsMjMyMDgxNzMsMTczMjY3NjE4OF19
 -->
