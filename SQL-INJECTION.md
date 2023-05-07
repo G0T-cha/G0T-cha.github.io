@@ -16,7 +16,7 @@ https://xp-rience.blogspot.com/2020/05/nginx-php-fpm-setup-under-kali-linux.html
 kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不行，推倒重来 fedora 了
 大概思路是先安装 nginx（启动，检查是否启动成功），安装php、php-fpm（启动，检查是否启动成功），修改 nginx 配置文件：监听php，这时就可以通过浏览器打开 nginx 目录下的 php 文件了，然后安装 mysql（mariadb 及服务器），使用命令`mysql_secure_installation` 配置mysql，导入需要的sql_injection表，安装 php-mysqlnd，重启 nginx，php-fpm，这是按老师的演示视频就可以打开 1.php 查看内容，*不过我打开还是空白*？但是 1.html 可以打开，输入 user id 后也可正常回显，就这样用着吧先
 
-## 实际使用
+## 准备工作
 
 为了便于观测，修改数据库配置文件 my.cnf，新建一个日志目录用于记录数据库查询记录，然后使用`sudo tail -f /var/log/mariadb/queries.log` 持续观察：
 ![输入图片说明](/imgs/2023-05-07/z1PI87MXORtb1ekc.png)
@@ -26,16 +26,19 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 ![输入图片说明](/imgs/2023-05-08/R2xSGCa1ApdJmNF9.png)
 
 再建立一个用于 sqlmap 的命令行窗口：
+
 ![输入图片说明](/imgs/2023-05-08/qLjm6QeUnti30iVs.png)
+
+在code
 
 
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5NzM1MzgyLDc5NjI4MzEwOCw4ODk4Mz
-I1OTQsMTgwMzUwMTQ4NiwtNjc0NjU0OTU4LDE1ODkwNDg1ODks
-LTE4NTg4NjI5NTcsLTE1NjYzNTQxNzAsMjcxOTkwNjM0LDIzOT
-c0NzIyNiwtMjA2ODc4ODUxMiwxNjQ4NTU2NjEwLC0xODAyMzc4
-MDYwLC0xOTE1NDI2OTUsLTU5ODkwMjE1LC0zNTkxOTU3OTcsMj
-MyMDgxNzMsMTczMjY3NjE4OF19
+eyJoaXN0b3J5IjpbMTQ4NjYxMzA3MSw3OTYyODMxMDgsODg5OD
+MyNTk0LDE4MDM1MDE0ODYsLTY3NDY1NDk1OCwxNTg5MDQ4NTg5
+LC0xODU4ODYyOTU3LC0xNTY2MzU0MTcwLDI3MTk5MDYzNCwyMz
+k3NDcyMjYsLTIwNjg3ODg1MTIsMTY0ODU1NjYxMCwtMTgwMjM3
+ODA2MCwtMTkxNTQyNjk1LC01OTg5MDIxNSwtMzU5MTk1Nzk3LD
+IzMjA4MTczLDE3MzI2NzYxODhdfQ==
 -->
