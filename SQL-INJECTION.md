@@ -12,10 +12,11 @@ https://blog.csdn.net/weixin_43268590/article/details/125650002
 https://xp-rience.blogspot.com/2020/05/nginx-php-fpm-setup-under-kali-linux.html
 成功搭建了 php+nginx 的环境：
 ![输入图片说明](/imgs/2023-05-01/ybY35dzlQrrS24fa.png)
+
 mysql kali自带
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4MjgzMTEwLC01OTg5MDIxNSwtMzU5MT
-k1Nzk3LDIzMjA4MTczLDE3MzI2NzYxODhdfQ==
+eyJoaXN0b3J5IjpbLTExNDg2NDc0MzIsLTU5ODkwMjE1LC0zNT
+kxOTU3OTcsMjMyMDgxNzMsMTczMjY3NjE4OF19
 -->
