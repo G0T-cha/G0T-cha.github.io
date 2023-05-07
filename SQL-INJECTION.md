@@ -18,10 +18,10 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 
 ## 实际使用
 
-为了便于观测，修改数据库配置文件 my.cnf，新建一个日志
+为了便于观测，修改数据库配置文件 my.cnf，新建一个日志用于记录数据库查询记录
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDA5OTE2NCwxNTg5MDQ4NTg5LC0xOD
+eyJoaXN0b3J5IjpbLTY3NDY1NDk1OCwxNTg5MDQ4NTg5LC0xOD
 U4ODYyOTU3LC0xNTY2MzU0MTcwLDI3MTk5MDYzNCwyMzk3NDcy
 MjYsLTIwNjg3ODg1MTIsMTY0ODU1NjYxMCwtMTgwMjM3ODA2MC
 wtMTkxNTQyNjk1LC01OTg5MDIxNSwtMzU5MTk1Nzk3LDIzMjA4
