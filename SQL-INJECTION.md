@@ -92,6 +92,12 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 
 ![输入图片说明](/imgs/2023-05-08/60I1dHEMH3GOifvW.png)
 
+```
+ ./sqlmap.py -u 'http://127.0.0.1/sql_injection/1.php?id=1&submit=submit' -p id --proxy='http://127.0.0.1:8080' --fresh-queries --current-db
+```
+*--proxy='http://127.0.0.1:8080' tong'guo*
+
+
 
 
 
@@ -106,11 +112,11 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODk2ODM3ODEsMTE3MDM0NTg5OSwtMT
-cxMTMzMjg1OCw3OTYyODMxMDgsODg5ODMyNTk0LDE4MDM1MDE0
-ODYsLTY3NDY1NDk1OCwxNTg5MDQ4NTg5LC0xODU4ODYyOTU3LC
-0xNTY2MzU0MTcwLDI3MTk5MDYzNCwyMzk3NDcyMjYsLTIwNjg3
-ODg1MTIsMTY0ODU1NjYxMCwtMTgwMjM3ODA2MCwtMTkxNTQyNj
-k1LC01OTg5MDIxNSwtMzU5MTk1Nzk3LDIzMjA4MTczLDE3MzI2
-NzYxODhdfQ==
+eyJoaXN0b3J5IjpbNTkwOTExMDUsMTE3MDM0NTg5OSwtMTcxMT
+MzMjg1OCw3OTYyODMxMDgsODg5ODMyNTk0LDE4MDM1MDE0ODYs
+LTY3NDY1NDk1OCwxNTg5MDQ4NTg5LC0xODU4ODYyOTU3LC0xNT
+Y2MzU0MTcwLDI3MTk5MDYzNCwyMzk3NDcyMjYsLTIwNjg3ODg1
+MTIsMTY0ODU1NjYxMCwtMTgwMjM3ODA2MCwtMTkxNTQyNjk1LC
+01OTg5MDIxNSwtMzU5MTk1Nzk3LDIzMjA4MTczLDE3MzI2NzYx
+ODhdfQ==
 -->
