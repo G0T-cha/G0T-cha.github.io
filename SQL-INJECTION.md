@@ -21,13 +21,13 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 为了便于观测，修改数据库配置文件 my.cnf，新建一个日志目录用于记录数据库查询记录，然后使用`sudo tail -f /var/log/mariadb/queries.log` 持续观察：
 ![输入图片说明](/imgs/2023-05-07/z1PI87MXORtb1ekc.png)
 
-在建立一个`mysql -u root -p`
+在建立一个 `mysql -u root -p`
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3MjI0MDEsLTY3NDY1NDk1OCwxNTg5MD
-Q4NTg5LC0xODU4ODYyOTU3LC0xNTY2MzU0MTcwLDI3MTk5MDYz
-NCwyMzk3NDcyMjYsLTIwNjg3ODg1MTIsMTY0ODU1NjYxMCwtMT
-gwMjM3ODA2MCwtMTkxNTQyNjk1LC01OTg5MDIxNSwtMzU5MTk1
-Nzk3LDIzMjA4MTczLDE3MzI2NzYxODhdfQ==
+eyJoaXN0b3J5IjpbLTc4ODYwMTU3NywtNjc0NjU0OTU4LDE1OD
+kwNDg1ODksLTE4NTg4NjI5NTcsLTE1NjYzNTQxNzAsMjcxOTkw
+NjM0LDIzOTc0NzIyNiwtMjA2ODc4ODUxMiwxNjQ4NTU2NjEwLC
+0xODAyMzc4MDYwLC0xOTE1NDI2OTUsLTU5ODkwMjE1LC0zNTkx
+OTU3OTcsMjMyMDgxNzMsMTczMjY3NjE4OF19
 -->
