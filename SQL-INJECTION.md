@@ -29,16 +29,18 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 
 ![输入图片说明](/imgs/2023-05-08/qLjm6QeUnti30iVs.png)
 
-在 code 命令：
+在 code 命令行窗口可以查看 php 代码：
+![输入图片说明](/imgs/2023-05-08/sfWoM770ThlIfcpO.png)
 
+## 开始实验
 
-
+### 目标：审阅 php 代码，ton
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5NTY5NTE2LDc5NjI4MzEwOCw4ODk4Mz
-I1OTQsMTgwMzUwMTQ4NiwtNjc0NjU0OTU4LDE1ODkwNDg1ODks
-LTE4NTg4NjI5NTcsLTE1NjYzNTQxNzAsMjcxOTkwNjM0LDIzOT
-c0NzIyNiwtMjA2ODc4ODUxMiwxNjQ4NTU2NjEwLC0xODAyMzc4
-MDYwLC0xOTE1NDI2OTUsLTU5ODkwMjE1LC0zNTkxOTU3OTcsMj
-MyMDgxNzMsMTczMjY3NjE4OF19
+eyJoaXN0b3J5IjpbMTk4Njg0NDY5OCw3OTYyODMxMDgsODg5OD
+MyNTk0LDE4MDM1MDE0ODYsLTY3NDY1NDk1OCwxNTg5MDQ4NTg5
+LC0xODU4ODYyOTU3LC0xNTY2MzU0MTcwLDI3MTk5MDYzNCwyMz
+k3NDcyMjYsLTIwNjg3ODg1MTIsMTY0ODU1NjYxMCwtMTgwMjM3
+ODA2MCwtMTkxNTQyNjk1LC01OTg5MDIxNSwtMzU5MTk1Nzk3LD
+IzMjA4MTczLDE3MzI2NzYxODhdfQ==
 -->
