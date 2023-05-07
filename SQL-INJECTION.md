@@ -21,19 +21,20 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 为了便于观测，修改数据库配置文件 my.cnf，新建一个日志目录用于记录数据库查询记录，然后使用`sudo tail -f /var/log/mariadb/queries.log` 持续观察：
 ![输入图片说明](/imgs/2023-05-07/z1PI87MXORtb1ekc.png)
 
-在建立一个 用于mysql查询的命令行窗口：`mysql -u root -p`，输入密码登录进入数据库，再进到表 sql_injection中：`use sql_injection`：
+再建立一个 用于mysql查询的命令行窗口：`mysql -u root -p`，输入密码登录进入数据库，再进到表 sql_injection中：`use sql_injection`：
 
 ![输入图片说明](/imgs/2023-05-08/R2xSGCa1ApdJmNF9.png)
 
+再建立一个用于 sqlmap 
 
 
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MjgzMTA4LDg4OTgzMjU5NCwxODAzNT
-AxNDg2LC02NzQ2NTQ5NTgsMTU4OTA0ODU4OSwtMTg1ODg2Mjk1
-NywtMTU2NjM1NDE3MCwyNzE5OTA2MzQsMjM5NzQ3MjI2LC0yMD
-Y4Nzg4NTEyLDE2NDg1NTY2MTAsLTE4MDIzNzgwNjAsLTE5MTU0
-MjY5NSwtNTk4OTAyMTUsLTM1OTE5NTc5NywyMzIwODE3MywxNz
-MyNjc2MTg4XX0=
+eyJoaXN0b3J5IjpbMTUxOTY0OTc0Nyw3OTYyODMxMDgsODg5OD
+MyNTk0LDE4MDM1MDE0ODYsLTY3NDY1NDk1OCwxNTg5MDQ4NTg5
+LC0xODU4ODYyOTU3LC0xNTY2MzU0MTcwLDI3MTk5MDYzNCwyMz
+k3NDcyMjYsLTIwNjg3ODg1MTIsMTY0ODU1NjYxMCwtMTgwMjM3
+ODA2MCwtMTkxNTQyNjk1LC01OTg5MDIxNSwtMzU5MTk1Nzk3LD
+IzMjA4MTczLDE3MzI2NzYxODhdfQ==
 -->
