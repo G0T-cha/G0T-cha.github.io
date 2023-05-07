@@ -14,11 +14,11 @@ https://xp-rience.blogspot.com/2020/05/nginx-php-fpm-setup-under-kali-linux.html
 ![输入图片说明](/imgs/2023-05-01/ybY35dzlQrrS24fa.png)
 
 kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不行，推倒重来 fedora 了
-大概思路是先下载nginx，
+大概思路是先安装 nginx，
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjM0ODA2MiwtMTgwMjM3ODA2MCwtMT
+eyJoaXN0b3J5IjpbMTY0ODU1NjYxMCwtMTgwMjM3ODA2MCwtMT
 kxNTQyNjk1LC01OTg5MDIxNSwtMzU5MTk1Nzk3LDIzMjA4MTcz
 LDE3MzI2NzYxODhdfQ==
 -->
