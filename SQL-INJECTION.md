@@ -44,12 +44,16 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 
 ![输入图片说明](/imgs/2023-05-08/YVyVf1NnSjoRSYdA.png)
 
-在 sqlmap 中
-
+在 sqlmap 中，输入
+```
+./sqlmap.py -u 'http://127.0.0.1/sql_injection/1.php?id=1&submit=submit' -p id --fresh-queries
+```
+*-u url*
+-p
  
 > Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTcxMTkyMSw3OTYyODMxMDgsODg5OD
+eyJoaXN0b3J5IjpbMTUyMTExMjkxOSw3OTYyODMxMDgsODg5OD
 MyNTk0LDE4MDM1MDE0ODYsLTY3NDY1NDk1OCwxNTg5MDQ4NTg5
 LC0xODU4ODYyOTU3LC0xNTY2MzU0MTcwLDI3MTk5MDYzNCwyMz
 k3NDcyMjYsLTIwNjg3ODg1MTIsMTY0ODU1NjYxMCwtMTgwMjM3
