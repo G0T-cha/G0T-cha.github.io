@@ -131,7 +131,9 @@ UNION ALL SELECT
 
 同理，其他 UNION 注入也使用类似语句，如获取库名使用CAST（DATABASE）等
 
- - [ ] 1.php 中未对展示结果，可以展示
+ - [x] 1.php 中未对展示结果进行限制（全部展示），如果对回显限制为只展示一条呢？
+ 
+对于
 
 UNION注入速度最快，但需要在页面直接回显数据库信息时才可使用
 
@@ -154,11 +156,11 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDUzODQ1MCwxMDg4NzM3MzQ1LDI2OT
-IwNTA5MywtMjUxMzg2NDkzLC00OTg3MDA1MjgsLTI3MTY0Mjk2
-OSwtODU4NzgyOTU4LDExNzcxMDc4MjksMjgwNzg0NDUzLDExNz
-AzNDU4OTksLTE3MTEzMzI4NTgsNzk2MjgzMTA4LDg4OTgzMjU5
-NCwxODAzNTAxNDg2LC02NzQ2NTQ5NTgsMTU4OTA0ODU4OSwtMT
-g1ODg2Mjk1NywtMTU2NjM1NDE3MCwyNzE5OTA2MzQsMjM5NzQ3
-MjI2XX0=
+eyJoaXN0b3J5IjpbLTE0Mjg5MTAzODksMTA4ODczNzM0NSwyNj
+kyMDUwOTMsLTI1MTM4NjQ5MywtNDk4NzAwNTI4LC0yNzE2NDI5
+NjksLTg1ODc4Mjk1OCwxMTc3MTA3ODI5LDI4MDc4NDQ1MywxMT
+cwMzQ1ODk5LC0xNzExMzMyODU4LDc5NjI4MzEwOCw4ODk4MzI1
+OTQsMTgwMzUwMTQ4NiwtNjc0NjU0OTU4LDE1ODkwNDg1ODksLT
+E4NTg4NjI5NTcsLTE1NjYzNTQxNzAsMjcxOTkwNjM0LDIzOTc0
+NzIyNl19
 -->
