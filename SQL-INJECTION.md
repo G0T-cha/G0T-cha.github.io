@@ -138,7 +138,9 @@ UNION ALL SELECT
 
 再输入 `1' or '1'='1`不再显示所有 username
 
-![输入图片说明](/imgs/2023-05-09/iEagi3JRwFAIS0ik.png)                                                                                                                                                                                                                                                                                                                                            
+![输入图片说明](/imgs/2023-05-09/iEagi3JRwFAIS0ik.png)
+
+                                                                                                                                                                                                                                                                                                                                            
 
 
 
@@ -185,11 +187,11 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTE2MjM0OSwxMDg4NzM3MzQ1LDI2OT
-IwNTA5MywtMjUxMzg2NDkzLC00OTg3MDA1MjgsLTI3MTY0Mjk2
-OSwtODU4NzgyOTU4LDExNzcxMDc4MjksMjgwNzg0NDUzLDExNz
-AzNDU4OTksLTE3MTEzMzI4NTgsNzk2MjgzMTA4LDg4OTgzMjU5
-NCwxODAzNTAxNDg2LC02NzQ2NTQ5NTgsMTU4OTA0ODU4OSwtMT
-g1ODg2Mjk1NywtMTU2NjM1NDE3MCwyNzE5OTA2MzQsMjM5NzQ3
-MjI2XX0=
+eyJoaXN0b3J5IjpbLTg5Nzk2NzY3MSwxNDA1MTYyMzQ5LDEwOD
+g3MzczNDUsMjY5MjA1MDkzLC0yNTEzODY0OTMsLTQ5ODcwMDUy
+OCwtMjcxNjQyOTY5LC04NTg3ODI5NTgsMTE3NzEwNzgyOSwyOD
+A3ODQ0NTMsMTE3MDM0NTg5OSwtMTcxMTMzMjg1OCw3OTYyODMx
+MDgsODg5ODMyNTk0LDE4MDM1MDE0ODYsLTY3NDY1NDk1OCwxNT
+g5MDQ4NTg5LC0xODU4ODYyOTU3LC0xNTY2MzU0MTcwLDI3MTk5
+MDYzNF19
 -->
