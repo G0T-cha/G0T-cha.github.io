@@ -144,12 +144,13 @@ UNION ALL SELECT
 ```
 SELECT username FROM user WHERE id='-4319' UNION ALL SELECT CONCAT(0x716b766b71,IFNULL(CAST(DATABASE() AS NCHAR),0x20),0x716a627071)-- -'
 ``` 
-对比 1.php
+对比 1.php，id 用了一个不存在的负随机数“-4319”
 ```
 SELECT username FROM user WHERE id='1' UNION ALL SELECT CONCAT(0x7176787671,IFNULL(CAST(DATABASE() AS NCHAR),0x20),0x71626a7071),NULL-- -''
 ```
-
+效果，在一行输出：
 ![输入图片说明](/imgs/2023-05-10/i6GjbFrbaUzVen5B.png)                                                                                                                                                                                                                                                                                                                                           
+
 
 
 
@@ -196,11 +197,11 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4NzQ5MjA0LC0yMjAxMjYxNjAsLTg5Nz
-k2NzY3MSwxNDA1MTYyMzQ5LDEwODg3MzczNDUsMjY5MjA1MDkz
-LC0yNTEzODY0OTMsLTQ5ODcwMDUyOCwtMjcxNjQyOTY5LC04NT
-g3ODI5NTgsMTE3NzEwNzgyOSwyODA3ODQ0NTMsMTE3MDM0NTg5
-OSwtMTcxMTMzMjg1OCw3OTYyODMxMDgsODg5ODMyNTk0LDE4MD
-M1MDE0ODYsLTY3NDY1NDk1OCwxNTg5MDQ4NTg5LC0xODU4ODYy
-OTU3XX0=
+eyJoaXN0b3J5IjpbLTY2MTE5NDg3NiwtMjIwMTI2MTYwLC04OT
+c5Njc2NzEsMTQwNTE2MjM0OSwxMDg4NzM3MzQ1LDI2OTIwNTA5
+MywtMjUxMzg2NDkzLC00OTg3MDA1MjgsLTI3MTY0Mjk2OSwtOD
+U4NzgyOTU4LDExNzcxMDc4MjksMjgwNzg0NDUzLDExNzAzNDU4
+OTksLTE3MTEzMzI4NTgsNzk2MjgzMTA4LDg4OTgzMjU5NCwxOD
+AzNTAxNDg2LC02NzQ2NTQ5NTgsMTU4OTA0ODU4OSwtMTg1ODg2
+Mjk1N119
 -->
