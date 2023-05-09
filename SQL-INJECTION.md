@@ -151,30 +151,7 @@ SELECT username FROM user WHERE id='1' UNION ALL SELECT CONCAT(0x7176787671,IFNU
 效果，在一行输出：
 ![输入图片说明](/imgs/2023-05-10/i6GjbFrbaUzVen5B.png)                                                                                                                                                                                                                                                                                                                                           
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ - [x] 如果bux
 
 UNION注入速度最快，但需要在页面直接回显数据库信息时才可使用
 
@@ -197,11 +174,11 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTE5NDg3NiwtMjIwMTI2MTYwLC04OT
-c5Njc2NzEsMTQwNTE2MjM0OSwxMDg4NzM3MzQ1LDI2OTIwNTA5
-MywtMjUxMzg2NDkzLC00OTg3MDA1MjgsLTI3MTY0Mjk2OSwtOD
-U4NzgyOTU4LDExNzcxMDc4MjksMjgwNzg0NDUzLDExNzAzNDU4
-OTksLTE3MTEzMzI4NTgsNzk2MjgzMTA4LDg4OTgzMjU5NCwxOD
-AzNTAxNDg2LC02NzQ2NTQ5NTgsMTU4OTA0ODU4OSwtMTg1ODg2
-Mjk1N119
+eyJoaXN0b3J5IjpbNjMxMzE4NjM0LC02NjExOTQ4NzYsLTIyMD
+EyNjE2MCwtODk3OTY3NjcxLDE0MDUxNjIzNDksMTA4ODczNzM0
+NSwyNjkyMDUwOTMsLTI1MTM4NjQ5MywtNDk4NzAwNTI4LC0yNz
+E2NDI5NjksLTg1ODc4Mjk1OCwxMTc3MTA3ODI5LDI4MDc4NDQ1
+MywxMTcwMzQ1ODk5LC0xNzExMzMyODU4LDc5NjI4MzEwOCw4OD
+k4MzI1OTQsMTgwMzUwMTQ4NiwtNjc0NjU0OTU4LDE1ODkwNDg1
+ODldfQ==
 -->
