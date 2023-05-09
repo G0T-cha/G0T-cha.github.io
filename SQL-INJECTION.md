@@ -170,11 +170,15 @@ AND ORD
 ```
 判断数据库名第一位是否大于64，和前面 id=1 相与，进而通过回显 yes 或 no 判断真假
 
-为真，再判断是否大于96，直至确定nay
+为真，再判断是否大于96，直至确定第一位
 
 ![输入图片说明](/imgs/2023-05-10/ceFvxKtE1vCT98LP.png)
 
+确定第一位后，依次确定第二位等：
 
+![输入图片说明](/imgs/2023-05-10/3HMB5h2Gs08IJ4FY.png)
+
+直至确定完整库名
 
 
 
@@ -192,7 +196,7 @@ AND ORD
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Mzc2MDQ5MCwxMDc1MzM3NjksMTc2OT
+eyJoaXN0b3J5IjpbMjAzNzYwOTcwMiwxMDc1MzM3NjksMTc2OT
 MyNjk4MSwyMDIwMTMwMDI4LDI2NDY0MTYwMywyMTI4NTczMTY4
 LC02NjExOTQ4NzYsLTIyMDEyNjE2MCwtODk3OTY3NjcxLDE0MD
 UxNjIzNDksMTA4ODczNzM0NSwyNjkyMDUwOTMsLTI1MTM4NjQ5
