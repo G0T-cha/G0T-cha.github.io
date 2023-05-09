@@ -144,10 +144,11 @@ UNION ALL SELECT
 ```
 SELECT username FROM user WHERE id='-4319' UNION ALL SELECT CONCAT(0x716b766b71,IFNULL(CAST(DATABASE() AS NCHAR),0x20),0x716a627071)-- -'
 ``` 
-对比1.php
+对比 1.php
 ```
 SELECT username FROM user WHERE id='1' UNION ALL SELECT CONCAT(0x7176787671,IFNULL(CAST(DATABASE() AS NCHAR),0x20),0x71626a7071),NULL-- -''
 ```
+
 ![输入图片说明](/imgs/2023-05-10/i6GjbFrbaUzVen5B.png)                                                                                                                                                                                                                                                                                                                                           
 
 
@@ -195,11 +196,11 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDEyNjE2MCwtODk3OTY3NjcxLDE0MD
-UxNjIzNDksMTA4ODczNzM0NSwyNjkyMDUwOTMsLTI1MTM4NjQ5
-MywtNDk4NzAwNTI4LC0yNzE2NDI5NjksLTg1ODc4Mjk1OCwxMT
-c3MTA3ODI5LDI4MDc4NDQ1MywxMTcwMzQ1ODk5LC0xNzExMzMy
-ODU4LDc5NjI4MzEwOCw4ODk4MzI1OTQsMTgwMzUwMTQ4NiwtNj
-c0NjU0OTU4LDE1ODkwNDg1ODksLTE4NTg4NjI5NTcsLTE1NjYz
-NTQxNzBdfQ==
+eyJoaXN0b3J5IjpbOTc4NzQ5MjA0LC0yMjAxMjYxNjAsLTg5Nz
+k2NzY3MSwxNDA1MTYyMzQ5LDEwODg3MzczNDUsMjY5MjA1MDkz
+LC0yNTEzODY0OTMsLTQ5ODcwMDUyOCwtMjcxNjQyOTY5LC04NT
+g3ODI5NTgsMTE3NzEwNzgyOSwyODA3ODQ0NTMsMTE3MDM0NTg5
+OSwtMTcxMTMzMjg1OCw3OTYyODMxMDgsODg5ODMyNTk0LDE4MD
+M1MDE0ODYsLTY3NDY1NDk1OCwxNTg5MDQ4NTg5LC0xODU4ODYy
+OTU3XX0=
 -->
