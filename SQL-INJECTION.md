@@ -159,7 +159,13 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 ![输入图片说明](/imgs/2023-05-10/0UYlfFNTUN4teX63.png)
 
 只返回是或否，需要使用**布尔盲注**：
-
+试试查看数据库名：
+发送了一系列请求：
+```
+SELECT username 
+FROM user WHERE id='1' 
+AND ORD(MID((IFNULL(CAST(DATABASE() AS NCHAR),0x20)),1,1))>64 AND 'bBdl'='bBdl'
+```
 
 
 
@@ -180,11 +186,11 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDY2NTYyNSwxNzY5MzI2OTgxLDIwMj
-AxMzAwMjgsMjY0NjQxNjAzLDIxMjg1NzMxNjgsLTY2MTE5NDg3
-NiwtMjIwMTI2MTYwLC04OTc5Njc2NzEsMTQwNTE2MjM0OSwxMD
-g4NzM3MzQ1LDI2OTIwNTA5MywtMjUxMzg2NDkzLC00OTg3MDA1
-MjgsLTI3MTY0Mjk2OSwtODU4NzgyOTU4LDExNzcxMDc4MjksMj
-gwNzg0NDUzLDExNzAzNDU4OTksLTE3MTEzMzI4NTgsNzk2Mjgz
-MTA4XX0=
+eyJoaXN0b3J5IjpbMTA3NTMzNzY5LDE3NjkzMjY5ODEsMjAyMD
+EzMDAyOCwyNjQ2NDE2MDMsMjEyODU3MzE2OCwtNjYxMTk0ODc2
+LC0yMjAxMjYxNjAsLTg5Nzk2NzY3MSwxNDA1MTYyMzQ5LDEwOD
+g3MzczNDUsMjY5MjA1MDkzLC0yNTEzODY0OTMsLTQ5ODcwMDUy
+OCwtMjcxNjQyOTY5LC04NTg3ODI5NTgsMTE3NzEwNzgyOSwyOD
+A3ODQ0NTMsMTE3MDM0NTg5OSwtMTcxMTMzMjg1OCw3OTYyODMx
+MDhdfQ==
 -->
