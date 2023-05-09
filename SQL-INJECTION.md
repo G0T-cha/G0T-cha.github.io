@@ -99,6 +99,8 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 
 **这时看一下 ZAP/sql 查询记录** ，可以看到是用的 UNION 查询（这里以拖库时得查询为例）：
 
+![输入图片说明](/imgs/2023-05-09/kXzNQOp5xyYlvgUm.png)
+
 SELECT username,password FROM user WHERE id='1' UNION ALL SELECT CONCAT(0x71787a7071,JSON_ARRAYAGG(CONCAT_WS(0x766c66726e63,column_name,column_type)),0x71706a7171),NULL FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name=0x75736572 AND table_schema=0x73716c5f696e6a656374696f6e-- -'
 
 
@@ -120,7 +122,7 @@ SELECT username,password FROM user WHERE id='1' UNION ALL SELECT CONCAT(0x71787a
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzUzNzM1MCwyODA3ODQ0NTMsMTE3MD
+eyJoaXN0b3J5IjpbMTY4NzM4MjI4MSwyODA3ODQ0NTMsMTE3MD
 M0NTg5OSwtMTcxMTMzMjg1OCw3OTYyODMxMDgsODg5ODMyNTk0
 LDE4MDM1MDE0ODYsLTY3NDY1NDk1OCwxNTg5MDQ4NTg5LC0xOD
 U4ODYyOTU3LC0xNTY2MzU0MTcwLDI3MTk5MDYzNCwyMzk3NDcy
