@@ -155,8 +155,10 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 
  - [x] 如果页面不显示数据库内部信息，只显示是或否呢
 
-看下 5.php:
+看下 5.php：会判断输入 id 是否在数据库存在，存在返回 yes，不存在返回 no
 ![输入图片说明](/imgs/2023-05-10/0UYlfFNTUN4teX63.png)
+
+只返回是或否，需要使用**布尔盲注**
 
 
 
@@ -177,7 +179,7 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTA1ODMyMiwyMDIwMTMwMDI4LDI2ND
+eyJoaXN0b3J5IjpbMTc2OTMyNjk4MSwyMDIwMTMwMDI4LDI2ND
 Y0MTYwMywyMTI4NTczMTY4LC02NjExOTQ4NzYsLTIyMDEyNjE2
 MCwtODk3OTY3NjcxLDE0MDUxNjIzNDksMTA4ODczNzM0NSwyNj
 kyMDUwOTMsLTI1MTM4NjQ5MywtNDk4NzAwNTI4LC0yNzE2NDI5
