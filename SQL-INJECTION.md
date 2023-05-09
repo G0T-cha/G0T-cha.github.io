@@ -131,7 +131,7 @@ UNION ALL SELECT
 
 同理，其他 UNION 注入也使用类似语句，如获取库名使用CAST（DATABASE）等
 
- - [ ] 1.php 中未对展示jieg可以展示
+ - [ ] 1.php 中未对展示结果，可以展示
 
 UNION注入速度最快，但需要在页面直接回显数据库信息时才可使用
 
@@ -154,7 +154,7 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjY1MDYyNCwxMDg4NzM3MzQ1LDI2OT
+eyJoaXN0b3J5IjpbMTQ2MDUzODQ1MCwxMDg4NzM3MzQ1LDI2OT
 IwNTA5MywtMjUxMzg2NDkzLC00OTg3MDA1MjgsLTI3MTY0Mjk2
 OSwtODU4NzgyOTU4LDExNzcxMDc4MjksMjgwNzg0NDUzLDExNz
 AzNDU4OTksLTE3MTEzMzI4NTgsNzk2MjgzMTA4LDg4OTgzMjU5
