@@ -133,7 +133,10 @@ UNION ALL SELECT
 
  - [x] 1.php 中未对展示结果进行限制（全部展示），如果对回显限制为只展示一条呢？
  
-对于 3.php
+对于 3.php：
+
+![输入图片说明](/imgs/2023-05-09/90p3vA4cUp7Ay0GT.png)
+
 
 
 
@@ -179,7 +182,7 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc5NDAwMCwxMDg4NzM3MzQ1LDI2OT
+eyJoaXN0b3J5IjpbMjAyNzk4MjA4MSwxMDg4NzM3MzQ1LDI2OT
 IwNTA5MywtMjUxMzg2NDkzLC00OTg3MDA1MjgsLTI3MTY0Mjk2
 OSwtODU4NzgyOTU4LDExNzcxMDc4MjksMjgwNzg0NDUzLDExNz
 AzNDU4OTksLTE3MTEzMzI4NTgsNzk2MjgzMTA4LDg4OTgzMjU5
