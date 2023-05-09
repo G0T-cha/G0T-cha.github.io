@@ -111,10 +111,12 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 
 
 
+
+
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyMjk2ODY1LDI4MDc4NDQ1MywxMTcwMz
+eyJoaXN0b3J5IjpbNzYxMDI5NjI5LDI4MDc4NDQ1MywxMTcwMz
 Q1ODk5LC0xNzExMzMyODU4LDc5NjI4MzEwOCw4ODk4MzI1OTQs
 MTgwMzUwMTQ4NiwtNjc0NjU0OTU4LDE1ODkwNDg1ODksLTE4NT
 g4NjI5NTcsLTE1NjYzNTQxNzAsMjcxOTkwNjM0LDIzOTc0NzIy
