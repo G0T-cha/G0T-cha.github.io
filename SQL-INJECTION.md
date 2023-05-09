@@ -168,8 +168,7 @@ AND ORD
 	(MID((IFNULL(CAST(DATABASE() AS NCHAR),0x20)),1,1))>64 
 		AND 'bBdl'='bBdl'
 ```
-
-
+判断数据库名第一位是否大于64，和前面 id=1 相与，进而通过回显yes或no真假
 
 
 
@@ -190,7 +189,7 @@ AND ORD
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODQwNzYyOSwxMDc1MzM3NjksMTc2OT
+eyJoaXN0b3J5IjpbLTI2ODk2MDY1OSwxMDc1MzM3NjksMTc2OT
 MyNjk4MSwyMDIwMTMwMDI4LDI2NDY0MTYwMywyMTI4NTczMTY4
 LC02NjExOTQ4NzYsLTIyMDEyNjE2MCwtODk3OTY3NjcxLDE0MD
 UxNjIzNDksMTA4ODczNzM0NSwyNjkyMDUwOTMsLTI1MTM4NjQ5
