@@ -144,7 +144,8 @@ UNION ALL SELECT
 
 ```
 SELECT username FROM user WHERE id='-4319' UNION ALL SELECT CONCAT(0x716b766b71,IFNULL(CAST(DATABASE() AS NCHAR),0x20),0x716a627071)-- -'
-```                                                                                                                                                                                                                                                                                                                                            
+``` 
+![输入图片说明](/imgs/2023-05-10/i6GjbFrbaUzVen5B.png)                                                                                                                                                                                                                                                                                                                                           
 
 
 
@@ -191,7 +192,7 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTI3OTUxNCwtODk3OTY3NjcxLDE0MD
+eyJoaXN0b3J5IjpbMTE5Mzc3OTUwNCwtODk3OTY3NjcxLDE0MD
 UxNjIzNDksMTA4ODczNzM0NSwyNjkyMDUwOTMsLTI1MTM4NjQ5
 MywtNDk4NzAwNTI4LC0yNzE2NDI5NjksLTg1ODc4Mjk1OCwxMT
 c3MTA3ODI5LDI4MDc4NDQ1MywxMTcwMzQ1ODk5LC0xNzExMzMy
