@@ -95,7 +95,7 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 ```
  ./sqlmap.py -u 'http://127.0.0.1/sql_injection/1.php?id=1&submit=submit' -p id --proxy='http://127.0.0.1:8080' --fresh-queries --current-db
 ```
-*--proxy='http://127.0.0.1:8080' tong'guo*
+*--proxy='http://127.0.0.1:8080' 通过此代理，设置此项即可让请求通过 ZAP，可以抓到请求包*
 
 
 
@@ -112,11 +112,11 @@ kali 自带 mysql，但后面还是打不开 1.php，试了好多办法还是不
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwOTExMDUsMTE3MDM0NTg5OSwtMTcxMT
-MzMjg1OCw3OTYyODMxMDgsODg5ODMyNTk0LDE4MDM1MDE0ODYs
-LTY3NDY1NDk1OCwxNTg5MDQ4NTg5LC0xODU4ODYyOTU3LC0xNT
-Y2MzU0MTcwLDI3MTk5MDYzNCwyMzk3NDcyMjYsLTIwNjg3ODg1
-MTIsMTY0ODU1NjYxMCwtMTgwMjM3ODA2MCwtMTkxNTQyNjk1LC
-01OTg5MDIxNSwtMzU5MTk1Nzk3LDIzMjA4MTczLDE3MzI2NzYx
-ODhdfQ==
+eyJoaXN0b3J5IjpbMjgwNzg0NDUzLDExNzAzNDU4OTksLTE3MT
+EzMzI4NTgsNzk2MjgzMTA4LDg4OTgzMjU5NCwxODAzNTAxNDg2
+LC02NzQ2NTQ5NTgsMTU4OTA0ODU4OSwtMTg1ODg2Mjk1NywtMT
+U2NjM1NDE3MCwyNzE5OTA2MzQsMjM5NzQ3MjI2LC0yMDY4Nzg4
+NTEyLDE2NDg1NTY2MTAsLTE4MDIzNzgwNjAsLTE5MTU0MjY5NS
+wtNTk4OTAyMTUsLTM1OTE5NTc5NywyMzIwODE3MywxNzMyNjc2
+MTg4XX0=
 -->
