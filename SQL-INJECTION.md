@@ -136,6 +136,10 @@ UNION ALL SELECT
 对于 3.php，每次只能输出一条 username：
 ![输入图片说明](/imgs/2023-05-09/90p3vA4cUp7Ay0GT.png)
 
+再输入 `1' or '1'='1`不再显示所有 username
+
+![输入图片说明](/imgs/2023-05-09/iEagi3JRwFAIS0ik.png)
+
 
 
 
@@ -181,7 +185,7 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjU5NzM5MiwxMDg4NzM3MzQ1LDI2OT
+eyJoaXN0b3J5IjpbMTgyNzcwNjM0OSwxMDg4NzM3MzQ1LDI2OT
 IwNTA5MywtMjUxMzg2NDkzLC00OTg3MDA1MjgsLTI3MTY0Mjk2
 OSwtODU4NzgyOTU4LDExNzcxMDc4MjksMjgwNzg0NDUzLDExNz
 AzNDU4OTksLTE3MTEzMzI4NTgsNzk2MjgzMTA4LDg4OTgzMjU5
