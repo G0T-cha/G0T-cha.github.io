@@ -158,7 +158,8 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 看下 5.php：会判断输入 id 是否在数据库存在，存在返回 yes，不存在返回 no
 ![输入图片说明](/imgs/2023-05-10/0UYlfFNTUN4teX63.png)
 
-只返回是或否，需要使用**布尔盲注**
+只返回是或否，需要使用**布尔盲注**：
+
 
 
 
@@ -179,11 +180,11 @@ UNION注入速度最快，但需要在页面直接回显数据库信息时才可
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTMyNjk4MSwyMDIwMTMwMDI4LDI2ND
-Y0MTYwMywyMTI4NTczMTY4LC02NjExOTQ4NzYsLTIyMDEyNjE2
-MCwtODk3OTY3NjcxLDE0MDUxNjIzNDksMTA4ODczNzM0NSwyNj
-kyMDUwOTMsLTI1MTM4NjQ5MywtNDk4NzAwNTI4LC0yNzE2NDI5
-NjksLTg1ODc4Mjk1OCwxMTc3MTA3ODI5LDI4MDc4NDQ1MywxMT
-cwMzQ1ODk5LC0xNzExMzMyODU4LDc5NjI4MzEwOCw4ODk4MzI1
-OTRdfQ==
+eyJoaXN0b3J5IjpbMTc3NDY2NTYyNSwxNzY5MzI2OTgxLDIwMj
+AxMzAwMjgsMjY0NjQxNjAzLDIxMjg1NzMxNjgsLTY2MTE5NDg3
+NiwtMjIwMTI2MTYwLC04OTc5Njc2NzEsMTQwNTE2MjM0OSwxMD
+g4NzM3MzQ1LDI2OTIwNTA5MywtMjUxMzg2NDkzLC00OTg3MDA1
+MjgsLTI3MTY0Mjk2OSwtODU4NzgyOTU4LDExNzcxMDc4MjksMj
+gwNzg0NDUzLDExNzAzNDU4OTksLTE3MTEzMzI4NTgsNzk2Mjgz
+MTA4XX0=
 -->
