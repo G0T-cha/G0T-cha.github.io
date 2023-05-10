@@ -191,8 +191,8 @@ AND ORD
 -p id --technique=T --fresh-queries
 -D sql_injection --string=yes -T user --current-db
 ```
-*--string=yes yu'jian*
-
+*--string=yes 遇见 yes 判断为真*
+就可以如上成功找到注入点
 
 
 
@@ -208,11 +208,11 @@ AND ORD
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTE2MDYwMywxNjAyNjQ3MTA4LDIwMz
-c2MDk3MDIsMTA3NTMzNzY5LDE3NjkzMjY5ODEsMjAyMDEzMDAy
-OCwyNjQ2NDE2MDMsMjEyODU3MzE2OCwtNjYxMTk0ODc2LC0yMj
-AxMjYxNjAsLTg5Nzk2NzY3MSwxNDA1MTYyMzQ5LDEwODg3Mzcz
-NDUsMjY5MjA1MDkzLC0yNTEzODY0OTMsLTQ5ODcwMDUyOCwtMj
-cxNjQyOTY5LC04NTg3ODI5NTgsMTE3NzEwNzgyOSwyODA3ODQ0
-NTNdfQ==
+eyJoaXN0b3J5IjpbLTEzMzY2NjM1MTUsMTYwMjY0NzEwOCwyMD
+M3NjA5NzAyLDEwNzUzMzc2OSwxNzY5MzI2OTgxLDIwMjAxMzAw
+MjgsMjY0NjQxNjAzLDIxMjg1NzMxNjgsLTY2MTE5NDg3NiwtMj
+IwMTI2MTYwLC04OTc5Njc2NzEsMTQwNTE2MjM0OSwxMDg4NzM3
+MzQ1LDI2OTIwNTA5MywtMjUxMzg2NDkzLC00OTg3MDA1MjgsLT
+I3MTY0Mjk2OSwtODU4NzgyOTU4LDExNzcxMDc4MjksMjgwNzg0
+NDUzXX0=
 -->
