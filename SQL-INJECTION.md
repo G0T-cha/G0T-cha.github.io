@@ -180,7 +180,11 @@ AND ORD
 
 直至确定完整库名
 
-如果
+如果代码改成这样，在 yes 和 no 前后插入随机数，像 6.php 中一样：
+
+![输入图片说明](/imgs/2023-05-10/Nuo3XBBRY86MenpM.png)
+
+再使用上述代码会发现找不到注入点，这时就需要指定
 
 
 
@@ -198,7 +202,7 @@ AND ORD
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Nzk2OTg5NiwyMDM3NjA5NzAyLDEwNz
+eyJoaXN0b3J5IjpbMjA1NjA0MzY1NCwyMDM3NjA5NzAyLDEwNz
 UzMzc2OSwxNzY5MzI2OTgxLDIwMjAxMzAwMjgsMjY0NjQxNjAz
 LDIxMjg1NzMxNjgsLTY2MTE5NDg3NiwtMjIwMTI2MTYwLC04OT
 c5Njc2NzEsMTQwNTE2MjM0OSwxMDg4NzM3MzQ1LDI2OTIwNTA5
