@@ -194,16 +194,19 @@ AND ORD
 *--string=yes 遇见 yes 判断为真*
 就可以如上成功找到注入点
 
- - [ ] 对于无论如何都显示相同信息的，该
+ - [ ] 对于无论如何都显示相同信息的，怎么办呢？
+
+如8.php：
+
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTUxNDkyNDQsLTEzMzY2NjM1MTUsMT
-YwMjY0NzEwOCwyMDM3NjA5NzAyLDEwNzUzMzc2OSwxNzY5MzI2
-OTgxLDIwMjAxMzAwMjgsMjY0NjQxNjAzLDIxMjg1NzMxNjgsLT
-Y2MTE5NDg3NiwtMjIwMTI2MTYwLC04OTc5Njc2NzEsMTQwNTE2
-MjM0OSwxMDg4NzM3MzQ1LDI2OTIwNTA5MywtMjUxMzg2NDkzLC
-00OTg3MDA1MjgsLTI3MTY0Mjk2OSwtODU4NzgyOTU4LDExNzcx
-MDc4MjldfQ==
+eyJoaXN0b3J5IjpbOTAxNjAzNzM4LC0xMzM2NjYzNTE1LDE2MD
+I2NDcxMDgsMjAzNzYwOTcwMiwxMDc1MzM3NjksMTc2OTMyNjk4
+MSwyMDIwMTMwMDI4LDI2NDY0MTYwMywyMTI4NTczMTY4LC02Nj
+ExOTQ4NzYsLTIyMDEyNjE2MCwtODk3OTY3NjcxLDE0MDUxNjIz
+NDksMTA4ODczNzM0NSwyNjkyMDUwOTMsLTI1MTM4NjQ5MywtND
+k4NzAwNTI4LC0yNzE2NDI5NjksLTg1ODc4Mjk1OCwxMTc3MTA3
+ODI5XX0=
 -->
