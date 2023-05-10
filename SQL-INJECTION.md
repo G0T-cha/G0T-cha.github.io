@@ -215,12 +215,12 @@ AND (SELECT 5936 FROM
 ),1,1))>64,0,5)))))qnyz) AND 'SSDT'='SSDT'
 ```
 和布尔盲注类似，不过使用了 sleep 函数，通过观测返回时间确定真假：
-SELECT username FROM user WHERE id='1' AND (SELECT 5936 FROM (SELECT(SLEEP(5-(IF(ORD(MID((IFNULL(CAST(DATABASE() AS NCHAR),0x20)),1,1))>64,0,5)))))qnyz) AND 'SSDT'='SSDT
+
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjIxMTA2MTIsLTE0OTk0MjQ1NjgsMT
+eyJoaXN0b3J5IjpbLTE1OTE0ODU1MTQsLTE0OTk0MjQ1NjgsMT
 g0MTc2Nzc3MSwyMDM0NzAwMjEwLDkwMTYwMzczOCwtMTMzNjY2
 MzUxNSwxNjAyNjQ3MTA4LDIwMzc2MDk3MDIsMTA3NTMzNzY5LD
 E3NjkzMjY5ODEsMjAyMDEzMDAyOCwyNjQ2NDE2MDMsMjEyODU3
