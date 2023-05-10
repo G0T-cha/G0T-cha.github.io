@@ -184,7 +184,7 @@ AND ORD
 
 ![输入图片说明](/imgs/2023-05-10/Nuo3XBBRY86MenpM.png)
 
-再使用上述代码会发现找不到注入点，这时就需要指定
+再使用上述代码会发现找不到注入点，这时就需要指定回显的字符串：
 
 
 
@@ -202,7 +202,7 @@ AND ORD
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjA0MzY1NCwyMDM3NjA5NzAyLDEwNz
+eyJoaXN0b3J5IjpbLTkzMDk3MzU3OSwyMDM3NjA5NzAyLDEwNz
 UzMzc2OSwxNzY5MzI2OTgxLDIwMjAxMzAwMjgsMjY0NjQxNjAz
 LDIxMjg1NzMxNjgsLTY2MTE5NDg3NiwtMjIwMTI2MTYwLC04OT
 c5Njc2NzEsMTQwNTE2MjM0OSwxMDg4NzM3MzQ1LDI2OTIwNTA5
