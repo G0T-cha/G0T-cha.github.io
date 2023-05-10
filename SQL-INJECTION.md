@@ -194,25 +194,16 @@ AND ORD
 *--string=yes 遇见 yes 判断为真*
 就可以如上成功找到注入点
 
-
-
-
-
-
-
-
-
-
-
+ - [ ] 对于无论如何都显示相同信息的，该
 
 > Written with [StackEdit中文版](https://stackedit.cn/).
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY2NjM1MTUsMTYwMjY0NzEwOCwyMD
-M3NjA5NzAyLDEwNzUzMzc2OSwxNzY5MzI2OTgxLDIwMjAxMzAw
-MjgsMjY0NjQxNjAzLDIxMjg1NzMxNjgsLTY2MTE5NDg3NiwtMj
-IwMTI2MTYwLC04OTc5Njc2NzEsMTQwNTE2MjM0OSwxMDg4NzM3
-MzQ1LDI2OTIwNTA5MywtMjUxMzg2NDkzLC00OTg3MDA1MjgsLT
-I3MTY0Mjk2OSwtODU4NzgyOTU4LDExNzcxMDc4MjksMjgwNzg0
-NDUzXX0=
+eyJoaXN0b3J5IjpbLTEwMTUxNDkyNDQsLTEzMzY2NjM1MTUsMT
+YwMjY0NzEwOCwyMDM3NjA5NzAyLDEwNzUzMzc2OSwxNzY5MzI2
+OTgxLDIwMjAxMzAwMjgsMjY0NjQxNjAzLDIxMjg1NzMxNjgsLT
+Y2MTE5NDg3NiwtMjIwMTI2MTYwLC04OTc5Njc2NzEsMTQwNTE2
+MjM0OSwxMDg4NzM3MzQ1LDI2OTIwNTA5MywtMjUxMzg2NDkzLC
+00OTg3MDA1MjgsLTI3MTY0Mjk2OSwtODU4NzgyOTU4LDExNzcx
+MDc4MjldfQ==
 -->
