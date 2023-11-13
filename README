@@ -1,0 +1,50 @@
+****************************FSE 2021 - Identifying Casualty Changes in Software Patches********************************
+
+This file contains an explanation of the implementation of CasCADe as presented in our paper.
+
+
+
+The main class is Run.java found directly under main.
+
+Run takes as input a configuration file, a sample of which can be found under sampleConfigFile.txt, which has several parameters.
+In that file, one first has to fill the full path to the input file (followed after the string "inputFile=").
+The input has to follow the following format:
+
+    classpath of pre-patch revision, classpath of post-patch revision, fullpath to the dir of source files for pre-patch revision,
+    fullpath to the dir of source files for post-patch revision, fullpath to changed file in pre-patch revision, fullpath to changed
+    file in post-patch revision
+
+The two last elements are repeated for all the changed files
+
+The revisionType refers to what kind of revision ID CasCADe should expect in the input
+
+The rest of the parameters refer to what kind of tasks should CasCADe carry out. The ones with "fineGrained" in them
+will output the line numbers where CasCADe found casualty changes. Each of these parameters, if given a fullpath to some
+existent directory, assume that's where the output should be produced.
+
+-----------------------------------------------------------------------------------------------------------
+
+The "proganalysis" module works with soot to create the necessary interprocedural and intraprocedural graphs
+
+
+-----------------------------------------------------------------------------------------------------------
+
+The "casualtydetector" module finds casualties and their corresponding root changes. There's a class for each category
+and they all implement the CasualtyChangeDetector interface (which can be implemented in other future classes)
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+
+The "fixdetector" module finds and further processed the inputset using GumTree [1].
+-----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+We also provide a jar file under target/CasualtyDetector-3.1-SNAPSHOT.jar compile with java8.
+
+References
+-----------------
+[1] Jean-Rémy Falleri, Floréal Morandat, Xavier Blanc, Matias Martinez, and Mar-tin Monperrus. 2014.  Fine-grained and accurate source code differencing.
+InACM/IEEE International Conference on Automated Software Engineering, ASE ’14,Vasteras, Sweden - September 15 - 19, 2014. 313–324.
